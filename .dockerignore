@@ -1,0 +1,10 @@
+.git
+.gitignore
+.opencode
+.vscode
+.settings
+target
+uploads
+app.log
+README.md
+rebuild.bat
