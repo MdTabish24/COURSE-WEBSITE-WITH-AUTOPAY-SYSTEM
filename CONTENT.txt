@@ -1,0 +1,103 @@
+💄 The Beauty & Grooming Section
+Card 1: Basic
+•	Tag: Beauty
+•	Title: Basic Makeup Course
+•	Description: Master the fundamentals of flawless everyday makeup and personal grooming. Perfect for beginners.
+•	Highlights: 100% Practical | Certificate Included
+•	CTA Button: View Syllabus
+Card 2: Advance
+•	Tag: Beauty
+•	Title: Advance Makeup Artistry
+•	Description: Elevate your skills with advanced blending, contouring, and party makeup techniques.
+•	Highlights: Live Demonstrations | Expert Techniques
+•	CTA Button: Explore Course
+Card 3: Professional
+•	Tag: Beauty
+•	Title: Professional Bridal & Master Makeup
+•	Description: Build a career. Learn high-end bridal, HD, and airbrush makeup from industry experts.
+•	Highlights: Career Ready | Portfolio Building
+•	CTA Button: Become a Pro
+💻 The Computer & Tech Section
+Card 1: Foundation
+•	Tag: IT & Tech
+•	Title: Basic Computer & MS Office
+•	Description: Build a strong foundation. Master Word, PowerPoint, and basic computer operations for any office job.
+•	Highlights: Beginner Friendly | Essential Skills
+•	CTA Button: Start Learning
+Card 2: Finance
+•	Tag: Accounts & Finance
+•	Title: Tally Prime + GST
+•	Description: Become an in-demand accountant. Learn practical bookkeeping, inventory, and complete GST filing.
+•	Highlights: Job-Oriented | Real-World Projects
+•	CTA Button: View Details
+Card 3: Data & Analytics
+•	Tag: IT & Tech
+•	Title: Advance Excel
+•	Description: Master data management. Learn advanced formulas, VLOOKUP, pivot tables, and dashboard creation.
+•	Highlights: Corporate Skills | Data Mastery
+•	CTA Button: See Curriculum
+Card 4: Creative
+•	Tag: Design
+•	Title: Graphic Designing
+•	Description: Turn your creativity into a career. Master tools like Photoshop and Illustrator to create stunning visuals.
+•	Highlights: Hands-on Projects | Tool Mastery
+•	CTA Button: View Portfolio Details
+Card 5: Marketing
+•	Tag: Business & Tech
+•	Title: Digital Marketing
+•	Description: Learn how to grow businesses online using social media, SEO, and paid advertising.
+•	Highlights: AI Integration | Agency Skills
+•	CTA Button: Explore Syllabus
+
+COURSE CURRICULUM: UNIVERSAL SKILLS
+BEAUTY & MAKEUP SECTION
+1. Basic Makeup Course
+•	Skin Prep & Analysis: Learn to identify skin types (oily, dry, combination) and prep the face for long-lasting makeup.
+•	Foundation Matching: How to perfectly match foundation shades to skin tones so it never looks grey.
+•	Everyday Look: Master the "No-Makeup" makeup look perfect for college, office, or casual outings.
+•	Basic Eye Makeup: Simple eyeliner application, kajal techniques, and mascara for defined eyes.
+•	Lipstick Application: Techniques for shaping lips and making lipstick last all day.
+2. Advance Makeup Course
+•	Contouring & Highlighting: Learn to sculpt the face—sharp jawlines, slimmer noses, and highlighted cheekbones.
+•	Party & Glam Looks: Create stunning looks for receptions, parties, and evening events.
+•	Color Theory: Understand the color wheel to correct dark circles, pigmentation, and redness.
+•	False Lashes & Brows: Professional eyebrow shaping and applying false eyelashes for a dramatic effect.
+•	Hairstyling Basics: Simple yet elegant hairstyles to complement party makeup.
+3. Professional Makeup Course (Bridal & Master)
+•	HD & Airbrush Techniques: Master High-Definition (HD) makeup for cameras and Airbrush techniques for a flawless finish.
+•	Complete Bridal Look: Traditional Indian Bridal, Western Bridal, and Reception looks.
+•	Saree & Dupatta Draping: Professional draping styles to complete the bridal package.
+•	Client Consultation: How to talk to brides, understand their needs, and manage bookings.
+•	Portfolio Building: Learn how to take professional photos of your work to attract clients.
+COMPUTER & TECH SECTION
+1. Basic Computer (MS Office)
+•	Computer Fundamentals: Understanding hardware, software, creating folders, and typing skills.
+•	Microsoft Word: Creating professional documents, resumes, letters, and formatting text.
+•	Microsoft Excel (Basic): Introduction to spreadsheets, simple formulas, and managing lists.
+•	Microsoft PowerPoint: Designing attractive presentation slides with animations and transitions.
+•	Internet & Email: Safe browsing, sending professional emails, and using Google Drive.
+2. Advance Excel
+•	Advanced Formulas: Master complex functions like VLOOKUP, HLOOKUP, IF conditions, and Index-Match.
+•	Pivot Tables & Charts: Summarize huge amounts of data instantly and create visual charts for reports.
+•	Data Management: Sorting, filtering, and "Data Validation" to prevent errors in sheets.
+•	Dashboards: Create professional, interactive dashboards to present business data clearly.
+•	Macros (Intro): A brief look at automating repetitive tasks to save time.
+3. Tally Prime + GST
+•	Accounting Basics: Understanding Debits, Credits, Ledgers, and Journal entries.
+•	Tally Prime Operations: Creating company profiles, managing stock items, and inventory management.
+•	GST Compliance: Understanding GST slabs, creating GST-compliant invoices, and E-Way bills.
+•	Banking & Reconciliation: Managing bank statements and matching them with company books.
+•	Tax Filing: How to generate GSTR-1 and GSTR-3B reports for government filing.
+4. Graphic Designing
+•	Design Theory: Understanding color psychology, typography, and layout balance.
+•	Photo Editing (Photoshop): Retouching photos, removing backgrounds, and color correction.
+•	Vector Art (Photoshop/CorelDraw): Creating scalable logos, icons, and illustrations.
+•	Social Media Design: Designing attractive posts, banners, and thumbnails for Instagram and YouTube.
+•	Print Design: Creating visiting cards, flyers, and brochures ready for printing.
+5. Digital Marketing
+•	Social Media Marketing (SMM): Strategies to grow on Instagram and Facebook organically.
+•	Content Creation: How to write hooks and captions that grab attention.
+•	Paid Advertising: Running Facebook and Instagram Ads to generate leads and sales.
+•	SEO Basics: Understanding how to rank websites and videos higher on Google and YouTube.
+•	AI Tools in Marketing: Using AI tools to write scripts, generate ideas, and automate posts.
+

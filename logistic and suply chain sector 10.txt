@@ -1,0 +1,593 @@
+Logistics & Supply Chain
+
+
+1. Supply Chain Management
+Objective: Develop strategic understanding of end-to-end supply chain operations, optimization, and management for organizational excellence. Duration: 12 Months (Diploma Program) Prerequisites: 12th pass; basic business knowledge; computer skills Career Pathways: Supply Chain Manager, Logistics Manager, Operations Manager, Procurement Manager, Supply Chain Analyst
+Module 1: Supply Chain Fundamentals (Weeks 1-4)
+•	Supply chain definition and evolution
+•	Supply chain components: Procurement, production, distribution, returns
+•	Supply chain vs. logistics: Differences and integration
+•	Supply chain networks and global trade
+•	Industry benchmarks and best practices
+•	Practical:
+o	Map supply chains of 3 major companies
+o	Case study analysis: Amazon, Apple, Unilever
+o	Design simple supply chain model
+o	Create supply chain flowchart
+Module 2: Demand Planning & Forecasting (Weeks 5-10)
+•	Demand forecasting methods: Qualitative, quantitative
+•	Forecasting techniques: Time series, regression, moving average
+•	Seasonal and trend analysis
+•	Bullwhip effect and demand volatility
+•	Advanced forecasting: Machine learning, AI applications
+•	Practical:
+o	Excel-based forecasting models
+o	Forecast accuracy measurement
+o	Demand planning software training (SAP, Kinaxis)
+o	Create 12-month demand forecast
+o	Scenario analysis and sensitivity testing
+Module 3: Procurement & Sourcing (Weeks 11-18)
+•	Procurement process: RFQ, RFP, vendor selection
+•	Supplier evaluation and management
+•	Purchasing strategies: Just-in-Time, VMI, Consignment
+•	Negotiation techniques
+•	Cost management and total cost of ownership (TCO)
+•	Strategic sourcing
+•	Practical:
+o	Vendor scorecard creation
+o	Supplier selection exercise
+o	RFQ and RFP preparation
+o	Negotiation simulations
+o	Cost-benefit analysis
+o	Supplier contract drafting
+Module 4: Inventory Management (Weeks 19-26)
+•	Inventory types: Raw materials, WIP, finished goods
+•	Inventory models: EOQ (Economic Order Quantity), ABC analysis
+•	Safety stock and service levels
+•	Inventory valuation: FIFO, LIFO, weighted average
+•	Inventory optimization
+•	Practical:
+o	ABC analysis exercise
+o	EOQ calculations
+o	Safety stock determination
+o	Inventory turnover analysis
+o	Warehouse management system (WMS) training
+o	Inventory forecasting models
+Module 5: Production Planning & Scheduling (Weeks 27-34)
+•	Master Production Schedule (MPS)
+•	Material Requirements Planning (MRP)
+•	Capacity planning
+•	Production scheduling techniques: FIFO, EDD, SPT
+•	Lean manufacturing principles
+•	Practical:
+o	MRP system design
+o	Production scheduling exercises
+o	Capacity constraint analysis
+o	Create production schedules
+o	Lean process improvement projects
+Module 6: Distribution & Logistics (Weeks 35-42)
+•	Distribution channels: Direct, indirect, omnichannel
+•	Transportation modes: Air, sea, land, rail
+•	Route optimization and vehicle scheduling
+•	Last-mile delivery
+•	Warehouse location and network design
+•	Practical:
+o	Distribution network optimization
+o	Route planning exercises
+o	Transport cost analysis
+o	Logistics software training (JDA, E2open)
+o	Design warehouse network
+o	Compare transportation modes
+Module 7: Technology & Digital Supply Chain (Weeks 43-50)
+•	ERP systems: SAP, Oracle, NetSuite
+•	WMS (Warehouse Management System)
+•	TMS (Transportation Management System)
+•	Blockchain in supply chain
+•	IoT and real-time tracking
+•	Cloud-based supply chain solutions
+•	Practical:
+o	ERP module training (procurement, inventory, sales)
+o	System data analysis
+o	Digital transformation case studies
+o	Create supply chain dashboard
+o	Technology evaluation projects
+Module 8: Risk Management & Resilience (Weeks 51-54)
+•	Supply chain risks: Supplier, operational, market, external
+•	Risk assessment and mitigation
+•	Business continuity planning
+•	Supply chain disruption management
+•	Sustainability and ethical sourcing
+•	Practical:
+o	Risk assessment matrices
+o	Business continuity plan development
+o	Supplier risk evaluation
+o	Sustainability report creation
+o	Crisis management simulation
+Assessment:
+•	Theory exams (30%)
+•	Case study analysis (25%)
+•	Project work (35%)
+•	Presentations (10%)
+Internship: 3 months with logistics/supply chain company
+Certification: Diploma in Supply Chain Management
+Software Tools: SAP, Oracle, JDA, Kinaxis, Excel, Tableau
+
+2. Warehouse Supervisor
+Objective: Develop supervisory and operational skills to manage warehouse teams, maximize efficiency, and ensure safety standards. Duration: 5 Months (Certificate Program) Prerequisites: 12th pass; 1-2 years warehouse operations experience Career Pathways: Warehouse Supervisor, Warehouse Manager, Operations Manager, Logistics Supervisor
+Module 1: Warehouse Operations Overview (Weeks 1-3)
+•	Warehouse types: Distribution center, fulfillment center, specialty warehouse
+•	Warehouse functions: Receiving, storage, picking, packing, shipping
+•	Warehouse layout and design
+•	Safety regulations and compliance
+•	Practical:
+o	Warehouse visit and observation
+o	Layout design exercise
+o	Safety audit preparation
+Module 2: Inventory Management in Warehouses (Weeks 4-8)
+•	Inventory tracking and controls
+•	First-In-First-Out (FIFO) and Last-In-First-Out (LIFO)
+•	Stock counting: Cycle count, physical inventory
+•	Inventory accuracy and discrepancy management
+•	Barcode and RFID systems
+•	Practical:
+o	Implement cycle counting procedures
+o	Barcode scanning exercise
+o	Inventory reconciliation
+o	WMS operation training
+o	Discrepancy investigation reports
+Module 3: Warehouse Labor & Team Management (Weeks 9-14)
+•	Staffing and scheduling
+•	Labor productivity and KPIs
+•	Training and development
+•	Performance management
+•	Conflict resolution and motivation
+•	Occupational health and safety
+•	Practical:
+o	Create staffing schedule
+o	Develop training program
+o	Performance evaluation forms
+o	Safety training delivery
+o	Team building exercises
+Module 4: Warehouse Processes & Optimization (Weeks 15-20)
+•	Receiving process: Inspection, documentation, put-away
+•	Storage optimization: Slotting, aisle management
+•	Picking methods: Pick-to-light, voice picking, zone picking
+•	Packing and quality control
+•	Shipping documentation and carrier management
+•	Practical:
+o	Design receiving workflow
+o	Create slotting strategy
+o	Picking optimization exercise
+o	Quality control procedures
+o	Shipping documentation practice
+Module 5: Technology & WMS Systems (Weeks 21-24)
+•	Warehouse Management System (WMS) operation
+•	Barcode and RFID technology
+•	Automated storage systems
+•	Material handling equipment operation
+•	Performance metrics and dashboards
+•	Practical:
+o	WMS system training
+o	Create KPI dashboards
+o	Automated system operation
+o	Data analysis exercises
+o	Technology troubleshooting
+Assessment:
+•	Practical operations test (60%)
+•	Theory exams (25%)
+•	Project work (15%)
+On-job Training: 1-2 months in warehouse facility
+Certification: Certificate in Warehouse Supervision
+
+3. Inventory Management
+Objective: Master inventory control techniques, system management, and optimization to reduce costs and improve efficiency. Duration: 6 Months (Certificate Program) Prerequisites: 12th pass; basic understanding of stock management Career Pathways: Inventory Manager, Inventory Planner, Inventory Analyst, Materials Planner
+Module 1: Inventory Fundamentals (Weeks 1-4)
+•	Inventory definition and importance
+•	Inventory types: Raw materials, work-in-process, finished goods, MRO
+•	Inventory costs: Holding, ordering, stockout, shortage
+•	Inventory objectives and strategies
+•	Practical:
+o	Cost calculation exercises
+o	Inventory cost optimization
+o	Strategy design for different product categories
+Module 2: Inventory Control Methods (Weeks 5-10)
+•	ABC Analysis: Pareto principle application
+•	XYZ Analysis: Demand and supply variability
+•	VED Analysis: Criticality classification
+•	Economic Order Quantity (EOQ)
+•	Reorder Point (ROP) and safety stock
+•	Practical:
+o	ABC inventory segmentation
+o	EOQ calculations (manual and Excel)
+o	ROP determination
+o	Safety stock analysis
+o	Inventory classification exercises
+Module 3: Inventory Planning & Forecasting (Weeks 11-16)
+•	Demand forecasting methods
+•	Material Requirements Planning (MRP)
+•	Just-In-Time (JIT) principles
+•	Vendor-Managed Inventory (VMI)
+•	Inventory turnover and velocity
+•	Practical:
+o	Demand forecasting models
+o	MRP calculations
+o	JIT implementation planning
+o	VMI scenario analysis
+o	Inventory velocity analysis
+Module 4: Inventory Systems & Technology (Weeks 17-22)
+•	Manual inventory systems
+•	Perpetual vs. periodic inventory systems
+•	Barcode and RFID technology
+•	WMS system operation
+•	Inventory software: SAP, NetSuite, Cin7
+•	Data analytics and reporting
+•	Practical:
+o	WMS training and operation
+o	Barcode system setup
+o	RFID implementation planning
+o	Inventory reporting and analytics
+o	Dashboard creation
+Module 5: Stock Counting & Accuracy (Weeks 23-26)
+•	Physical inventory procedures
+•	Cycle counting methodology
+•	Inventory discrepancy investigation
+•	Root cause analysis
+•	Corrective actions
+•	Inventory reconciliation
+•	Practical:
+o	Conduct cycle counts
+o	Physical inventory exercise
+o	Discrepancy investigation reports
+o	Inventory adjustment procedures
+o	Accuracy improvement plans
+Assessment:
+•	Practical inventory exercises (60%)
+•	Theory exams (25%)
+•	Analysis projects (15%)
+Internship: 1-2 months with manufacturing/retail inventory team
+Certification: Certificate in Inventory Management
+
+4. Inventory Clerk
+Objective: Develop operational skills for daily inventory management, stock counting, and documentation. Duration: 2 Months (Short-term Certificate Program) Prerequisites: 10th pass; basic numeracy and literacy Career Pathways: Inventory Clerk, Warehouse Assistant, Stock Controller, Data Entry Operator
+Module 1: Inventory Basics (Weeks 1-2)
+•	Inventory concept and importance
+•	Stock types and classifications
+•	Inventory documentation
+•	Data entry fundamentals
+•	Practical:
+o	Inventory record identification
+o	Document template practice
+o	Basic data entry exercises
+Module 2: Stock Receiving & Documentation (Weeks 3-4)
+•	Receiving procedures
+•	Goods receipt notes (GRN)
+•	Inspection and quality check
+•	Data recording
+•	System entry basics
+•	Practical:
+o	Mock receiving exercises
+o	GRN preparation
+o	Quantity verification
+o	Data entry in spreadsheet/system
+Module 3: Stock Counting & Reconciliation (Weeks 5-7)
+•	Physical stock counting methods
+•	Counting procedures and accuracy
+•	Cycle counting basics
+•	Count sheets and documentation
+•	Discrepancy identification
+•	Practical:
+o	Conduct practice stock counts
+o	Complete count sheets
+o	Identify and report discrepancies
+o	Reconciliation exercises
+Module 4: Inventory Records & System Entry (Weeks 8)
+•	Inventory record management
+•	Stock-in and stock-out entries
+•	System navigation (WMS/ERP)
+•	Report generation
+•	File organization
+•	Practical:
+o	System data entry practice
+o	Report creation
+o	Record maintenance
+o	File organization exercise
+Assessment:
+•	Practical counting accuracy (50%)
+•	Data entry accuracy (30%)
+•	System operation proficiency (20%)
+On-job Training: 2-4 weeks in warehouse
+Certification: Certificate in Inventory Clerk Operations
+
+5. Courier & Delivery Operations
+Objective: Master courier operations, delivery logistics, customer service, and route optimization for efficient last-mile delivery. Duration: 4 Months (Certificate Program) Prerequisites: 12th pass; clean driving record for delivery roles; communication skills Career Pathways: Courier Operations Manager, Delivery Manager, Route Planner, Customer Service Manager, Fleet Supervisor
+Module 1: Courier Industry Overview (Weeks 1-3)
+•	Courier industry structure and business models
+•	Service types: Standard, express, international
+•	Regulatory requirements and compliance
+•	Quality standards and certifications
+•	Practical:
+o	Industry research and analysis
+o	Service type comparison
+o	Regulatory documentation review
+Module 2: Parcel Handling & Documentation (Weeks 4-8)
+•	Parcel receiving and inspection
+•	Packaging standards and requirements
+•	Labeling and sorting systems
+•	Tracking and tracing
+•	Documentation: Waybills, POD, customs forms
+•	Practical:
+o	Parcel sorting exercises
+o	Label preparation and scanning
+o	Waybill completion
+o	Tracking system operation
+o	Documentation practice
+Module 3: Delivery Operations & Logistics (Weeks 9-14)
+•	Delivery route planning and optimization
+•	Vehicle loading and securing
+•	Delivery sequence and scheduling
+•	Last-mile delivery challenges
+•	Customer communication
+•	Proof of delivery (POD)
+•	Practical:
+o	Route planning exercises
+o	Vehicle loading simulations
+o	Delivery sequence optimization
+o	POD collection procedures
+o	Customer interaction role-plays
+Module 4: Technology & Systems (Weeks 15-18)
+•	Courier management software (Shipsy, LogiNext, Detrack)
+•	GPS tracking and real-time updates
+•	Mobile app operation (delivery personnel)
+•	Performance metrics and KPIs
+•	Data reporting and analysis
+•	Practical:
+o	Software system training
+o	GPS tracking monitoring
+o	Mobile app operation
+o	Real-time tracking exercises
+o	Report generation
+Module 5: Customer Service & Compliance (Weeks 19-20)
+•	Customer service standards
+•	Complaint handling and resolution
+•	Returns and refunds management
+•	Safety and security protocols
+•	International courier regulations
+•	Practical:
+o	Customer service role-plays
+o	Complaint resolution scenarios
+o	Returns management procedures
+o	Safety protocol implementation
+o	Compliance checklist creation
+Assessment:
+•	Operational procedures test (50%)
+•	System proficiency (25%)
+•	Customer service evaluation (15%)
+•	Knowledge exam (10%)
+Internship: 1-2 months with courier company
+Certification: Certificate in Courier & Delivery Operations
+
+6. Export & Import Management
+Objective: Master international trade procedures, documentation, regulations, and logistics for effective import-export operations. Duration: 8 Months (Diploma Program) Prerequisites: 12th pass; basic understanding of international business Career Pathways: Import-Export Manager, Customs Broker, Trade Compliance Officer, Logistics Coordinator
+Module 1: International Trade Fundamentals (Weeks 1-4)
+•	International trade concepts and benefits
+•	Trade agreements and organizations (WTO, GATT, Free Trade Agreements)
+•	Incoterms: FOB, CIF, DDP, etc.
+•	Currency and payment terms
+•	Trade barriers and tariffs
+•	Practical:
+o	Incoterm selection exercises
+o	Trade agreement analysis
+o	Cost calculation under different terms
+Module 2: Import-Export Documentation (Weeks 5-12)
+•	Commercial Invoice
+•	Packing List
+•	Bill of Lading (B/L): Straight, order, bearer
+•	Certificate of Origin
+•	Certificates and declarations
+•	Letters of Credit (L/C)
+•	Customs declarations and forms
+•	Practical:
+o	Document preparation exercises
+o	Commercial invoice creation
+o	Bill of Lading completion
+o	Certificate of Origin preparation
+o	L/C procedure simulation
+o	Customs form filing
+Module 3: Customs Procedures & Clearance (Weeks 13-20)
+•	Customs classification: HS Code system
+•	Duty and tax calculations
+•	Customs declaration processes
+•	Import duty and GST implications
+•	Customs examination and inspection
+•	Bonded warehouse operations
+•	Practical:
+o	HS Code classification exercises
+o	Duty calculations
+o	Customs clearance simulation
+o	Drawback and refund procedures
+o	DTA (Duty-Free Trade Area) operations
+Module 4: Compliance & Regulations (Weeks 21-26)
+•	Import-Export policy regulations
+•	Trade compliance and risk management
+•	AEO (Authorized Economic Operator) certification
+•	Quality and standards compliance: ISO, FDA, CE
+•	Restricted goods and prohibited items
+•	Practical:
+o	Policy document study
+o	Compliance audit preparation
+o	Risk assessment exercises
+o	Restricted goods identification
+o	Compliance documentation
+Module 5: International Logistics (Weeks 27-32)
+•	Shipping modes: Ocean, air, land, rail
+•	Freight forwarding procedures
+•	Container types and consolidation
+•	Insurance in international trade
+•	Port operations and port charges
+•	Practical:
+o	Freight cost calculations
+o	Shipping mode selection
+o	Insurance coverage planning
+o	Port procedures documentation
+o	Consolidation planning
+Module 6: Technology & Systems (Weeks 33-36)
+•	Customs management software: ICEGATE, ASYCUDA
+•	Shipping and freight software
+•	Trade documentation systems
+•	EDI (Electronic Data Interchange)
+•	Practical:
+o	ICEGATE system training
+o	EDI procedures
+o	System-based documentation
+o	Digital tracking and monitoring
+Module 7: Case Studies & Practical Operations (Weeks 37-40)
+•	Import process: Step-by-step
+•	Export process: Step-by-step
+•	Complex scenarios and problem-solving
+•	Ethics in international trade
+•	Practical:
+o	Complete import case study
+o	Complete export case study
+o	Documentation package preparation
+o	Problem-solving scenarios
+Assessment:
+•	Theory exams (35%)
+•	Documentation accuracy (35%)
+•	Case study project (20%)
+•	Presentation (10%)
+Internship: 2-3 months with import-export or customs house
+Certification: Diploma in Export & Import Management
+
+7. E-commerce Operations
+Objective: Master e-commerce logistics, order fulfillment, inventory synchronization, and customer service for online retail operations. Duration: 5 Months (Certificate Program) Prerequisites: 12th pass; familiarity with online shopping/retail Career Pathways: E-commerce Operations Manager, Fulfillment Manager, Order Management Specialist, Customer Service Manager
+Module 1: E-commerce Business Fundamentals (Weeks 1-3)
+•	E-commerce business models: B2C, B2B, C2C, D2C
+•	Online marketplaces: Amazon, Flipkart, Myntra, etc.
+•	E-commerce channels and omnichannel retail
+•	Platform features and functionalities
+•	Practical:
+o	E-commerce platform analysis
+o	Business model case studies
+o	Marketplace comparison
+Module 2: Order Management (Weeks 4-8)
+•	Order processing workflow
+•	Payment processing and fraud prevention
+•	Order confirmation and status tracking
+•	Return and cancellation management
+•	Order management systems (OMS)
+•	Practical:
+o	Order entry exercises
+o	Payment processing simulation
+o	OMS system training
+o	Return processing procedures
+o	Customer communication templates
+Module 3: Inventory Synchronization (Weeks 9-13)
+•	Multichannel inventory management
+•	Real-time stock updates
+•	Inventory forecasting for e-commerce
+•	Stock-out management and backorders
+•	Inventory sync software
+•	Practical:
+o	Inventory reconciliation exercises
+o	Sync system training
+o	Forecast modeling
+o	Backorder procedures
+o	Overselling prevention
+Module 4: Fulfillment & Logistics (Weeks 14-18)
+•	Fulfillment center operations
+•	Picking and packing processes
+•	Quality control
+•	Packaging standards and sustainability
+•	Shipping integration
+•	Last-mile delivery coordination
+•	Practical:
+o	Picking and packing simulation
+o	Quality check procedures
+o	Packaging design exercises
+o	Shipping label generation
+o	Logistics partner coordination
+Module 5: Technology & Analytics (Weeks 19-24)
+•	E-commerce platforms: Shopify, WooCommerce, Magento
+•	Order management systems
+•	Analytics and performance metrics
+•	Dashboards and reporting
+•	Data-driven decision making
+•	Practical:
+o	Platform configuration
+o	Analytics dashboard creation
+o	KPI tracking
+o	Report generation
+o	Performance analysis
+Assessment:
+•	Operational procedures test (50%)
+•	System proficiency (25%)
+•	Project work (15%)
+•	Presentations (10%)
+Internship: 1-2 months with e-commerce company/fulfillment center
+Certification: Certificate in E-commerce Operations
+
+8. Forklift Operator Training
+Objective: Develop safe and efficient forklift operation skills meeting OSHA and international safety standards. Duration: 2-3 Weeks (Certificate Program) Prerequisites: 18+ years old; valid driver's license; basic literacy Career Pathways: Forklift Operator, Warehouse Operator, Material Handler, Heavy Equipment Operator
+Module 1: Safety Fundamentals (Days 1-3)
+•	Forklift safety regulations and standards (OSHA, ISO)
+•	Hazard identification and risk assessment
+•	PPE (Personal Protective Equipment)
+•	Accident prevention
+•	Emergency procedures
+•	Practical:
+o	Safety equipment practice
+o	Hazard identification exercises
+o	Emergency response drills
+Module 2: Forklift Types & Components (Days 4-5)
+•	Forklift types: Counterbalance, reach, telehandler, order picker
+•	Main components: Engine, hydraulic system, mast, forks
+•	Capacity plates and load limits
+•	Maintenance basics
+•	Practical:
+o	Component identification
+o	Pre-operation inspection
+o	Maintenance checks
+Module 3: Operation & Controls (Days 6-7)
+•	Starting and shutting down
+•	Steering and maneuvering
+•	Speed control and acceleration
+•	Load handling techniques
+•	Backward operation
+•	Turning and stopping
+•	Practical:
+o	Supervised operation on multiple equipment
+o	Basic maneuvers practice
+o	Load handling exercises
+Module 4: Advanced Maneuvers (Days 8-9)
+•	Loading and unloading techniques
+•	Pallet handling
+•	Stacking operations
+•	Precision maneuvering
+•	Operating on slopes and uneven surfaces
+•	Operating in confined spaces
+•	Practical:
+o	Loading/unloading simulation
+o	Stacking exercises at various heights
+o	Confined space operation practice
+o	Obstacle course completion
+Module 5: Practical Assessment (Days 10-11)
+•	Formal written examination
+•	Practical operation test
+•	Safety compliance evaluation
+•	Judgment and decision-making assessment
+•	Practical:
+o	Written exam covering theory and regulations
+o	Practical driving test with specified courses
+o	Load handling and stacking test
+Assessment:
+•	Written exam (30%)
+•	Practical operation test (50%)
+•	Safety compliance evaluation (20%)
+Certification: Forklift Operator Certificate (OSHA-compliant or ISO standard)
+Equipment Required:
+•	Multiple forklift types (counterbalance, reach trucks)
+•	Pallets and loads (various weights)
+•	Training obstacles and markers
+•	Safety equipment and signage
+Renewal: Annual refresher training
+

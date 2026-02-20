@@ -1,0 +1,264 @@
+Media & Entertainment
+
+1. Graphic Designing
+Objective: Master visual communication through design principles, typography, and software for branding, print, and digital media.
+Prerequisites: Basic computer skills; no prior design experience needed.
+Duration: 3–4 Months (120 hours: 40% theory, 60% practical).
+Tools/Software: Adobe Photoshop, Illustrator, InDesign (trials); GIMP, Inkscape (free alternatives); Canva for beginners.
+Module 1: Design Fundamentals (Weeks 1–2)
+•	Color theory: RGB/CMYK, color harmony, psychology of colors.
+•	Composition: Rule of thirds, balance, contrast, hierarchy.
+•	Typography: Fonts (serif/sans-serif), kerning, leading, pairing.
+•	Practical: Create mood boards and basic layouts using Canva.
+Module 2: Vector Graphics & Illustration (Weeks 3–5)
+•	Adobe Illustrator basics: Paths, shapes, pen tool, gradients.
+•	Logo design: Simplicity, scalability, brand identity.
+•	Iconography and infographics.
+•	Practical: Design 5 logos and 3 vector illustrations for a fictional brand.
+Module 3: Raster Editing & Photo Manipulation (Weeks 6–8)
+•	Photoshop layers, masks, selections, retouching.
+•	Image correction: Exposure, color balance, cloning/healing.
+•	Compositing and mockups.
+•	Practical: Edit 10 photos (e.g., product shots, portraits) and create a digital poster.
+Module 4: Layout & Print Design (Weeks 9–10)
+•	InDesign: Multi-page documents, bleeds, master pages.
+•	Brochures, flyers, business cards, packaging.
+•	Print production: Resolution (300 DPI), file formats (PDF/X).
+•	Practical: Design a complete branding kit (logo + brochure + business card).
+Module 5: Digital & UI Basics (Weeks 11–12)
+•	Web banners, social media graphics, responsive design.
+•	Exporting for web (PNG, SVG).
+•	Portfolio building and client briefs.
+•	Practical: Create a social media campaign set (posts, stories, ads).
+Labs & Assignments: Weekly critiques; 20+ design projects.
+Assessment: Portfolio review (70%), theory quiz (30%).
+Capstone: Full brand identity package for a real or mock client, presented in a digital portfolio.
+
+2. Video Editing & Post-Production
+Objective: Learn non-linear editing, effects, audio syncing, and color grading for films, ads, and social videos.
+Prerequisites: Basic computer literacy; familiarity with video formats helpful.
+Duration: 4 Months (160 hours: 30% theory, 70% practical).
+Tools/Software: Adobe Premiere Pro, After Effects (trials); DaVinci Resolve (free); Final Cut Pro (Mac alternative).
+Module 1: Video Fundamentals (Weeks 1–2)
+•	Video terminology: Frame rate (24/30/60 fps), resolution (4K/1080p), aspect ratios.
+•	File formats (MP4, MOV, ProRes) and codecs.
+•	Project setup: Importing footage, organizing bins.
+•	Practical: Assemble a simple 1-minute montage from stock footage.
+Module 2: Basic Editing Techniques (Weeks 3–6)
+•	Cuts: J/L cuts, match cuts, pacing.
+•	Transitions: Fades, wipes, speed ramping.
+•	Audio basics: Syncing, levels, background music.
+•	Practical: Edit 5 short videos (e.g., vlog, interview) with cuts and basic audio.
+Module 3: Advanced Editing & Effects (Weeks 7–10)
+•	Multi-cam editing, nested sequences.
+•	Text animation, lower thirds, titles.
+•	Keyframing, masks, and basic VFX (e.g., green screen removal).
+•	Practical: Edit a 3–5 minute narrative video with effects and sound design.
+Module 4: Color Grading & Audio Post (Weeks 11–13)
+•	Color correction: Scopes (waveform, vectorscope), LUTs.
+•	Audio enhancement: EQ, noise reduction, Foley.
+•	Exporting: For web (H.264), broadcast (ProRes).
+•	Practical: Grade and audio-mix a 2-minute clip from raw footage.
+Module 5: Workflow & Delivery (Week 14)
+•	Collaboration: Proxy editing, version control.
+•	Client revisions, deadlines, file organization.
+•	Practical: Complete a full post-production pipeline for a short ad.
+Labs & Assignments: Edit 15+ projects; peer reviews.
+Assessment: Final edit submission (60%), technical quiz (20%), workflow demo (20%).
+Capstone: Produce a 5–7 minute edited video (e.g., short film or promo) from raw footage, including grading and sound.
+
+3. 2D/3D Animation
+Objective: Create engaging animations using keyframing, rigging, and rendering for films, games, and ads.
+Prerequisites: Basic drawing skills; intro to graphic design helpful.
+Duration: 5–6 Months (200 hours: 35% theory, 65% practical).
+Tools/Software: Adobe Animate (2D), Blender (free 3D); Toon Boom, Maya (trials).
+Module 1: Animation Principles (Weeks 1–3)
+•	12 Principles of Animation (squash/stretch, anticipation, timing).
+•	Storyboarding: Sketching sequences, thumbnails.
+•	Frame-by-frame vs. tweening.
+•	Practical: Animate a bouncing ball and walk cycle in 2D.
+Module 2: 2D Animation (Weeks 4–8)
+•	Adobe Animate: Symbols, timelines, motion tweens.
+•	Character design: Rigging with bones, lip-sync.
+•	Backgrounds, layers, onion skinning.
+•	Practical: Create a 30-second 2D character animation (e.g., simple story).
+Module 3: 3D Modeling & Texturing (Weeks 9–13)
+•	Blender basics: Meshes, extrude, modifiers.
+•	UV unwrapping, texturing, materials (PBR).
+•	Lighting: Three-point setup, HDRI.
+•	Practical: Model and texture a simple object (e.g., car or character).
+Module 4: 3D Rigging & Animation (Weeks 14–18)
+•	Bone rigging, inverse kinematics (IK).
+•	Keyframing, graph editor, walk/run cycles.
+•	Cameras and rendering (Cycles/EEVEE).
+•	Practical: Animate a rigged 3D character in a short scene.
+Module 5: Compositing & Export (Weeks 19–20)
+•	Integrating 2D/3D elements.
+•	Rendering pipelines, file optimization.
+•	Practical: Composite a hybrid 2D/3D animation.
+Labs & Assignments: 10+ animation exercises; feedback sessions.
+Assessment: Animation reel (70%), principle quiz (30%).
+Capstone: Produce a 1-minute 2D/3D animated short film with story, characters, and effects.
+
+4. Digital Photography
+Objective: Capture, edit, and optimize images for professional use in portraits, products, and events.
+Prerequisites: Access to a DSLR/mirrorless camera (or smartphone for basics).
+Duration: 3 Months (100 hours: 40% theory, 60% practical).
+Tools/Software: DSLR/SLR cameras; Adobe Lightroom, Photoshop; Snapseed (mobile free).
+Module 1: Camera Fundamentals (Weeks 1–2)
+•	Exposure triangle: Aperture, Shutter speed, ISO.
+•	Lenses: Prime vs. zoom, focal lengths (wide-angle, telephoto).
+•	Modes: Manual, Aperture Priority, Shutter Priority.
+•	Practical: Shoot in different modes and analyze exposures.
+Module 2: Composition & Genres (Weeks 3–5)
+•	Rules: Leading lines, framing, depth of field.
+•	Genres: Portrait (posing, lighting), Landscape, Macro, Street.
+•	Lighting: Natural vs. artificial (studio strobes, softboxes).
+•	Practical: 50+ photoshoots in 3 genres (e.g., portrait session).
+Module 3: Advanced Techniques (Weeks 6–7)
+•	Long exposure, HDR, panning.
+•	Accessories: Tripods, filters (ND, polarizer).
+•	Event photography: Weddings, products.
+•	Practical: Capture a themed shoot (e.g., product catalog).
+Module 4: Post-Processing (Weeks 8–9)
+•	Lightroom: Cataloging, RAW editing, presets.
+•	Photoshop: Retouching, compositing, noise reduction.
+•	Color management: Profiles, calibration.
+•	Practical: Edit 20 images from personal shoots.
+Module 5: Business & Ethics (Week 10)
+•	Copyright, model releases, pricing.
+•	Portfolio and client workflow.
+•	Practical: Build an online portfolio (e.g., Behance).
+Labs & Assignments: Field shoots, editing critiques.
+Assessment: Photo portfolio (60%), technique quiz (40%).
+Capstone: Complete photography project (e.g., 20-image series for a client brief) with edits and presentation.
+
+5. Sound Engineering
+Objective: Record, mix, and master audio for music, podcasts, films, and live events.
+Prerequisites: Basic music knowledge; access to headphones/speakers.
+Duration: 4 Months (140 hours: 30% theory, 70% practical).
+Tools/Software: Audacity (free), Reaper/Logic Pro; microphones, audio interfaces.
+Module 1: Audio Fundamentals (Weeks 1–2)
+•	Sound waves: Frequency, amplitude, wavelength.
+•	Digital audio: Sample rate (44.1kHz), bit depth (24-bit), formats (WAV, MP3).
+•	Acoustics: Room treatment, absorption/reflection.
+•	Practical: Record basic sounds and analyze waveforms.
+Module 2: Recording Techniques (Weeks 3–6)
+•	Microphones: Dynamic, Condenser, Ribbon; polar patterns.
+•	Setup: Gain staging, phantom power, pop filters.
+•	Multi-track recording, overdubs.
+•	Practical: Record a podcast episode and simple song demo.
+Module 3: Mixing & Effects (Weeks 7–10)
+•	EQ, Compression, Reverb, Delay, Modulation.
+•	Mixing console: Levels, panning, automation.
+•	Stereo imaging, bus processing.
+•	Practical: Mix 5 tracks (e.g., voiceover, music bed).
+Module 4: Mastering & Live Sound (Weeks 11–13)
+•	Mastering chain: Limiting, loudness (LUFS).
+•	Live setups: PA systems, monitors, feedback control.
+•	Practical: Master a full song and simulate a live mix.
+Module 5: Workflow & Industry (Week 14)
+•	DAW integration, file delivery (stems, bounces).
+•	Copyright in audio, collaboration tools.
+•	Practical: Produce a complete audio project.
+Labs & Assignments: 15+ recording/mixing sessions.
+Assessment: Audio portfolio (70%), theory exam (30%).
+Capstone: Engineer a 3–5 minute audio piece (e.g., podcast or music track) from recording to master.
+
+6. VFX & Motion Graphics
+Objective: Create visual effects, animations, and graphics for videos, films, and ads using compositing and 3D integration.
+Prerequisites: Basic video editing knowledge.
+Duration: 5 Months (180 hours: 35% theory, 65% practical).
+Tools/Software: Adobe After Effects, Nuke (trials); Blender (free for 3D VFX).
+Module 1: VFX Fundamentals (Weeks 1–3)
+•	Principles: Matchmoving, rotoscoping, particle systems.
+•	Pre-vis: Planning shots, storyboarding.
+•	Practical: Basic compositing in After Effects (layers, blending modes).
+Module 2: Motion Graphics (Weeks 4–8)
+•	After Effects: Keyframes, expressions, null objects.
+•	Text animation, shape layers, masks.
+•	Plugins: Trapcode Particular, Element 3D.
+•	Practical: Create 5 motion graphics pieces (e.g., logo intro, infographic).
+Module 3: Compositing Techniques (Weeks 9–13)
+•	Green screen keying (chroma key), spill suppression.
+•	Rotoscoping, tracking (2D/3D camera solver).
+•	Matte painting, multi-pass rendering.
+•	Practical: Composite 3 VFX shots (e.g., add elements to live footage).
+Module 4: 3D Integration & Effects (Weeks 14–18)
+•	Blender to After Effects workflow.
+•	Particles, simulations (fire, smoke, fluids).
+•	Lighting and shadows matching.
+•	Practical: Build a 10-second VFX sequence with 3D elements.
+Module 5: Finishing & Pipeline (Weeks 19–20)
+•	Color matching, grain/noise addition.
+•	Render farms, optimization for delivery.
+•	Practical: Full VFX pipeline demo.
+Labs & Assignments: 12+ VFX projects; group critiques.
+Assessment: Demo reel (70%), concept quiz (30%).
+Capstone: Create a 30–60 second VFX-heavy video (e.g., ad or short film scene) with motion graphics.
+
+7. Content Writing & Copywriting
+Objective: Craft compelling written content for marketing, web, social media, and branding.
+Prerequisites: Strong English grammar; basic writing skills.
+Duration: 3 Months (90 hours: 50% theory, 50% practical).
+Tools/Software: Google Docs, Grammarly; SEO tools like Yoast.
+Module 1: Writing Fundamentals (Weeks 1–2)
+•	Grammar, style guides (AP, Chicago), tone/voice.
+•	Audience analysis, research techniques.
+•	Practical: Rewrite 10 sample texts for clarity.
+Module 2: Content Writing (Weeks 3–5)
+•	Blogging: SEO keywords, structure (headlines, subheads).
+•	Web content: Articles, landing pages, newsletters.
+•	Storytelling: Hooks, narratives.
+•	Practical: Write 8 blog posts (500–1000 words each).
+Module 3: Copywriting (Weeks 6–8)
+•	Ad copy: Headlines, CTAs, slogans.
+•	Social media: Tweets, captions, scripts.
+•	Email marketing: Subject lines, AIDA model (Attention, Interest, Desire, Action).
+•	Practical: Craft copy for 5 campaigns (ads, emails).
+Module 4: Editing & SEO (Weeks 9–10)
+•	Self-editing, proofreading, plagiarism checks.
+•	SEO writing: Meta descriptions, long-tail keywords.
+•	Practical: Edit peer content and optimize for search.
+Module 5: Business Aspects (Week 11–12)
+•	Freelancing: Pitches, contracts, rates.
+•	Portfolio building, client feedback.
+•	Practical: Develop a content strategy document.
+Labs & Assignments: Weekly writing prompts; peer reviews.
+Assessment: Writing portfolio (80%), grammar test (20%).
+Capstone: Create a complete content package (blog series + ad copy + strategy) for a brand.
+
+8. UI/UX Design
+Objective: Design user-centered interfaces for apps and websites using research, wireframing, and prototyping.
+Prerequisites: Basic graphic design; understanding of web basics.
+Duration: 4 Months (140 hours: 40% theory, 60% practical).
+Tools/Software: Figma (free), Adobe XD; Sketch (Mac); Balsamiq for wireframes.
+Module 1: UX Fundamentals (Weeks 1–2)
+•	User-centered design: Personas, user journeys, empathy maps.
+•	UX Research: Surveys, interviews, usability testing.
+•	Heuristics (Nielsen's 10 principles).
+•	Practical: Create user personas for a sample app.
+Module 2: Wireframing & Information Architecture (Weeks 3–5)
+•	Sitemaps, flowcharts.
+•	Low-fidelity wireframes: Sketches to digital (Balsamiq).
+•	Navigation patterns: Menus, breadcrumbs.
+•	Practical: Wireframe a mobile app (5–10 screens).
+Module 3: UI Design Principles (Weeks 6–8)
+•	Visual design: Layout grids, spacing, icons.
+•	Color palettes, typography for interfaces.
+•	Accessibility: WCAG guidelines, contrast ratios.
+•	Practical: Design high-fidelity UI mockups in Figma.
+Module 4: Prototyping & Interaction (Weeks 9–11)
+•	Interactive prototypes: Click-throughs, micro-interactions.
+•	Tools: Figma auto-animate, transitions.
+•	User testing: Heatmaps, A/B testing basics.
+•	Practical: Build and test a clickable prototype.
+Module 5: Tools & Collaboration (Weeks 12–14)
+•	Responsive design: Mobile-first, breakpoints.
+•	Handoff to developers (Zeplin/Avocode).
+•	Agile UX in teams.
+•	Practical: Collaborative design session.
+Labs & Assignments: 8+ design iterations; user tests.
+Assessment: Design portfolio (70%), research report (30%).
+Capstone: Full UI/UX project for an app/website: research, wireframes, prototypes, and usability report.
+

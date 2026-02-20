@@ -1,0 +1,215 @@
+
+1. Digital Marketing Specialist
+•	Objective: To master online marketing strategies across platforms, analytics, and campaign optimization.
+•	Duration: 3-4 Months
+Module 1: Digital Marketing Fundamentals
+•	Evolution of digital marketing vs. traditional.
+•	Digital ecosystem: Channels (Social, Search, Email, Content).
+•	Consumer journey: Awareness, Consideration, Conversion, Retention.
+•	Legal aspects: GDPR, Data privacy, Copyright.
+Module 2: Website & SEO (Search Engine Optimization)
+•	Website basics: CMS (WordPress), Domain/Hosting setup.
+•	On-Page SEO: Keywords, Meta tags, URL structure, Content optimization.
+•	Off-Page SEO: Backlinks, Guest posting.
+•	Technical SEO: Site speed, Mobile-friendliness, XML Sitemaps.
+•	Tools: Google Analytics, Google Search Console, SEMrush (free tier).
+Module 3: Content & Social Media Marketing
+•	Content strategy: Blogging, Video, Infographics.
+•	Social platforms: Facebook/Instagram Ads Manager, Twitter, LinkedIn, YouTube.
+•	Content calendar, Hashtag research, Engagement tactics.
+•	Influencer marketing basics.
+Module 4: Paid Advertising (PPC & Display)
+•	Google Ads: Search, Display, Shopping campaigns.
+•	Keyword research (Google Keyword Planner), Bidding strategies (CPC, CPM).
+•	Facebook/Instagram Ads: Targeting, A/B testing.
+•	Retargeting and Remarketing.
+Module 5: Email & Affiliate Marketing
+•	Email platforms (Mailchimp), List building, Automation sequences.
+•	Affiliate programs (Amazon Associates), Commission tracking.
+•	Conversion optimization (Landing pages, CTAs).
+Module 6: Analytics & Strategy
+•	Google Analytics: Traffic sources, Bounce rate, Conversion tracking.
+•	ROI calculation, Campaign performance metrics (CTR, ROAS).
+•	Digital marketing plan development.
+Project: Create a full digital marketing campaign for a local business (SEO audit + social ads + analytics report).
+
+2. Tally Prime & GST Professional
+•	Objective: Hands-on training in accounting software with GST compliance for businesses.
+•	Duration: 2-3 Months
+Module 1: Tally Prime Fundamentals
+•	Installation and Company Creation.
+•	Masters: Ledgers, Groups, Stock Items, Units of Measure.
+•	Currencies and Multi-currency transactions.
+Module 2: Inventory Management
+•	Stock Groups, Stock Categories, Godowns.
+•	Purchase & Sales Vouchers: Order, Invoice, Receipt.
+•	Batch-wise details, Expiry tracking.
+•	Stock Valuation methods (FIFO, LIFO, Average).
+Module 3: Accounting Features
+•	Voucher Entry: Payment, Receipt, Contra, Journal.
+•	Cost Centers and Profit Centers.
+•	Bank Reconciliation, Cheque printing.
+•	Trial Balance, Profit & Loss, Balance Sheet.
+Module 4: GST in Tally
+•	GST Registration and Configuration (Regular vs. Composition).
+•	GST Ledgers (CGST, SGST, IGST).
+•	GST Invoices: Taxable, Exempt, Export.
+•	Input Tax Credit (ITC), Reverse Charge Mechanism.
+•	Returns: GSTR-1, GSTR-3B, GSTR-9 (Annual).
+Module 5: Advanced Features & Reports
+•	Payroll in Tally: Employee creation, Salary processing, TDS.
+•	MIS Reports: Cash Flow, Ratio Analysis.
+•	Data Security, Backup/Restore.
+•	E-Way Bill Generation.
+Project: Set up Tally for a retail business, record 1-month transactions, file GST returns, and generate financial reports.
+
+3. Business Accounting & Taxation (BAT)
+•	Objective: Comprehensive understanding of financial accounting, auditing, and Indian taxation laws.
+•	Duration: 4-6 Months
+Module 1: Financial Accounting Principles
+•	Accounting Concepts: Double Entry System, GAAP, IFRS basics.
+•	Journal, Ledger, Subsidiary Books (Cash Book, Purchase/Sales Book).
+•	Depreciation methods (SLM, WDV), Rectification of Errors.
+Module 2: Final Accounts
+•	Trading Account, Profit & Loss Account, Balance Sheet.
+•	Adjustments: Outstanding Expenses, Prepaid Income, Bad Debts.
+•	Partnership Accounts: Admission, Retirement, Dissolution.
+Module 3: Corporate Accounting
+•	Company Accounts: Share Capital, Debentures, Forfeiture.
+•	Amalgamation, Absorption, Liquidation.
+•	Cash Flow Statement (Direct/Indirect Method).
+Module 4: Income Tax
+•	Heads of Income: Salary, House Property, Business/Profession, Capital Gains, Other Sources.
+•	Deductions (80C to 80U), Tax Slabs (Old vs. New Regime).
+•	TDS, Advance Tax, ITR Filing (Forms 16, 26AS).
+Module 5: Indirect Taxes & Compliance
+•	GST Framework: Supply, Input Tax Credit, Composition Scheme.
+•	Customs Duty, Excise (Basics).
+•	Audit: Internal Audit, Tax Audit (Section 44AB).
+•	MSME Compliance.
+Project: Prepare complete books of accounts for a small business, compute taxes, and file mock returns.
+
+4. Human Resource (HR) Management
+•	Objective: To handle recruitment, employee relations, compliance, and performance management.
+•	Duration: 3-4 Months
+Module 1: HR Fundamentals
+•	HR Functions: Planning, Recruitment, Training, Performance, Compensation.
+•	Labor Laws: Factories Act, Minimum Wages Act, EPF/ESIC.
+•	Organizational Structure and HR Policies.
+Module 2: Recruitment & Selection
+•	Job Analysis, JD/JS, Sourcing (Job Portals like Naukri, LinkedIn).
+•	Screening, Interviews (Structured/Behavioral), Psychometric Tests.
+•	Offer Letters, Background Verification.
+Module 3: Training & Development
+•	TNA (Training Needs Analysis), Program Design.
+•	Methods: On-the-Job, Classroom, E-Learning.
+•	Evaluation (Kirkpatrick Model).
+Module 4: Performance Management & Compensation
+•	Appraisal Systems: 360-Degree, KPI-based.
+•	Salary Structures, Incentives, Benefits (PF, Gratuity).
+•	Employee Engagement: Surveys, Retention Strategies.
+Module 5: Compliance & Industrial Relations
+•	POSH (Sexual Harassment), Leave Policies, Termination.
+•	Grievance Handling, Labor Unions.
+•	HR Analytics: Turnover Rate, ROI on Training.
+Project: Develop an HR policy manual for a startup, conduct mock recruitment drive, and analyze performance data.
+
+5. Office Administration
+•	Objective: Efficient management of office operations, documentation, and team coordination.
+•	Duration: 2-3 Months
+Module 1: Office Management Basics
+•	Office Layout, Furniture, Ergonomics.
+•	Time Management: Prioritization (Eisenhower Matrix), Meetings (Agenda, Minutes).
+•	Business Communication: Emails, Reports, Telephone Etiquette.
+Module 2: Document Management
+•	Filing Systems (Alphabetical, Numerical), Record Retention Policies.
+•	MS Office Suite: Word (Templates, Mail Merge), Excel (Formulas, Pivot Tables), PowerPoint (Presentations).
+•	Digital Tools: Google Workspace, Dropbox for file sharing.
+Module 3: Administrative Procedures
+•	Visitor Management, Travel Arrangements (Bookings, Itineraries).
+•	Inventory Control: Stationery, Office Supplies.
+•	Event Coordination: Conferences, Team-building.
+Module 4: Records & Compliance
+•	Data Protection (IT Act), Archiving (Physical/Digital).
+•	Budgeting: Petty Cash, Expense Tracking.
+•	Crisis Management: Emergency Protocols.
+Module 5: Soft Skills
+•	Team Coordination, Conflict Resolution.
+•	Customer Service in Office Settings.
+Project: Set up a virtual office system (using MS Office/Google), manage a mock event, and prepare administrative reports.
+
+6. Sales & Relationship Management
+•	Objective: Building sales pipelines, negotiation skills, and long-term client relationships.
+•	Duration: 3 Months
+Module 1: Sales Fundamentals
+•	Sales Process: Prospecting, Qualifying, Presenting, Closing, Follow-up.
+•	Types: B2B vs. B2C, Consultative Selling.
+•	CRM Tools: Zoho CRM, Salesforce basics.
+Module 2: Prospecting & Lead Generation
+•	Lead Sources: Cold Calling, Networking, Referrals, Social Selling (LinkedIn).
+•	Email Campaigns, Objection Handling.
+•	Sales Funnel Management.
+Module 3: Negotiation & Closing
+•	Pricing Strategies, Discounts, Value Proposition.
+•	Negotiation Techniques (BATNA, Win-Win).
+•	Contract Signing, Payment Terms.
+Module 4: Relationship Management (CRM)
+•	Customer Lifecycle: Onboarding, Upselling, Cross-selling.
+•	Loyalty Programs, Feedback Loops.
+•	Handling Complaints, Retention Strategies.
+Module 5: Sales Analytics
+•	KPIs: Conversion Rate, Sales Cycle, Customer Lifetime Value (CLV).
+•	Tools: Excel Dashboards, Google Sheets.
+Project: Develop a sales strategy for a product, conduct mock sales pitches, and create a CRM database with follow-up plans.
+
+7. Retail Management
+•	Objective: Managing store operations, merchandising, inventory, and customer experience in retail.
+•	Duration: 3-4 Months
+Module 1: Retail Fundamentals
+•	Retail Formats: Supermarket, Department Store, E-commerce.
+•	Retail Mix: Product, Price, Place, Promotion.
+•	Consumer Behavior and Market Research.
+Module 2: Store Operations
+•	Visual Merchandising: Layout, Display, Signage.
+•	Inventory Management: Stock Levels, Replenishment, POS Systems (Billing Software).
+•	Supply Chain: Vendor Management, Logistics.
+Module 3: Sales & Customer Service
+•	Staff Training: Greeting, Upselling, Handling Returns.
+•	Loyalty Programs, CRM in Retail.
+•	Loss Prevention: Theft, Shrinkage Control.
+Module 4: Financial Aspects
+•	Retail Accounting: Margins, Break-Even Analysis.
+•	Budgeting, Expense Control.
+•	E-commerce Integration (Online-Offline Sync).
+Module 5: Retail Analytics & Trends
+•	KPIs: Footfall, Basket Size, Inventory Turnover.
+•	Tools: Retail Software (like Marg ERP), Google Analytics for stores.
+•	Emerging Trends: Omnichannel, Sustainability.
+Project: Design a retail store layout, manage mock inventory for a month, and analyze sales performance.
+
+8. Stock Market & Trading
+•	Objective: Understanding markets, technical/fundamental analysis, and risk-managed trading strategies.
+•	Duration: 3-4 Months
+Module 1: Financial Markets Overview
+•	Indian Stock Market: NSE, BSE, SEBI Regulations.
+•	Instruments: Equities, Derivatives (Futures/Options), Mutual Funds, Commodities.
+•	Market Hours, Indices (Nifty, Sensex).
+Module 2: Fundamental Analysis
+•	Company Analysis: Balance Sheet, P&L, Ratios (PE, PB, ROE).
+•	Economic Indicators: GDP, Inflation, Interest Rates.
+•	Sector Analysis, Valuation Models (DCF basics).
+Module 3: Technical Analysis
+•	Chart Patterns: Candlesticks, Support/Resistance, Trends.
+•	Indicators: Moving Averages, RSI, MACD, Bollinger Bands.
+•	Charting Tools: TradingView, Zerodha Kite.
+Module 4: Trading Strategies
+•	Intraday Trading, Swing Trading, Long-term Investing.
+•	Options Strategies: Covered Call, Straddle.
+•	Risk Management: Stop-Loss, Position Sizing, Diversification.
+Module 5: Portfolio Management & Compliance
+•	Demat Account Opening, KYC.
+•	Taxation on Capital Gains, STT.
+•	Behavioral Finance: Avoiding Biases.
+•	Paper Trading Simulation.
+Project: Build a virtual portfolio using demo trading accounts, analyze performance, and prepare an investment report.
+

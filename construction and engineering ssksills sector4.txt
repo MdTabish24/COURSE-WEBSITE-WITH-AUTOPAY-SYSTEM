@@ -1,0 +1,210 @@
+Construction & Engineering Skills
+
+1. Electrician (Industrial & Domestic)
+•	Objective: To train students in wiring, installation, and maintenance of electrical systems in homes and factories.
+•	Duration: 6 Months to 1 Year
+Module 1: Safety & Tools
+•	Occupational Health & Safety (PPE, Fire Extinguishers types).
+•	First Aid for electric shock.
+•	Identification and use of hand tools (Pliers, Screwdrivers, Wire strippers, Test lamp).
+•	Power tools (Drilling machine, Grinders).
+Module 2: Basic Electricity
+•	Voltage, Current, Resistance, Power (Ohm’s Law).
+•	AC vs. DC current.
+•	Conductors, Insulators, and Semiconductors.
+•	Series and Parallel circuits.
+Module 3: Domestic Wiring (House Wiring)
+•	Types of wires and cables (Casing-capping, Conduit wiring).
+•	Switchboard connection: Switches, Sockets, Fan regulators, Fuses, MCBs.
+•	Earthing: Pipe earthing, Plate earthing, importance of Grounding.
+•	Home Appliances repair: Iron, Geyser, Heater, Ceiling Fan (Winding basics).
+•	Inverter and Battery connection.
+Module 4: Industrial Wiring & Motor Control
+•	3-Phase Supply vs. Single Phase.
+•	Power wiring vs. Control wiring.
+•	Motors: AC Induction motors, DC motors.
+•	Starters: DOL (Direct Online), Star-Delta Starter, Soft Starters.
+•	Panel Board wiring and reading electrical diagrams.
+•	Transformers: Basics, maintenance, and oil testing.
+Module 5: Measuring Instruments
+•	Using a Multimeter (Digital/Analog).
+•	Clamp meter (Tong tester) usage.
+•	Megger (Insulation resistance tester).
+•	Energy meter (Sub-meter) installation.
+
+2. Plumbing & Sanitary Works
+•	Objective: To master pipe fitting, water supply systems, and drainage for buildings.
+•	Duration: 3 to 6 Months
+Module 1: Introduction & Safety
+•	Plumbing tools (Pipe wrench, Threading die, Pipe cutter, Hacksaw).
+•	Safety precautions on construction sites.
+Module 2: Pipes & Fittings
+•	Types of Pipes: GI (Galvanized Iron), PVC, CPVC, UPVC, PPR, HDPE.
+•	Types of Fittings: Elbow, Tee, Union, Socket, Reducer, End cap.
+•	Joining methods: Threading, Solvent cementing, Fusion welding (for PPR).
+Module 3: Water Supply System
+•	Overhead tank installation and connection.
+•	Installation of Pumps (Monoblock, Submersible).
+•	Domestic water line layout (Kitchen, Bathroom).
+•	Pressure testing of pipelines.
+Module 4: Sanitary & Drainage System
+•	Installation of Sanitary ware: Washbasins, Commodes (Western/Indian), Urinals, Sinks.
+•	Traps: P-Trap, S-Trap, Bottle Trap, Gully Trap, Nahani Trap.
+•	Septic Tank basics and soak pit connection.
+•	Rainwater harvesting basics.
+Module 5: Maintenance & Repair
+•	Fixing leaking taps and valves (Gate valve, Ball valve).
+•	Clearing clogged drains and pipes.
+•	Washer replacement and minor repairs.
+
+3. Welder (Arc & Gas)
+•	Objective: To teach joining of metals using Shielded Metal Arc Welding (SMAW) and Oxy-Acetylene gas.
+•	Duration: 6 Months
+Module 1: Workshop Safety
+•	Personal Protective Equipment (Leather apron, Welding shield/goggles, Gloves).
+•	Hazards: UV radiation, Fumes, Electric shock, Fire.
+Module 2: Metal Preparation
+•	Measuring and marking tools (Steel rule, Scriber, Try square).
+•	Cutting tools (Hacksaw, Chisel).
+•	Edge preparation for welding (V-groove, U-groove).
+Module 3: Shielded Metal Arc Welding (SMAW)
+•	Arc welding machine setup (AC/DC polarity).
+•	Electrodes: Types, coding, drying, and selection.
+•	Striking an arc and bead practice.
+•	Welding Positions: Flat (1G), Horizontal (2G), Vertical (3G), Overhead (4G).
+•	Joints: Butt, Lap, Tee, Corner joint.
+Module 4: Gas Welding & Cutting (Oxy-Acetylene)
+•	Cylinders (Oxygen - Black, Acetylene - Maroon) and Regulators.
+•	Flame types: Neutral, Carburizing, Oxidizing.
+•	Gas welding techniques (Leftward/Rightward).
+•	Gas Cutting (Pug cutting machine & Manual).
+•	Brazing and Soldering basics.
+Module 5: Inspection & Defects
+•	Common defects: Porosity, Undercut, Slag inclusion, Cracks.
+•	Visual inspection and basic Non-Destructive Testing (Dye Penetrant Test).
+
+4. CNC Operator
+•	Objective: To operate Computer Numerical Control (CNC) Lathe and Milling machines.
+•	Duration: 3 to 6 Months
+Module 1: Metrology (Measurement)
+•	Precision instruments: Vernier Caliper, Micrometer, Height Gauge, Bore Gauge.
+•	Reading technical drawings and tolerances (GD&T basics).
+Module 2: Introduction to CNC
+•	Difference between Manual Lathe and CNC.
+•	Coordinate Systems: Absolute (G90) vs. Incremental (G91).
+•	Axes: X, Y, Z directions.
+Module 3: Programming (G-Codes & M-Codes)
+•	G-Codes: G00 (Rapid), G01 (Linear), G02/G03 (Circular), G71 (Cycles).
+•	M-Codes: M03 (Spindle ON), M05 (Spindle OFF), M08 (Coolant ON), M30 (End).
+•	Writing simple programs for Facing, Turning, Tapering.
+Module 4: Machine Operation (Practical)
+•	Control Panel operation (Fanuc/Siemens).
+•	Work Offsetting: Taking Work Zero (G54).
+•	Tool Offsetting: Measuring tool geometry.
+•	Loading/Unloading workpieces.
+•	Dry run and Single block execution.
+Module 5: Maintenance
+•	Coolant management.
+•	Lubrication checks.
+•	Chip removal and daily housekeeping.
+
+5. HVAC (AC & Refrigerator) Technician
+•	Objective: Installation, service, and repair of Air Conditioners and Refrigerators.
+•	Duration: 6 Months
+Module 1: Thermodynamics & Heat
+•	Modes of heat transfer (Conduction, Convection, Radiation).
+•	Temperature scales and pressure units.
+•	Refrigeration Cycle: Compressor, Condenser, Expansion Valve, Evaporator.
+Module 2: Components & Tools
+•	Tools: Tube cutter, Flaring tool, Swaging tool, Manifold gauge, Vacuum pump.
+•	Refrigerants: R-134a, R-22, R-32, R-410A, R-600a (Safety & Flammability).
+•	Brazing copper tubes.
+Module 3: Domestic Refrigerators
+•	Single door (Direct Cool) vs. Double door (Frost Free).
+•	Electrical wiring: Relay, OLP (Overload Protector), Thermostat, Timer, Heater.
+•	Gas charging procedure (Vacuuming, Charging, Sealing).
+Module 4: Air Conditioning (Window & Split)
+•	Installation: Indoor unit mounting, Outdoor unit placement, Piping, Wiring.
+•	Inverter AC Technology: PCB basics, Error codes.
+•	Pump down method (Gas locking).
+•	Servicing: Filter cleaning, Jet pump cleaning (Wet service).
+Module 5: Troubleshooting
+•	Leak detection (Nitrogen pressure test, Soap solution).
+•	Common faults: Not cooling, Water leakage, High Ampere, Noise.
+
+6. Draftsman (AutoCAD)
+•	Objective: To create 2D and 3D technical drawings for Civil and Mechanical engineering.
+•	Duration: 3 Months
+Module 1: Introduction to AutoCAD
+•	User Interface, Workspace, Command line.
+•	Coordinate systems.
+•	File formats (.dwg, .dxf).
+Module 2: Basic Drawing & Editing
+•	Draw Commands: Line, Polyline, Circle, Arc, Rectangle, Polygon, Hatch.
+•	Modify Commands: Move, Copy, Rotate, Mirror, Trim, Extend, Fillet, Offset, Array.
+Module 3: Layers, Dimensions & Text
+•	Layer Management: Creating layers, colors, lineweights.
+•	Dimensioning: Linear, Aligned, Radius, Diameter, Angular.
+•	Text: Single line and Multi-line text.
+•	Blocks: Creating and inserting blocks (Doors, Windows, Furniture).
+Module 4: Civil/Mechanical Projects
+•	Civil: Floor plans, Elevations, Sections of a building.
+•	Mechanical: Machine parts, Orthographic projections.
+Module 5: Plotting & 3D Basics
+•	Page setup and Printing (Plotting to PDF).
+•	Introduction to 3D: Extrude, Revolve, Union, Subtract.
+
+7. Civil Construction Supervisor
+•	Objective: To supervise construction sites, manage labor, and ensure quality.
+•	Duration: 6 Months to 1 Year
+Module 1: Construction Materials
+•	Cement (Grades 33, 43, 53), Sand (River vs. M-Sand), Aggregates.
+•	Bricks (Red bricks, Fly ash, AAC blocks).
+•	Steel reinforcement (TMT bars).
+Module 2: Reading Drawings
+•	Reading Architectural and Structural drawings.
+•	Understanding Scale and Gridlines.
+•	Centerline marking and Layout on ground.
+Module 3: Site Execution Basics
+•	Excavation: Soil types, Shoring.
+•	PCC & RCC: Concrete Mix Design (M15, M20, M25), Water-Cement ratio.
+•	Formwork (Shuttering): Checking levels and plumb (verticality).
+•	Bar Bending Schedule (BBS): Cutting length, Stirrups, Lapping zones.
+•	Masonry & Plastering: Brick bonds, Curing methods.
+Module 4: Surveying Basics
+•	Using Auto Level and Dump_y Level for transferring levels.
+•	Measuring tape techniques.
+Module 5: Site Management
+•	Labor handling and Muster roll.
+•	Daily Progress Report (DPR).
+•	Quality Control: Slump test, Cube test.
+•	Safety supervision (Scaffolding safety).
+
+8. Solar Panel Installation Technician
+•	Objective: To install and maintain Photovoltaic (PV) Solar Systems.
+•	Duration: 3 to 4 Months
+Module 1: Solar Energy Basics
+•	Photovoltaic effect.
+•	Solar Irradiance and Shadow analysis.
+•	Types of Systems: On-Grid, Off-Grid, Hybrid.
+Module 2: System Components
+•	Solar Panels: Monocrystalline vs. Polycrystalline.
+•	Inverters: String inverters, Micro-inverters.
+•	Batteries: Lead-acid, Tubular, Lithium-ion.
+•	Charge Controllers (PWM vs. MPPT).
+•	Mounting Structures.
+Module 3: Site Survey & Design
+•	Roof assessment (Strength and Direction - South facing).
+•	Load calculation (How many panels needed?).
+•	Shadow free area calculation.
+Module 4: Installation Procedure (Practical)
+•	Fixing mounting structure (Legs/Rails).
+•	Panel mounting and clamping.
+•	Wiring: DC cabling, MC4 connectors, Crimping.
+•	Earthing & Protection: Lightning Arrester (LA), DCDB, ACDB boxes.
+Module 5: Commissioning & Maintenance
+•	System testing (Voltage/Current check).
+•	Inverter configuration.
+•	Cleaning of panels.
+•	Troubleshooting low power generation.
+

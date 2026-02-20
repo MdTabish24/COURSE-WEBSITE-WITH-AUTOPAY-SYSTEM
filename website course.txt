@@ -1,0 +1,93 @@
+Courses details
+
+1. Beauty & Wellness
+•	Beautician / Skin Care Specialist
+•	Hair Dresser & Stylist
+•	Makeup Artist (Bridal & Fashion)
+•	Cosmetology (Advanced)
+•	Nail Art & Extension
+•	Spa & Massage Therapy
+•	Yoga & Fitness Instructor
+•	Diet & Nutrition Consultant
+2. Information Technology (IT) & Software
+•	Web Development (Full Stack)
+•	Prompt engineering
+•	Data Science & Analytics
+•	Cyber Security & Ethical Hacking
+•	Cloud Computing (AWS/Azure)
+•	Software Testing (QA)
+•	Mobile App Development (Android/iOS)
+•	AI & Machine Learning
+3. Healthcare & Paramedical
+•	General Duty Assistant (GDA)
+•	Medical Lab Technician (MLT)
+•	Radiology & X-Ray Technician
+•	Operation Theatre Technician (OTT)
+•	Pharmacy Assistant
+•	Nursing Assistant
+•	Dental Assistant
+•	Emergency Medical Technician (EMT)
+4. Construction & Engineering Skills
+•	Electrician (Industrial & Domestic)
+•	Plumbing & Sanitary Works
+•	Welder (Arc & Gas)
+•	CNC Operator
+•	HVAC (AC & Refrigerator) Technician
+•	Draftsman (AutoCAD)
+•	Civil Construction Supervisor
+•	Solar Panel Installation Technician
+5. Management & Finance
+•	Digital Marketing Specialist
+•	Tally Prime & GST Professional
+•	Business Accounting & Taxation (BAT)
+•	Human Resource (HR) Management
+•	Office Administration
+•	Sales & Relationship Management
+•	Retail Management
+•	Stock Market & Trading
+6. Media & Entertainment
+•	Graphic Designing
+•	Video Editing & Post-Production
+•	2D/3D Animation
+•	Digital Photography
+•	Sound Engineering
+•	VFX & Motion Graphics
+•	Content Writing & Copywriting
+•	UI/UX Design
+7. Hospitality & Tourism
+•	Hotel Management
+•	Culinary Arts (Professional Chef)
+•	Bakery & Confectionery
+•	Front Office Executive
+•	Food & Beverage Service
+•	Travel & Tourism Management
+•	Housekeeping Operations
+•	Event Management
+8. Apparel & Fashion Design
+•	Fashion Designing (Diploma)
+•	Tailoring & Dress Designing
+•	Textile Designing
+•	Embroidery & Needlework
+•	Apparel Merchandising
+•	Jewelry Designing
+•	Boutique Management
+•	Pattern Making & Garment Construction
+9. Electronics & Hardware
+•	Mobile Repairing (Smartphone)
+•	Laptop & Desktop Repairing
+•	CCTV Installation & Maintenance
+•	Home Appliances Repairing
+•	PCB Designing
+•	Networking (CCNA)
+•	UPS & Inverter Repairing
+•	Consumer Electronics Technician
+10. Logistics & Supply Chain
+•	Supply Chain Management
+•	Warehouse Supervisor
+•	Inventory Management
+•	Inventory Clerk
+•	Courier & Delivery Operations
+•	Export & Import Management
+•	E-commerce Operations
+•	Forklift Operator Training
+

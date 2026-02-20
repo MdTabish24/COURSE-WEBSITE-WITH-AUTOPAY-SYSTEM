@@ -1,0 +1,479 @@
+Information Technology (IT) & Software
+
+1) Web Development (Full Stack)
+A complete path from fundamentals (HTML/CSS/JS) to modern front-end frameworks, back-end APIs, databases, authentication, testing, DevOps, and deployment.
+Prerequisites
+•	Basic computer literacy and internet usage
+•	Optional: Prior programming basics
+Tools/Stack
+•	Frontend: HTML5, CSS3, JavaScript (ES6+), TypeScript (optional), React/Vue/Angular
+•	Backend: Node.js, Express (or NestJS)
+•	Databases: PostgreSQL/MySQL, MongoDB
+•	DevOps: Git/GitHub, Docker, CI/CD (GitHub Actions), Nginx
+•	Testing: Jest, React Testing Library, Cypress/Postman
+•	Build: Vite/Webpack, Babel, ESLint/Prettier
+Detailed Modules
+1.	Web Foundations
+o	How the web works (HTTP/HTTPS, DNS, request/response)
+o	HTML5 semantics, forms, accessibility (a11y)
+o	CSS3 fundamentals, Box Model, Flexbox, Grid, responsive design
+o	Developer tools, browser rendering, performance basics
+2.	Modern JavaScript (ES6+)
+o	Variables, scope, closures, this, prototypes
+o	Modules, async/await, promises, fetch API
+o	Data structures, array methods, error handling
+o	TypeScript intro (types, interfaces, generics)
+3.	Front-End Framework (React example)
+o	Components, JSX, props/state, hooks
+o	Routing, context API, state management (Redux/RTK/Zustand)
+o	Forms, validation, controlled vs uncontrolled
+o	Performance optimization, suspense, code splitting
+4.	UI/UX & Styling Systems
+o	Design systems, BEM, CSS Modules, Tailwind/Styled Components
+o	Accessibility best practices (WCAG), ARIA
+o	Theming, dark mode, internationalization basics
+5.	Backend with Node.js & Express
+o	REST API design, controllers, services, routers
+o	Middleware, error handling, rate limiting
+o	Authentication/Authorization (JWT, sessions, OAuth2)
+o	Security: Helmet, CORS, input validation
+6.	Databases & ORM/ODM
+o	SQL design, normalization, indexing, transactions
+o	PostgreSQL & MySQL basics; joins and query optimization
+o	NoSQL with MongoDB, schema design
+o	ORM tools (Prisma/Sequelize/Mongoose)
+7.	Testing & Quality
+o	Unit/integration testing with Jest and Supertest
+o	Frontend tests with React Testing Library, Cypress (E2E)
+o	API testing with Postman/Newman
+o	Linting, formatting, code review practices
+8.	DevOps Essentials
+o	Git workflows (Feature branches, PRs)
+o	CI/CD pipelines (build, test, deploy)
+o	Dockerization, multi-stage builds, docker-compose
+o	Nginx reverse proxy, SSL/TLS basics
+9.	Deployment & Cloud
+o	Deploy to VMs (Ubuntu), PaaS (Render/Heroku), or cloud (AWS/Azure)
+o	Environment variables, secrets management
+o	Monitoring, logging (Winston), error tracking (Sentry)
+o	Basic scalability: horizontal vs vertical scaling, caching (Redis)
+10.	Performance & Advanced Topics
+•	Web performance metrics (LCP, TTI), Lighthouse
+•	Caching strategies (HTTP cache, CDN)
+•	GraphQL basics (optional)
+•	WebSockets/Socket.IO for real-time features
+Labs & Projects
+•	Build a responsive portfolio site
+•	RESTful API with authentication + CRUD + Postman tests
+•	Full-stack project: E-commerce or social app with admin dashboard
+•	CI/CD pipeline + containerized deployment
+Capstone
+•	Production-ready full-stack app (secure auth, payments, role-based access, tests, docs, deployed)
+
+2) Prompt Engineering
+Overview
+Designing, evaluating, and operationalizing prompts for LLMs to achieve reliable, safe, and efficient outputs across tasks (content, coding, data extraction, agents).
+Prerequisites
+•	Basic Python and API usage
+•	Understanding of NLP/LLMs helpful but not required
+Tools
+•	OpenAI/other LLM APIs, LangChain/LlamaIndex (optional)
+•	Python, Jupyter/VS Code
+•	Evaluation: BLEU/ROUGE-style metrics (contextual), human eval sheets
+•	Vector DBs (FAISS/Chroma), basic retrieval
+Detailed Modules
+1.	LLM Fundamentals
+o	How LLMs work conceptually (tokens, context windows)
+o	Zero-shot, few-shot, CoT (chain-of-thought overview), self-consistency
+o	Tokenization, temperature/top-p, system vs user prompts
+2.	Prompt Patterns
+o	Instruction clarity, role prompting, constraints, formats
+o	Decomposition, step-by-step plans, checklists
+o	Examples for classification, extraction, transformation, generation
+3.	Structured Outputs
+o	JSON schemas, robust formatting
+o	Output validation, retry strategies
+o	Guarding against hallucinations (ask for sources, verification steps)
+4.	Retrieval-Augmented Generation (RAG)
+o	Chunking, embeddings, similarity search
+o	Context construction, citations, freshness
+o	Handling long documents and multi-turn memory
+5.	Tool Use and Agents (Intro)
+o	Function calling / tool APIs
+o	Planning & execution loops, stopping criteria
+o	Safety, authorization, rate limits
+6.	Evaluation & Benchmarks
+o	Defining success criteria, test suites
+o	Human-in-the-loop evaluation, rubrics
+o	A/B testing prompts, regression testing
+7.	Safety, Bias, and Governance
+o	Red-teaming prompts, jailbreak resistance
+o	Bias mitigation, tone control, compliance considerations
+o	Content filters and policies integration
+8.	Cost, Latency, and Scaling
+o	Model selection, context budgeting
+o	Prompt compression, caching responses
+o	Observability and logging
+9.	Domain-Specific Prompting
+o	Code generation and debugging
+o	Data extraction and summarization
+o	Creative writing and marketing
+10.	Productionization
+•	Versioning prompts
+•	Canary deployments of new prompts
+•	Documentation and collaboration practices
+Labs & Projects
+•	Build a robust prompt suite for a Q&A chatbot with JSON outputs
+•	Implement a simple RAG pipeline over custom documents
+•	Create an evaluation harness with test cases and scoring
+Capstone
+•	Production-grade prompt system for a chosen domain (e.g., support bot) with evals, safety, and cost controls
+
+3) Data Science & Analytics
+Overview
+From data manipulation and statistics to machine learning, visualization, experimentation, and storytelling for business impact.
+Prerequisites
+•	Python basics
+•	Math: algebra, basic probability/statistics
+Tools
+•	Python: NumPy, Pandas, Matplotlib/Seaborn/Plotly
+•	Scikit-learn, SciPy, Statsmodels
+•	SQL (PostgreSQL/MySQL), Jupyter/VS Code
+•	BI tools: Power BI/Tableau (optional)
+•	Git, MLflow (intro), Spark (intro)
+Detailed Modules
+1.	Data Foundations
+o	Data types, structures, file formats (CSV/JSON/Parquet)
+o	Pandas data wrangling, joins, groupby, time series basics
+o	Missing data, outliers, scaling, feature encoding
+2.	Exploratory Data Analysis (EDA)
+o	Descriptive stats, distributions
+o	Visualization best practices
+o	Correlations, confounding, Simpson’s paradox
+3.	Probability & Statistics
+o	Random variables, sampling, CLT
+o	Hypothesis testing, p-values, confidence intervals
+o	A/B testing design and analysis, power analysis
+4.	Machine Learning Fundamentals
+o	Train/validation/test splits, cross-validation
+o	Regression (linear, regularized), classification (logistic, tree-based)
+o	Metrics (RMSE, MAE, AUC, F1, PR curves)
+5.	Feature Engineering
+o	Categorical encoding, target encoding, text features, time features
+o	Feature selection, leakage prevention
+o	Pipelines and preprocessing
+6.	Tree-Based Models & Ensembles
+o	Decision Trees, Random Forests
+o	Gradient Boosting (XGBoost/LightGBM/CatBoost)
+o	Tuning, SHAP/feature importance
+7.	Unsupervised Learning
+o	Clustering (KMeans, DBSCAN), dimensionality reduction (PCA, t-SNE, UMAP)
+o	Anomaly detection
+o	Customer segmentation
+8.	Time Series
+o	Stationarity, ARIMA/SARIMA
+o	Prophet basics
+o	Forecast evaluation and seasonality
+9.	SQL & Data Warehousing
+o	Advanced SQL joins, window functions, CTEs
+o	Data modeling (star/snowflake)
+o	ETL/ELT basics, intro to Spark
+10.	Communication & BI
+•	Dashboarding in Power BI/Tableau
+•	Data storytelling, executive summaries
+•	Experiment results presentation
+11.	MLOps (Intro)
+•	Model tracking (MLflow), reproducibility
+•	Basics of deployment options
+•	Monitoring drift and model performance
+Labs & Projects
+•	EDA and modeling on public datasets (Kaggle-style)
+•	A/B test analysis with recommendations
+•	Build a dashboard for stakeholder insights
+Capstone
+•	End-to-end ML solution: data ingestion, EDA, model, evaluation, dashboard, business recommendation
+
+
+
+4) Cyber Security & Ethical Hacking
+Note: This course emphasizes legal, ethical, and authorized testing only. All offensive techniques are taught strictly for defense and within isolated lab environments.
+Prerequisites
+•	Networking basics (TCP/IP), Linux command line
+•	Basic scripting (Python/Bash) helpful
+Tools
+•	Kali Linux/Parrot OS in VM, Wireshark, Nmap
+•	Burp Suite Community, OWASP ZAP
+•	Metasploit (lab-only), Hashcat/John (lab-only)
+•	SIEM basics (Splunk/ELK), OSINT tools (theHarvester)
+•	OWASP Top 10 resources
+Detailed Modules
+1.	Security Fundamentals
+o	CIA triad, risk, threat modeling, attack surfaces
+o	Legal frameworks, scope of work, rules of engagement, reporting
+2.	Networking & System Security
+o	TCP/IP, routing, DNS, DHCP
+o	Linux/Windows hardening, firewall basics
+o	Logging and monitoring principles
+3.	Reconnaissance & Enumeration (Defensive Perspective)
+o	OSINT methods, metadata analysis
+o	Network scanning (Nmap), service enumeration (legal lab use only)
+o	Interpreting findings and mitigations
+4.	Web Application Security (OWASP Top 10)
+o	Injection, XSS, broken auth, sensitive data exposure
+o	Insecure design, SSRF, deserialization
+o	Secure coding practices, secure headers
+5.	Vulnerability Assessment
+o	Automated scanning vs manual verification
+o	False positives, prioritization (CVSS)
+o	Patch management and remediation plans
+6.	Exploitation Basics (Lab-Only)
+o	Safe exploitation scenarios in controlled labs
+o	Metasploit concepts, payloads (for understanding, not real-world use)
+o	Defense strategies post-discovery
+7.	Wireless & Network Attacks (Lab-Only)
+o	Wi-Fi security (WPA2/WPA3)
+o	Sniffing, MITM concepts in lab environment
+o	Network segmentation and defense
+8.	Cryptography & PKI
+o	Symmetric/asymmetric crypto, hashing, TLS/SSL
+o	Key management, certificates, HSM basics
+9.	Incident Response & Forensics
+o	Incident lifecycle, triage, containment, eradication, recovery
+o	Disk/memory forensics basics, chain of custody
+o	Reporting and communication
+10.	Security Operations & Governance
+•	SIEM use cases, detections
+•	Security policies, awareness training
+•	Compliance (ISO 27001, SOC 2, PCI-DSS basics)
+Labs & Projects
+•	Web app vulnerability assessment in DVWA/Juice Shop (lab)
+•	Network scan and secure configuration plan
+•	Incident response tabletop exercise with report
+Capstone
+•	Full penetration test simulation in a lab with executive report and remediation roadmap
+
+5) Cloud Computing (AWS/Azure)
+Overview
+Core services, architecture, security, automation, containers/serverless, cost optimization, and deployment patterns across AWS and Azure.
+Prerequisites
+•	Basic networking and Linux
+•	Familiarity with programming (Python/JS) helpful
+Tools
+•	AWS: IAM, EC2, S3, RDS, VPC, Lambda, API Gateway, CloudWatch, ECS/EKS, CloudFormation
+•	Azure: Azure AD, VMs, Blob Storage, Azure SQL, VNets, Functions, API Management, Monitor, AKS, Bicep
+•	Terraform, Docker, GitHub Actions/Azure DevOps
+Detailed Modules
+1.	Cloud Fundamentals
+o	Shared responsibility model
+o	Global infrastructure (regions, AZs)
+o	Identity, accounts, subscriptions, resource groups
+2.	Networking
+o	VPC/VNet, subnets, route tables, gateways
+o	Load balancers, DNS (Route 53/Azure DNS)
+o	Private endpoints, peering
+3.	Compute & Storage
+o	EC2/VMs, autoscaling
+o	S3/Blob storage tiers, lifecycle policies
+o	Filesystems (EFS/FSx/Azure Files), object vs block vs file
+4.	Databases & Messaging
+o	RDS/Azure SQL, DynamoDB/Cosmos DB
+o	Caching (ElastiCache/Redis), queues (SQS/Service Bus), pub-sub (SNS/Event Grid)
+5.	Serverless
+o	Lambda/Azure Functions patterns
+o	Event-driven architectures
+o	API Gateway/API Management integrations
+6.	Containers
+o	Docker fundamentals
+o	ECS/EKS or AKS fundamentals
+o	Registry (ECR/ACR), deployments, blue-green/canary
+7.	Security & IAM
+o	IAM/Azure AD roles, policies, least privilege
+o	KMS/Key Vault, secrets management
+o	Security posture (Security Hub/Defender), WAF, Shield
+8.	Observability
+o	CloudWatch/CloudTrail vs Azure Monitor/Log Analytics
+o	Metrics, logging, tracing
+o	Alerting and incident workflows
+9.	IaC & CI/CD
+o	Terraform modules and state
+o	CloudFormation/Bicep basics
+o	CI/CD pipelines, environment promotion
+10.	Cost Management & Architecture
+•	Budgets, tagging, rightsizing, reserved/savings plans
+•	Well-Architected Framework
+•	Multi-account/subscription strategies
+Labs & Projects
+•	Deploy a 3-tier web app with load balancer and database
+•	Serverless microservice with event triggers
+•	Terraform-managed infrastructure with CI/CD
+Capstone
+•	Production-grade architecture on AWS or Azure with security, observability, and cost controls
+
+6) Software Testing (QA)
+Overview
+End-to-end testing practices: requirements analysis, test design, manual and automation testing, API/testing tools, CI/CD integration, and quality metrics.
+Prerequisites
+•	Software development lifecycle basics
+Tools
+•	Test management: Jira/Xray, TestRail
+•	Automation: Selenium or Playwright, Cypress
+•	API: Postman/Newman, Rest Assured
+•	Performance: JMeter, k6
+•	CI/CD: GitHub Actions/Jenkins
+•	Reporting: Allure/Extent
+Detailed Modules
+1.	Testing Foundations
+o	SDLC/STLC, testing levels (unit, integration, system, UAT)
+o	Test types (functional, non-functional), risk-based testing
+o	Test strategy, plan, and test cases
+2.	Test Design Techniques
+o	Equivalence partitioning, boundary value, decision tables
+o	State transition, pairwise testing
+o	Traceability matrices
+3.	Manual Testing
+o	Exploratory testing, session-based testing
+o	Defect lifecycle, prioritization/severity
+o	Usability/accessibility checks
+4.	Web & UI Automation
+o	Selenium/WebDriver or Playwright architecture
+o	Locators, waits, page object model
+o	Cross-browser and visual testing
+5.	API Testing
+o	REST basics, HTTP methods, status codes
+o	Postman collections, scripts
+o	Automation with Rest Assured/Cypress
+6.	Performance & Security (Intro)
+o	Load/stress/soak testing with JMeter/k6
+o	Basic security testing concepts and OWASP awareness
+7.	Mobile Testing
+o	Appium setup, locators, device farms
+o	Testing on Android/iOS emulators and real devices
+8.	CI/CD & TestOps
+o	Pipeline integration, test environments
+o	Test data management, mocking/stubs
+o	Metrics and dashboards
+9.	BDD & Collaboration
+o	Gherkin, Cucumber/SpecFlow
+o	Living documentation, stakeholder collaboration
+10.	Advanced Topics
+•	Flaky tests mitigation, retries
+•	Contract testing (PACT intro)
+•	Accessibility testing tools (axe)
+Labs & Projects
+•	Write test plans and cases for a sample app
+•	Build an automated UI + API test suite in CI/CD
+•	Performance test with reports and recommendations
+Capstone
+•	End-to-end automated regression suite with coverage report and CI pipeline
+
+7) Mobile App Development (Android/iOS)
+Overview
+Native Android (Kotlin) and iOS (Swift) fundamentals with modern architectures, APIs, storage, testing, and deployment. Optional cross-platform track.
+Prerequisites
+•	Programming basics; OOP concepts
+Tools
+•	Android Studio, Kotlin, Jetpack libraries
+•	Xcode, Swift, SwiftUI/UIKit, Combine
+•	REST/GraphQL APIs, Firebase, SQLite/Room/Core Data
+•	Testing: JUnit/Espresso/XCTest
+•	Optional: Flutter or React Native
+Detailed Modules
+1.	Mobile Foundations
+o	App lifecycle, UI/UX guidelines (Material Design/HIG)
+o	Navigation paradigms, responsive/adaptive layouts
+o	Accessibility, localization
+2.	Android (Kotlin)
+o	Activities/Fragments, Views/Jetpack Compose
+o	Architecture: MVVM, ViewModel, LiveData/Flow
+o	Networking (Retrofit/OkHttp), JSON parsing, coroutines
+o	Local storage (Room), WorkManager, notifications
+o	Permissions, sensors, camera, maps
+3.	iOS (Swift)
+o	Swift language essentials
+o	UIKit vs SwiftUI views, navigation stacks
+o	Networking (URLSession, Codable), async/await
+o	Core Data, UserDefaults, Keychain
+o	Background tasks, push notifications
+4.	Common Concerns
+o	API design and error handling
+o	Offline-first, sync strategies
+o	App security: secure storage, SSL pinning basics
+o	Performance profiling, memory leaks
+5.	Testing & CI/CD
+o	Unit, UI tests (Espresso/XCTest), snapshot tests
+o	Fastlane/GitHub Actions CI
+o	Beta distribution (Firebase/App Center/TestFlight)
+6.	Publishing & Maintenance
+o	App Store/Play Store guidelines
+o	Versioning, release notes, crash analytics
+o	Monitoring (Crashlytics), feature flags, analytics
+7.	Optional Cross-Platform
+o	Flutter (Dart, widgets, state mgmt: Provider/Bloc/Riverpod)
+o	React Native (JS/TS, navigation, native bridges)
+Labs & Projects
+•	Build a news/weather app with caching and dark mode
+•	Feature-rich app: authentication, payments, maps, push notifications
+•	Implement CI for automated builds and tests
+Capstone
+•	Production-ready app (Android or iOS) with polished UI, analytics, and store-ready package
+
+8) AI & Machine Learning
+Overview
+A comprehensive path from math and classical ML to deep learning, NLP/CV, modern architectures (Transformers), MLOps, and deployment.
+Prerequisites
+•	Python proficiency
+•	Math: linear algebra, calculus basics, probability/statistics
+Tools
+•	NumPy, Pandas, Scikit-learn
+•	PyTorch or TensorFlow/Keras
+•	Matplotlib/Seaborn
+•	MLflow, ONNX, FastAPI/Flask
+•	GPUs (Colab), Docker
+Detailed Modules
+1.	Math for ML (Practical)
+o	Vectors/matrices, eigenvalues, norms
+o	Derivatives, gradients, optimization intuition
+o	Probabilities, distributions, Bayes theorem
+2.	Classical ML
+o	Regression/classification, SVM, kNN, Naive Bayes
+o	Trees/ensembles (RF, GBMs)
+o	Model selection, cross-validation, metrics
+3.	Neural Networks & Training
+o	Perceptron, MLPs, activation functions
+o	Loss functions, backprop, optimizers (SGD, Adam)
+o	Regularization, dropout, batch norm, early stopping
+4.	Computer Vision
+o	CNNs, architectures (VGG/ResNet)
+o	Data augmentation, transfer learning
+o	Object detection/segmentation (intro to YOLO/Mask R-CNN concepts)
+5.	Natural Language Processing
+o	Text preprocessing, embeddings (Word2Vec, GloVe)
+o	RNN/LSTM/GRU vs Transformers
+o	Fine-tuning pre-trained LMs for classification/Q&A/summarization
+6.	Transformers & Foundation Models
+o	Attention mechanism, encoder/decoder
+o	BERT/GPT-style models, fine-tuning vs prompting
+o	Efficient training (LoRA, PEFT), tokenization strategies
+7.	Recommender Systems
+o	Collaborative filtering, content-based
+o	Implicit feedback, evaluation metrics
+o	Production considerations
+8.	Model Deployment
+o	Serving with FastAPI, batch vs real-time inference
+o	Containerization, scaling, GPU serving basics
+o	Optimization: quantization, ONNX, Triton (intro)
+9.	MLOps
+o	Experiment tracking (MLflow), model registry
+o	Data/version control (DVC), pipelines
+o	Monitoring drift, retraining, CI/CD for ML
+10.	Ethics, Safety, and Responsible AI
+•	Bias/fairness metrics, privacy
+•	Explainability (SHAP/LIME)
+•	Governance and documentation
+Labs & Projects
+•	Build and tune ML models on real datasets
+•	Fine-tune a Transformer for text classification or summarization
+•	Deploy a model with an API and monitor performance
+Capstone
+•	End-to-end AI solution: data processing → model → deployment → monitoring with a report on ethics and performance
+

@@ -1,0 +1,812 @@
+Electronics & Hardware
+
+1. Mobile Repairing (Smartphone)
+Objective: Master smartphone hardware diagnosis, repair, and maintenance for iOS and Android devices. Duration: 4-6 Months (Certificate Program) Prerequisites: Basic knowledge of electronics; interest in mobile devices Career Pathways: Mobile Repair Technician, Service Center Manager, Mobile Shop Owner, Field Service Engineer
+Module 1: Mobile Phone Fundamentals (Weeks 1-4)
+•	Mobile phone anatomy: Display, processor, memory, battery
+•	Types of displays: LCD, AMOLED, OLED, TFT
+•	Processor types and generations
+•	Battery technology: Li-ion, Li-Po, solid-state
+•	Power management systems
+•	Practical:
+o	Disassemble and reassemble smartphones (3 different models)
+o	Display type identification
+o	Component recognition exercises
+o	Battery testing and handling
+Module 2: Electronic Components & Circuits (Weeks 5-8)
+•	Basic electronic components: Resistors, capacitors, transistors, diodes
+•	IC (Integrated Circuits) identification
+•	Power distribution circuits
+•	Charging circuits
+•	Audio circuits
+•	Practical:
+o	Component identification tests
+o	Circuit diagram reading
+o	Multimeter usage for component testing
+o	Soldering practice on PCB samples
+Module 3: Display & Touch Screen Repair (Weeks 9-12)
+•	Display types and working principles
+•	Touch screen technology: Capacitive, resistive
+•	Display connector types
+•	LCD backlight issues
+•	Touch sensitivity problems
+•	Practical:
+o	Replace LCD/AMOLED displays (5+ devices)
+o	Digitizer repair and replacement
+o	Test display functionality
+o	Address display issues
+Module 4: Battery & Charging System Repair (Weeks 13-16)
+•	Battery identification and safety
+•	Charging port types (Micro USB, USB-C, Lightning)
+•	Power management circuits
+•	Slow charging diagnosis
+•	Battery replacement procedures
+•	Practical:
+o	Battery replacement (10+ devices)
+o	Charging port repair/replacement
+o	Test charging functionality
+o	Power bank troubleshooting
+Module 5: Motherboard Level Repair (Weeks 17-22)
+•	Motherboard components and layout
+•	CPU and GPU basics
+•	RAM (memory) issues and diagnostics
+•	Storage problems
+•	Power supply troubleshooting
+•	Practical:
+o	Microsoldering basics (beginner level)
+o	Component-level diagnostics
+o	Motherboard cleaning and maintenance
+o	Data recovery basics
+Module 6: Software Issues & Diagnostics (Weeks 23-26)
+•	iOS and Android operating systems basics
+•	Common software issues: Bootloops, freezing, crashes
+•	Factory reset and flashing procedures
+•	Firmware updates
+•	Diagnostic tools: JTAG, EEPROM, Pentest
+•	Practical:
+o	Perform factory resets
+o	Flash ROM on test devices
+o	Diagnostic software operation
+o	Troubleshoot software issues
+Module 7: Water Damage & Environmental Issues (Weeks 27-30)
+•	Water damage assessment
+•	Moisture detection techniques
+•	Cleaning and drying procedures
+•	Component replacement after water damage
+•	Liquid corrosion repair
+•	Practical:
+o	Water damage recovery procedures
+o	Ultrasonic cleaning operation
+o	Document damage assessment process
+o	Create repair reports
+Module 8: Business Operations (Weeks 31-32)
+•	Mobile repair shop setup
+•	Pricing structures and quotation
+•	Customer communication
+•	Parts sourcing and inventory
+•	Business registration and licensing
+•	Practical:
+o	Create service menu and pricing
+o	Develop customer database system
+o	Prepare repair quotes
+o	Business plan development
+Tools & Equipment Required:
+•	Smartphone disassembly tools (screwdrivers, pry tools, heat gun)
+•	Multimeter (digital)
+•	Soldering iron and station
+•	Magnifying lamp
+•	Anti-static wrist strap
+•	Test devices (various smartphone models)
+•	Replacement parts (displays, batteries, charging ports)
+•	Diagnostic software and tools
+•	Ultrasonic cleaner
+Assessment:
+•	Practical repair tests (70%)
+•	Theory exams (20%)
+•	Business proposal (10%)
+On-job Training: 1-2 months in mobile service center
+Certification: Certificate in Mobile Repairing
+
+2. Laptop & Desktop Repairing
+Objective: Develop expertise in diagnosing, repairing, and maintaining laptops and desktop computers. Duration: 6 Months (Diploma Program) Prerequisites: Basic computer knowledge; familiarity with hardware components Career Pathways: Computer Repair Technician, IT Support Specialist, Service Center Manager, Field Service Engineer
+Module 1: Computer Hardware Fundamentals (Weeks 1-5)
+•	CPU (Processor) types and generations: Intel, AMD
+•	Motherboard components and chipsets
+•	RAM types: DDR3, DDR4, DDR5
+•	Storage devices: HDD, SSD, NVMe
+•	Graphics cards: Integrated vs. Discrete GPU
+•	Power supply units (PSU)
+•	Practical:
+o	Component identification exercises
+o	Motherboard layout study
+o	CPU and RAM installation/removal
+o	Storage device replacement
+Module 2: Desktop Assembly & Upgrade (Weeks 6-10)
+•	Desktop PC building procedures
+•	BIOS/UEFI settings
+•	Hardware compatibility checking
+•	Performance benchmarking
+•	Thermal management
+•	Cable management
+•	Practical:
+o	Build 3 complete desktop systems
+o	Perform hardware upgrades (CPU, RAM, storage)
+o	BIOS configuration
+o	Temperature monitoring
+o	Performance testing using tools (CPU-Z, GPU-Z)
+Module 3: Laptop Repair Fundamentals (Weeks 11-16)
+•	Laptop anatomy and disassembly
+•	Major laptop brands: Dell, HP, Lenovo, ASUS, Apple
+•	Thermal paste replacement
+•	Fan and cooling system maintenance
+•	Keyboard and touchpad repair
+•	Battery replacement
+•	Practical:
+o	Disassemble and reassemble 5 different laptop models
+o	Replace thermal paste
+o	Clean cooling systems
+o	Keyboard and touchpad replacement
+o	Battery testing and replacement
+Module 4: Display & Video Issues (Weeks 17-20)
+•	Laptop display types: LCD, LED, IPS
+•	Display connector types
+•	External and internal display connections
+•	Video card issues: Integrated vs. Discrete
+•	Display driver problems
+•	Practical:
+o	Replace laptop displays (5+ devices)
+o	Troubleshoot display issues
+o	Video driver installation and updates
+o	Test external monitor connections
+o	Address blank screen issues
+Module 5: Motherboard & Component-Level Repair (Weeks 21-26)
+•	Motherboard architecture
+•	Power distribution circuits
+•	Charging circuit troubleshooting
+•	RAM slot problems
+•	Storage controller issues
+•	Basic soldering techniques
+•	Practical:
+o	Diagnose motherboard issues
+o	Component testing with multimeter
+o	Soldering practice exercises
+o	Data recovery from damaged drives
+o	Test point diagnostics
+Module 6: Networking & Connectivity (Weeks 27-30)
+•	Network interface cards (NIC): Ethernet, WiFi
+•	WiFi issues: Drivers, modules, antennas
+•	Ethernet port problems
+•	Bluetooth troubleshooting
+•	Modem and router basics
+•	Practical:
+o	Test and replace network modules
+o	WiFi driver installation
+o	Connectivity troubleshooting
+o	Network diagnostics using tools (ipconfig, ping, netstat)
+Module 7: Operating System & Software (Weeks 31-34)
+•	Windows installation and configuration
+•	Linux basics: Ubuntu, Fedora
+•	macOS (for Apple devices)
+•	Driver installation and updates
+•	System optimization techniques
+•	Antivirus and malware removal
+•	Practical:
+o	Windows installation on multiple devices
+o	Linux installation practice
+o	Driver management
+o	System cleanup and optimization
+o	Malware removal scenarios
+Module 8: Troubleshooting & Diagnostics (Weeks 35-40)
+•	Boot problems: No POST, bootloops
+•	Freezing and crashing issues
+•	Blue Screen of Death (BSOD) diagnosis
+•	Diagnostic tools: POST cards, software diagnostics
+•	Testing procedures and documentation
+•	Practical:
+o	Troubleshoot 10+ common issues
+o	Use diagnostic software
+o	Create troubleshooting flowcharts
+o	Document repair procedures
+Tools & Equipment Required:
+•	Laptop and desktop disassembly tools
+•	Thermal paste and application tools
+•	Compressed air canister
+•	Multimeter (digital)
+•	Power supply tester
+•	Hard drive testing tools
+•	Diagnostic software (CPU-Z, GPU-Z, MemTest86)
+•	Test PCs and laptops (various models)
+•	Replacement parts (displays, keyboards, cooling fans, batteries)
+•	Soldering station (basic level)
+Assessment:
+•	Practical repair tests (60%)
+•	Theory exams (25%)
+•	Project work (15%)
+Internship: 2-3 months in computer service center
+Certification: Diploma in Laptop & Desktop Repairing
+
+3. CCTV Installation & Maintenance
+Objective: Master CCTV system installation, configuration, monitoring, and maintenance for security applications. Duration: 5 Months (Certificate Program) Prerequisites: Basic knowledge of electronics and networking Career Pathways: CCTV Technician, Security System Installer, CCTV Operator, Security Consultant
+Module 1: Security Systems Overview (Weeks 1-3)
+•	Types of security systems: CCTV, access control, alarms
+•	CCTV system components: Cameras, DVR/NVR, displays, cables
+•	Analog vs. IP cameras
+•	Security standards and regulations
+•	Practical:
+o	System component identification
+o	Site survey and planning exercise
+o	Design simple CCTV layout
+Module 2: Camera Types & Specifications (Weeks 4-7)
+•	Analog Cameras: CCTV types (Bullet, Dome, PTZ)
+•	IP Cameras: Megapixel, sensor types
+•	Lens types and focal lengths
+•	Resolution and image quality
+•	Night vision: Infrared, thermal
+•	Camera specifications and comparison
+•	Practical:
+o	Install 5 different camera types
+o	Lens selection exercises
+o	Focus and zoom adjustments
+o	Test camera functionality
+o	Compare image quality
+Module 3: DVR/NVR Systems (Weeks 8-12)
+•	DVR (Digital Video Recorder) basics
+•	NVR (Network Video Recorder) systems
+•	Hard drive selection and installation
+•	Recording modes: Continuous, motion-triggered
+•	Video compression: H.264, H.265
+•	Backup and archival procedures
+•	Practical:
+o	DVR/NVR setup and configuration
+o	Hard drive installation
+o	Recording settings configuration
+o	Playback and search procedures
+o	Backup and recovery processes
+Module 4: Installation & Cabling (Weeks 13-17)
+•	Cable types: Coax, twisted pair, fiber optic
+•	Cable installation best practices
+•	Connector types: BNC, RJ45, fiber connectors
+•	Grounding and surge protection
+•	Power distribution and backup power
+•	Practical:
+o	Cable routing exercises
+o	Connector crimping and installation
+o	Complete system cabling
+o	Grounding and surge protection setup
+o	Continuity testing
+Module 5: Networking & Remote Access (Weeks 18-22)
+•	Network basics: IP, subnet, gateway
+•	PoE (Power over Ethernet) concepts
+•	WiFi camera setup
+•	Cloud storage and remote viewing
+•	Mobile app access
+•	Network security basics
+•	Practical:
+o	Network configuration for CCTV
+o	PoE camera installation
+o	Remote access setup
+o	Mobile app configuration
+o	Security protocols implementation
+Module 6: Maintenance & Troubleshooting (Weeks 23-26)
+•	Preventive maintenance schedules
+•	Cleaning and lens maintenance
+•	Cable and connector inspection
+•	Power supply troubleshooting
+•	Network connectivity issues
+•	Camera feed quality problems
+•	Practical:
+o	Maintenance procedures documentation
+o	Troubleshoot common issues
+o	Cable and connector repair
+o	Performance optimization
+Module 7: Advanced Features (Weeks 27-30)
+•	Motion detection and alerts
+•	Intelligent video analytics
+•	Face recognition basics
+•	ANPR (Automatic Number Plate Recognition)
+•	PTZ (Pan-Tilt-Zoom) camera control
+•	Video streaming protocols
+•	Practical:
+o	Configure motion detection
+o	Set up alerts
+o	Test analytics features
+o	PTZ camera operation
+Tools & Equipment Required:
+•	Screwdrivers and hand tools
+•	Multimeter (digital)
+•	Crimping tools for cables
+•	Cable tester
+•	Network analyzer
+•	Power supply for testing
+•	Ladder and scaffolding
+•	CCTV test monitor
+•	Various camera types (analog and IP)
+•	DVR/NVR equipment
+•	Cables and connectors
+Assessment:
+•	Practical installation test (60%)
+•	Theory exams (25%)
+•	Troubleshooting exercises (15%)
+On-job Training: 1-2 months in security installation company
+Certification: Certificate in CCTV Installation & Maintenance
+
+4. Home Appliances Repairing
+Objective: Develop skills to repair and maintain home appliances like refrigerators, washing machines, microwave ovens, and air conditioners. Duration: 6 Months (Certificate Program) Prerequisites: Basic electrical knowledge; interest in mechanical systems Career Pathways: Appliance Repair Technician, Service Engineer, Home Appliance Shop Owner
+Module 1: Home Appliances Overview (Weeks 1-4)
+•	Types of home appliances: Cooking, cooling, laundry, cleaning
+•	Basic appliance anatomy
+•	Electrical and mechanical components
+•	Safety considerations and precautions
+•	Tools and equipment usage
+•	Practical:
+o	Appliance disassembly and reassembly
+o	Component identification
+o	Safety procedures practice
+Module 2: Refrigerator & Air Conditioner (Weeks 5-12)
+•	Refrigeration Cycle: Compressor, condenser, evaporator, expansion device
+•	Coolant types (CFC, HFC, HFO)
+•	Troubleshooting: No cooling, ice formation, noise
+•	Compressor and motor issues
+•	Thermostat and temperature control
+•	AC installation and commissioning
+•	Practical:
+o	Refrigerant leak detection and repair
+o	Compressor replacement
+o	Evaporator coil cleaning
+o	AC gas charging and recovery
+o	Temperature control testing
+Module 3: Washing Machine & Dryer (Weeks 13-18)
+•	Washing machine types: Top-load, front-load, semi-automatic
+•	Motor and transmission systems
+•	Drum/tub assembly
+•	Pump systems
+•	Timer and control mechanisms
+•	Dryer heating elements
+•	Practical:
+o	Motor replacement and repair
+o	Bearing and seal replacement
+o	Pump troubleshooting
+o	Belt replacement
+o	Control mechanism testing
+Module 4: Cooking Appliances (Weeks 19-24)
+•	Electric stove and oven
+•	Microwave oven components
+•	Heating elements
+•	Thermostat and temperature control
+•	Magnetron (in microwave)
+•	Gas stove safety considerations
+•	Practical:
+o	Heating element replacement
+o	Thermostat testing and repair
+o	Microwave safety procedures
+o	Oven door repair
+o	Temperature control calibration
+Module 5: Water Heaters & Geysers (Weeks 25-28)
+•	Electric water heater elements
+•	Gas water heater components
+•	Thermostat mechanisms
+•	Pressure relief valves
+•	Corrosion and scaling issues
+•	Leakage troubleshooting
+•	Practical:
+o	Heating element replacement
+o	Thermostat repair
+o	Pressure valve testing
+o	Flushing and descaling
+o	Insulation maintenance
+Module 6: Electrical & Control Systems (Weeks 29-32)
+•	Power supply circuits
+•	Control boards and PCBs
+•	Relay and contactor operation
+•	Sensors and switches
+•	Wiring and connections
+•	Practical:
+o	Multimeter testing
+o	Component diagnosis
+o	Relay and contactor replacement
+o	Sensor testing
+o	Wiring repair
+Tools & Equipment Required:
+•	Screwdrivers, wrenches, pliers
+•	Multimeter (digital)
+•	Refrigerant recovery machine
+•	Pressure gauge (for AC)
+•	Vacuum pump
+•	Thermometer
+•	Electrical tester
+•	Insulation tester
+•	Various replacement parts
+•	Safety equipment (goggles, gloves)
+Assessment:
+•	Practical repair demonstrations (70%)
+•	Theory exams (20%)
+•	Safety procedures evaluation (10%)
+On-job Training: 1-2 months with appliance service center
+Certification: Certificate in Home Appliances Repairing
+
+5. PCB Designing
+Objective: Master PCB design principles, schematic creation, layout design, and manufacturing for electronic circuits. Duration: 8 Months (Diploma Program) Prerequisites: Strong knowledge of electronics; circuit theory; basic computer skills Career Pathways: PCB Designer, Electronics Design Engineer, PCB Layout Specialist, Product Designer
+Module 1: Electronics Fundamentals Review (Weeks 1-4)
+•	Passive components: Resistors, capacitors, inductors
+•	Active components: Diodes, transistors, ICs
+•	Power supplies and regulation
+•	Signal conditioning
+•	Component selection and datasheets
+•	Practical:
+o	Component identification and specifications
+o	Datasheet reading exercises
+o	Component footprint selection
+Module 2: Schematic Design (Weeks 5-10)
+•	Schematic symbols and standards (IEC, IEEE)
+•	Circuit design principles
+•	Power distribution design
+•	Signal integrity considerations
+•	Protection circuits: ESD, overvoltage, overcurrent
+•	Schematic capture tools: KiCAD, EagleCAD
+•	Practical:
+o	Create 10 circuit schematics
+o	Design power supply circuit
+o	Protection circuit design
+o	Hierarchical schematic design
+o	Generate Bill of Materials (BOM)
+Module 3: PCB Design Fundamentals (Weeks 11-16)
+•	PCB materials and layer types: FR4, polyimide
+•	Single-sided, double-sided, multilayer boards
+•	Via types: Through-hole, blind, buried
+•	Trace width and spacing
+•	Impedance control basics
+•	EMI/EMC considerations
+•	Practical:
+o	Understand PCB stackup design
+o	Via placement exercises
+o	Trace routing practice
+o	Impedance calculations
+Module 4: PCB Layout Design (Weeks 17-26)
+•	Component placement strategies
+•	Power distribution and grounding
+•	Signal layer organization
+•	Thermal management
+•	Layer stackup planning
+•	Design rule checks (DRC)
+•	Practical:
+o	Design 5 complete PCBs (simple to complex)
+o	Component placement optimization
+o	Power plane and ground plane design
+o	Thermal via placement
+o	Signal integrity verification
+o	Design rule checking
+Module 5: High-Speed & Mixed-Signal Design (Weeks 27-32)
+•	High-speed signal integrity
+•	Impedance matching
+•	Differential pair routing
+•	Crosstalk management
+•	Length matching
+•	Ground and power distribution for high-speed
+•	Mixed-signal board design (analog + digital)
+•	Practical:
+o	High-speed trace routing
+o	Differential pair design
+o	Ground plane analysis
+o	Signal integrity simulations
+Module 6: Manufacturing Considerations (Weeks 33-36)
+•	Design for Manufacturing (DFM)
+•	Panelization and array design
+•	Solder paste stencil design
+•	Assembly drawings
+•	Testing and probing points
+•	Manufacturing documentation
+•	Practical:
+o	DFM review checklist
+o	Create manufacturing files
+o	Panelization exercise
+o	Assembly drawing creation
+o	Prepare Gerber files
+Module 7: Design Tools & Workflow (Weeks 37-40)
+•	PCB design software: KiCAD, EagleCAD, Altium Designer
+•	Simulation tools: SPICE, signal integrity
+•	Component libraries and footprints
+•	Design version control
+•	Practical:
+o	Advanced tool training
+o	Library creation
+o	Simulation exercises
+o	Workflow optimization
+Tools & Equipment Required:
+•	PCB design software (KiCAD free; EagleCAD; Altium trial)
+•	Simulation software (LTspice, QUCS)
+•	Component library resources
+•	Computers with sufficient processing power
+•	Sample PCBs for reference
+•	Manufacturing specification documents
+Assessment:
+•	PCB design projects (50%)
+•	Schematic design accuracy (20%)
+•	Theory exams (20%)
+•	Manufacturing documentation (10%)
+Internship: 2-3 months with electronics design company
+Certification: Diploma in PCB Designing
+
+6. Networking (CCNA)
+Objective: Master Cisco networking fundamentals, routing, switching, and network troubleshooting for CCNA certification. Duration: 6 Months (Diploma Program) Prerequisites: Basic computer knowledge; familiarity with IP addressing Career Pathways: Network Administrator, Network Technician, Cisco Certified Associate (CCNA), Network Support Engineer
+Module 1: Networking Fundamentals (Weeks 1-4)
+•	OSI model: Seven layers
+•	TCP/IP model
+•	IP addressing: IPv4, IPv6, subnetting
+•	DHCP and DNS
+•	MAC addressing
+•	Practical:
+o	Subnet calculation exercises
+o	IP address planning
+o	Network design for organizations
+o	DHCP and DNS configuration
+Module 2: Network Devices (Weeks 5-8)
+•	Switches: Layer 2 operations
+•	Routers: Layer 3 operations
+•	Firewalls and security appliances
+•	Network interface cards (NICs)
+•	Wireless access points
+•	Practical:
+o	Switch configuration (Cisco, TP-Link)
+o	VLAN creation and management
+o	Basic router setup
+o	Device connectivity testing
+Module 3: Switching & VLANs (Weeks 9-14)
+•	Spanning Tree Protocol (STP)
+•	VLANs: VLAN trunking
+•	Port security
+•	EtherChannel
+•	Switch security
+•	Practical:
+o	Configure multiple switches
+o	VLAN trunking setup
+o	Port security implementation
+o	EtherChannel configuration
+o	Lab: Multi-switch network
+Module 4: Routing Fundamentals (Weeks 15-20)
+•	Static routing
+•	Dynamic routing protocols: RIP, OSPF, EIGRP
+•	Default routes
+•	Route summarization
+•	Routing troubleshooting
+•	Practical:
+o	Configure static routes
+o	OSPF network design
+o	EIGRP configuration
+o	Routing protocol comparison
+o	Multi-router topology lab
+Module 5: Access Control Lists & Security (Weeks 21-26)
+•	Standard and extended ACLs
+•	ACL application to interfaces
+•	NAT (Network Address Translation)
+•	Port forwarding
+•	Firewall basics
+•	VPN concepts
+•	Practical:
+o	Create standard and extended ACLs
+o	NAT configuration
+o	Port forwarding setup
+o	Access control scenarios
+o	VPN tunnel creation
+Module 6: Network Services (Weeks 27-32)
+•	DHCP configuration
+•	DNS setup and troubleshooting
+•	NTP (Network Time Protocol)
+•	SNMP for network management
+•	Syslog
+•	Practical:
+o	DHCP server setup
+o	DNS zone configuration
+o	SNMP monitoring setup
+o	Syslog implementation
+o	Network management lab
+Module 7: Wireless Networking (Weeks 33-36)
+•	WiFi standards: 802.11a/b/g/n/ac/ax
+•	Wireless security: WPA2, WPA3
+•	Access point configuration
+•	Site survey and planning
+•	Practical:
+o	Configure wireless access points
+o	Security implementation
+o	WiFi network design
+o	Troubleshoot wireless issues
+Module 8: Network Troubleshooting & Monitoring (Weeks 37-42)
+•	Troubleshooting methodology
+•	Network diagnostic tools: ping, tracert, netstat, ipconfig
+•	Packet analysis: Wireshark
+•	Network monitoring tools
+•	Performance optimization
+•	Practical:
+o	Troubleshoot network scenarios
+o	Use Wireshark for packet analysis
+o	Network monitoring setup
+o	Performance benchmarking
+o	Complex troubleshooting labs
+Tools & Equipment Required:
+•	Cisco routers and switches (Packet Tracer simulation)
+•	Network cables and tools
+•	Network monitoring software
+•	Packet analyzer (Wireshark)
+•	Simulation platforms: Cisco Packet Tracer, GNS3
+•	Cisco documentation and guides
+•	Practice equipment (used or simulator)
+Assessment:
+•	Practical labs (50%)
+•	Theory exams (30%)
+•	Troubleshooting scenarios (20%)
+Certification: CCNA (Cisco Certified Network Associate) - with exam preparation
+Internship: 1-2 months with network administration company
+
+7. UPS & Inverter Repairing
+Objective: Master the repair and maintenance of UPS (Uninterruptible Power Supply) and inverter systems. Duration: 5 Months (Certificate Program) Prerequisites: Basic electrical knowledge; understanding of power systems Career Pathways: UPS Technician, Inverter Service Engineer, Power Supply Specialist, Field Service Engineer
+Module 1: Power Backup Fundamentals (Weeks 1-4)
+•	AC power basics: Voltage, frequency, power factor
+•	Batteries: Lead-acid, lithium-ion, gel
+•	Battery specifications and ratings
+•	Charging principles
+•	Inverter and UPS concepts
+•	Practical:
+o	Battery identification and testing
+o	Voltage and current measurements
+o	Power consumption assessment
+o	Battery capacity calculation
+Module 2: UPS Systems (Weeks 5-10)
+•	UPS Types: Offline, online, line-interactive
+•	UPS components: Rectifier, inverter, battery, charger
+•	Transfer switch mechanisms
+•	Battery management systems (BMS)
+•	Alarm and monitoring systems
+•	Practical:
+o	UPS disassembly and component identification
+o	Battery connection and testing
+o	Rectifier circuit troubleshooting
+o	Transfer switch testing
+o	UPS operation and switching
+Module 3: Inverter Systems (Weeks 11-16)
+•	Inverter basics: DC to AC conversion
+•	Pure sine wave vs. square wave
+•	Inverter circuit topology
+•	MOSFET and IGBT basics
+•	Heat management in inverters
+•	Load calculations
+•	Practical:
+o	Inverter disassembly
+o	Component testing
+o	MOSFET and transformer testing
+o	Load testing
+o	Output waveform analysis
+Module 4: Battery Management & Charging (Weeks 17-22)
+•	Charging methods: Trickle, fast, smart charging
+•	Battery protection circuits
+•	Over-current and over-voltage protection
+•	Temperature monitoring
+•	Battery health assessment
+•	Battery disposal and safety
+•	Practical:
+o	Charging circuit analysis
+o	Battery protection implementation
+o	Overcharge protection testing
+o	Temperature monitoring setup
+o	Battery maintenance procedures
+Module 5: Troubleshooting & Maintenance (Weeks 23-28)
+•	Common UPS failures: Battery drainage, charging issues, transfer failure
+•	Common inverter failures: No output, low output, noise
+•	Testing procedures and diagnostic tools
+•	Preventive maintenance schedules
+•	Component replacement
+•	Practical:
+o	Diagnose 15+ common problems
+o	Troubleshooting flowcharts
+o	Component testing procedures
+o	Repair demonstrations
+o	Maintenance schedule creation
+Tools & Equipment Required:
+•	Digital multimeter (high voltage capable)
+•	Power analyzer/wattmeter
+•	Battery load tester
+•	Oscilloscope (basic)
+•	Soldering station
+•	Thermal imaging camera
+•	Test load (100W+ capacity)
+•	Various UPS and inverter models
+•	Replacement components (MOSFETs, transformers, capacitors)
+Assessment:
+•	Practical repair tests (70%)
+•	Theory exams (20%)
+•	Maintenance procedures (10%)
+On-job Training: 1-2 months with UPS/inverter service center
+Certification: Certificate in UPS & Inverter Repairing
+
+8. Consumer Electronics Technician
+Objective: Develop comprehensive skills in repairing various consumer electronics including televisions, music systems, digital cameras, and gaming devices. Duration: 6 Months (Certificate Program) Prerequisites: Basic electronics knowledge; interest in consumer devices Career Pathways: Electronics Repair Technician, Service Center Manager, Electronics Shop Owner, Field Service Engineer
+Module 1: Consumer Electronics Overview (Weeks 1-3)
+•	Types of consumer electronics
+•	Power supply and voltage regulation
+•	Safety standards and certifications
+•	Warranty and after-sales service
+•	Repair ethics and customer service
+•	Practical:
+o	Device anatomy study
+o	Component identification
+o	Power supply testing
+Module 2: Television Repair (Weeks 4-10)
+•	CRT TVs: Cathode ray tube basics, deflection circuits
+•	LCD/LED TVs: Display panels, backlight, power supply
+•	Smart TVs: Software and hardware integration
+•	Power supply troubleshooting
+•	Picture and sound issues
+•	Remote control and sensor problems
+•	Practical:
+o	TV disassembly and reassembly
+o	Power supply testing and repair
+o	Backlight replacement
+o	Display panel testing
+o	Audio circuit troubleshooting
+o	Smart TV software issues
+Module 3: Audio Systems (Weeks 11-16)
+•	Amplifier circuits
+•	Speaker systems and impedance
+•	Audio input and output circuits
+•	Microphone and input sensitivity
+•	Frequency response and tone control
+•	Practical:
+o	Amplifier circuit analysis
+o	Speaker testing
+o	Audio jack and connector repair
+o	Volume control troubleshooting
+o	Audio system integration testing
+Module 4: Digital Cameras & Imaging Devices (Weeks 17-22)
+•	Camera sensor types: CCD, CMOS
+•	Lens mechanics and auto-focus
+•	Flash circuits
+•	Image processing
+•	Memory card issues
+•	Battery management
+•	Practical:
+o	Camera disassembly
+o	Lens cleaning and focus repair
+o	Flash circuit testing
+o	Sensor testing
+o	Firmware updates
+o	Data recovery from memory cards
+Module 5: Gaming & Portable Devices (Weeks 23-26)
+•	Gaming console anatomy (PlayStation, Xbox, Nintendo)
+•	Handheld gaming devices
+•	Disc drive mechanisms and errors
+•	Controller connectivity issues
+•	Battery replacement in gaming devices
+•	Practical:
+o	Console disassembly
+o	Disc drive repair
+o	Controller repair and calibration
+o	Connector cleaning
+o	Game testing
+Module 6: Power Supply & Electronic Components (Weeks 27-30)
+•	SMPS (Switched Mode Power Supply)
+•	Linear regulators
+•	Transformer selection
+•	Capacitor issues and replacement
+•	Relay and switch problems
+•	Practical:
+o	Power supply troubleshooting
+o	Capacitor testing and replacement
+o	Transformer testing
+o	Circuit board cleaning
+o	Component soldering and desoldering
+Tools & Equipment Required:
+•	Digital multimeter
+•	Oscilloscope (basic)
+•	Soldering station
+•	Desoldering equipment
+•	Screwdrivers and hand tools
+•	Thermal paste and application tools
+•	Cleaning materials
+•	Test devices (TV, camera, audio system, etc.)
+•	Replacement components and parts
+•	Cable testers
+Assessment:
+•	Practical device repair (70%)
+•	Theory exams (20%)
+•	Troubleshooting scenarios (10%)
+On-job Training: 1-2 months with electronics service center
+Certification: Certificate in Consumer Electronics Technician
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0D0D0D;
+            color: #F5F5F7;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .success-box {
+            background: #1A1A1A;
+            padding: 50px;
+            text-align: center;
+            border: 2px solid #C5A059;
+            max-width: 500px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #C5A059;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .checkmark {
+            font-size: 80px;
+            color: #4CAF50;
+        }
+        p {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .highlight {
+            color: #C5A059;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-box">
+        <div class="checkmark">✓</div>
+        <h1>Success!</h1>
+        <p>Your registration is complete.</p>
+        <p>Receipt sent to: <span class="highlight" th:text="${registration.email}"></span></p>
+        <p style="margin-top: 30px; font-size: 14px; color: #888;">
+            Course access details will be sent to your WhatsApp within 24 hours.
+        </p>
+    </div>
+</body>
+</html>

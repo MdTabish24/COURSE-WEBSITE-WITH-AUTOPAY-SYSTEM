@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="'Checkout - ' + ${selectedCourse}">Universal Skill Development Centre - Checkout</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* CSS CUSTOM PROPERTIES */
+        :root {
+            --bg-light: #E8D2C3;
+            --bg-dark: #1F1F1F;
+            --accent: #C89B7B;
+            --card-surface: #F3E5DB;
+            --text-dark: #2B2B2B;
+            --text-light: #FFFFFF;
+            --text-muted: #6F6F6F;
+            --border-soft: rgba(0,0,0,0.05);
+            --shadow-soft: 0 6px 20px rgba(0,0,0,0.06);
+            --shadow-medium: 0 10px 30px rgba(0,0,0,0.08);
+            --shadow-hover: 0 14px 35px rgba(0,0,0,0.12);
+            --radius-small: 8px;
+            --radius-medium: 16px;
+            --radius-large: 24px;
+            --radius-pill: 999px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding-top: 80px;
+        }
+
+        /* NAVIGATION */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: var(--bg-dark);
+            height: 80px;
+            display: flex;
+            align-items: center;
+            padding: 0 80px;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .navbar-content {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent);
+            letter-spacing: 1px;
+            text-decoration: none;
+        }
+
+        .back-link {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 40px;
+        }
+
+        /* HEADER */
+        .checkout-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .course-tag {
+            display: inline-block;
+            background: rgba(200, 155, 123, 0.2);
+            color: var(--accent);
+            padding: 8px 20px;
+            border-radius: var(--radius-pill);
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .checkout-title {
+            font-size: 36px;
+            color: var(--text-dark);
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        .checkout-price {
+            font-size: 48px;
+            color: var(--accent);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .checkout-subtitle {
+            font-size: 16px;
+            color: var(--text-muted);
+        }
+
+        /* FORM SECTIONS */
+        .form-section {
+            background: var(--card-surface);
+            border-radius: var(--radius-large);
+            padding: 40px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: var(--text-dark);
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        label {
+            display: block;
+            color: var(--text-dark);
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="file"] {
+            width: 100%;
+            padding: 14px 18px;
+            background: #FFFFFF;
+            border: 2px solid var(--border-soft);
+            border-radius: var(--radius-medium);
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(200, 155, 123, 0.1);
+        }
+
+        input[type="file"] {
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        input[type="file"]::file-selector-button {
+            background: var(--bg-dark);
+            color: var(--text-light);
+            padding: 10px 20px;
+            border: none;
+            border-radius: var(--radius-small);
+            font-weight: 600;
+            cursor: pointer;
+            margin-right: 12px;
+            transition: all 0.3s ease;
+        }
+
+        input[type="file"]::file-selector-button:hover {
+            background: var(--accent);
+            color: var(--text-dark);
+        }
+
+        .helper-text {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 6px;
+        }
+
+        /* PAYMENT OPTIONS */
+        .payment-divider {
+            text-align: center;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .payment-divider::before,
+        .payment-divider::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            height: 1px;
+            background: var(--border-soft);
+        }
+
+        .payment-divider::before {
+            left: 0;
+        }
+
+        .payment-divider::after {
+            right: 0;
+        }
+
+        .payment-divider span {
+            background: var(--card-surface);
+            padding: 0 20px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .payment-btn {
+            display: block;
+            width: 100%;
+            background: var(--bg-dark);
+            color: var(--text-light);
+            padding: 18px;
+            border: none;
+            border-radius: var(--radius-medium);
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: 0.5px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+        }
+
+        .payment-btn:hover {
+            background: var(--accent);
+            color: var(--text-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-soft);
+        }
+
+        /* QR CODE */
+        .qr-wrapper {
+            background: #FFFFFF;
+            padding: 30px;
+            border-radius: var(--radius-medium);
+            text-align: center;
+            border: 2px solid var(--border-soft);
+        }
+
+        .qr-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+        }
+
+        .qr-code {
+            max-width: 280px;
+            height: auto;
+            margin: 0 auto 20px;
+            border: 4px solid var(--bg-light);
+            border-radius: var(--radius-medium);
+        }
+
+        .qr-amount {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* SUBMIT BUTTON */
+        .submit-btn {
+            width: 100%;
+            background: var(--accent);
+            color: var(--text-dark);
+            padding: 20px;
+            border: none;
+            border-radius: var(--radius-medium);
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .submit-btn:hover:not(:disabled) {
+            background: #D4B06A;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .submit-btn:disabled {
+            background: #999;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        /* SUCCESS INDICATOR */
+        .file-uploaded {
+            background: rgba(76, 175, 80, 0.1);
+            border: 2px solid rgba(76, 175, 80, 0.3);
+            color: #2e7d32;
+            padding: 12px 20px;
+            border-radius: var(--radius-medium);
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 12px;
+            display: none;
+        }
+
+        .file-uploaded.show {
+            display: block;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0 20px;
+                height: 70px;
+            }
+
+            .container {
+                padding: 0 20px;
+                margin: 40px auto;
+            }
+
+            .checkout-title {
+                font-size: 28px;
+            }
+
+            .checkout-price {
+                font-size: 36px;
+            }
+
+            .form-section {
+                padding: 30px 24px;
+            }
+
+            .payment-divider::before,
+            .payment-divider::after {
+                width: 35%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="/" class="logo">UNIVERSAL SKILL DEVELOPMENT CENTRE</a>
+            <a href="/" class="back-link">← Back to Courses</a>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <!-- HEADER -->
+        <div class="checkout-header">
+            <span class="course-tag">Secure Checkout</span>
+            <h1 class="checkout-title" th:text="${selectedCourse}">Elite Course</h1>
+            <div class="checkout-price" th:text="'₹' + ${price}">₹5,000</div>
+            <p class="checkout-subtitle">Complete your registration below</p>
+        </div>
+
+        <!-- CHECKOUT FORM -->
+        <form id="checkoutForm" action="/register" method="POST" enctype="multipart/form-data">
+            <!-- Hidden Course Field -->
+            <input type="hidden" name="course" th:value="${selectedCourse}">
+            
+            <!-- PERSONAL DETAILS -->
+            <div class="form-section">
+                <h2 class="section-title">Your Details</h2>
+                
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp Number *</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" pattern="[0-9]{10}" placeholder="10-digit mobile number" required>
+                    <p class="helper-text">We'll send course updates on WhatsApp</p>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    <p class="helper-text">Your receipt will be sent here</p>
+                </div>
+            </div>
+            
+            <!-- PAYMENT SECTION -->
+            <div class="form-section">
+                <h2 class="section-title">Payment</h2>
+                <p class="helper-text" style="margin-bottom: 24px;">Choose your preferred payment method</p>
+                
+                <!-- UPI APP PAYMENT -->
+                <a th:href="'upi://pay?pa=yourupi@bank&pn=Universal%20Skill%20Development%20Centre&am=' + ${price} + '&cu=INR&tn=' + ${selectedCourse} + '%20Payment'" 
+                   class="payment-btn" id="mobilePayBtn">
+                    📱 Pay via UPI App
+                </a>
+                
+                <div class="payment-divider">
+                    <span>OR</span>
+                </div>
+                
+                <!-- QR CODE PAYMENT -->
+                <div class="qr-wrapper">
+                    <p class="qr-title">Scan QR Code to Pay</p>
+                    <img src="/api/qr-code" alt="UPI QR Code" class="qr-code" id="qrCode">
+                    <p class="qr-amount" th:text="'Amount: ₹' + ${price}">Amount: ₹5,000</p>
+                </div>
+            </div>
+            
+            <!-- PAYMENT PROOF UPLOAD -->
+            <div class="form-section">
+                <h2 class="section-title">Upload Payment Proof</h2>
+                <p class="helper-text" style="margin-bottom: 20px;">
+                    Take a screenshot after completing payment and upload it below
+                </p>
+                
+                <div class="form-group">
+                    <label for="screenshot">Payment Screenshot *</label>
+                    <input type="file" id="screenshot" name="screenshot" accept="image/*" required>
+                    <div class="file-uploaded" id="fileSuccess">
+                        ✓ Screenshot uploaded successfully
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SUBMIT BUTTON -->
+            <button type="submit" class="submit-btn" id="submitBtn" disabled>
+                Complete Registration
+            </button>
+        </form>
+    </div>
+
+    <script>
+        const screenshot = document.getElementById('screenshot');
+        const submitBtn = document.getElementById('submitBtn');
+        const fileSuccess = document.getElementById('fileSuccess');
+        
+        screenshot.addEventListener('change', function() {
+            if (this.files.length > 0) {
+                submitBtn.disabled = false;
+                fileSuccess.classList.add('show');
+            } else {
+                submitBtn.disabled = true;
+                fileSuccess.classList.remove('show');
+            }
+        });
+        
+        // Update QR code on load
+        window.onload = function() {
+            const qrImg = document.getElementById('qrCode');
+            if (qrImg) {
+                qrImg.onerror = function() {
+                    // Fallback if QR code API fails
+                    this.style.display = 'none';
+                    this.parentElement.innerHTML += '<p style="color: #999; padding: 20px;">QR Code will be generated</p>';
+                };
+            }
+        };
+
+        // Form submission handling
+        document.getElementById('checkoutForm').addEventListener('submit', function(e) {
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Processing...';
+        });
+    </script>
+</body>
+</html>

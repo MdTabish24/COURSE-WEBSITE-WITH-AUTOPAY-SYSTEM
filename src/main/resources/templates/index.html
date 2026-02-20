@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Skill Development Centre - Transform Your Future with Elite Training</title>
+  <meta name="description" content="Premium courses in Beauty, Makeup, Computer Skills, Graphic Design, Digital Marketing, and more. Build your career with Universal Skill Development Centre.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-content">
+    <a href="/" class="logo">UNIVERSAL SKILLS</a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="#tech">IT</a></li>
+      <li><a href="#beauty">Beauty</a></li>
+      <li><a href="#healthcare">Healthcare</a></li>
+      <li><a href="#construction">Construction</a></li>
+      <li><a href="#management">Management</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#hospitality">Hospitality</a></li>
+      <li><a href="#apparel">Apparel</a></li>
+      <li><a href="#electronics">Electronics</a></li>
+      <li><a href="#logistics">Logistics</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+    <a href="#courses" class="nav-cta">Enroll Now</a>
+  </div>
+</nav>
+
+<section class="hero section-curve">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-slides">
+          <article class="hero-slide is-active" data-image="/images/it-web-development.png" data-alt="IT & Software courses">
+            <span class="hero-tag">IT & Software</span>
+            <h1>Code, Build, Launch</h1>
+            <p class="hero-subtitle">Master web development, AI, data science, cyber security, and cloud with practical projects.</p>
+            <a href="#tech" class="hero-cta">Explore IT Courses</a>
+          </article>
+          <article class="hero-slide" data-image="/images/beauty-makeup-artist.jpeg" data-alt="Beauty & Wellness courses">
+            <span class="hero-tag">Beauty & Wellness</span>
+            <h1>Create Professional Looks</h1>
+            <p class="hero-subtitle">From skin care to bridal artistry, learn salon-ready skills with high-practical training modules.</p>
+            <a href="#beauty" class="hero-cta">Explore Beauty Courses</a>
+          </article>
+          <article class="hero-slide" data-image="/images/healthcare-gda.jpg" data-alt="Healthcare & Paramedical courses">
+            <span class="hero-tag">Healthcare & Paramedical</span>
+            <h1>Train For Clinical Careers</h1>
+            <p class="hero-subtitle">Build real healthcare skills in patient care, diagnostics, emergency services, and hospital operations.</p>
+            <a href="#healthcare" class="hero-cta">Explore Healthcare Courses</a>
+          </article>
+          <article class="hero-slide" data-image="/images/management-digital-marketing-specialist.jpeg" data-alt="Management & Finance courses">
+            <span class="hero-tag">Management & Finance</span>
+            <h1>Lead Business Growth</h1>
+            <p class="hero-subtitle">Learn digital marketing, accounting, HR, sales, and business strategy to become industry-ready.</p>
+            <a href="#management" class="hero-cta">Explore Management Courses</a>
+          </article>
+          <article class="hero-slide hero-slide-electronics" data-image="/images/electronics-mobile-repairing-smartphone.jpeg" data-alt="Electronics & Hardware courses">
+            <span class="hero-tag">Electronics & Hardware</span>
+            <h1>Repair, Diagnose, Deliver</h1>
+            <p class="hero-subtitle">Hands-on technical training for mobile, laptop, CCTV, PCB, networking, and consumer electronics.</p>
+            <a href="#electronics" class="hero-cta">Explore Electronics Courses</a>
+          </article>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img id="hero-dynamic-image" th:src="@{/images/it-web-development.png}" alt="IT & Software courses">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="tech" class="section section-tech section-light section-curve">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">IT & Software</span>
+      <h2 class="section-title">IT & Software Programs</h2>
+      <p class="section-subtitle">Industry-focused technology courses designed for practical job roles.</p>
+    </div>
+    <div class="category-grid" id="courses">
+      <div class="category-card">
+        <img th:src="@{/images/it-web-development.png}" alt="Web Development (Full Stack)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Web Development (Full Stack)</h3>
+          <p class="category-card-detail">o	Selenium/WebDriver or Playwright architecture o	Locators, waits, page object model</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Web Development (Full Stack)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Web Development (Full Stack)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/it-prompt-engineering.jpeg}" alt="Prompt engineering" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Prompt engineering</h3>
+          <p class="category-card-detail">o	Categorical encoding, target encoding, text features, time features o	Feature selection, leakage prevention</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Prompt engineering',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Prompt engineering')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/it-data-science-analytics.jpeg}" alt="Data Science & Analytics" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Data Science & Analytics</h3>
+          <p class="category-card-detail">o	Attention mechanism, encoder/decoder o	BERT/GPT-style models, fine-tuning vs prompting</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Data Science & Analytics',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Data Science & Analytics')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/it-cyber-security-ethical-hacking.jpg}" alt="Cyber Security & Ethical Hacking" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Cyber Security & Ethical Hacking</h3>
+          <p class="category-card-detail">o	Load/stress/soak testing with JMeter/k6 o	Basic security testing concepts and OWASP awareness</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Cyber Security & Ethical Hacking',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Cyber Security & Ethical Hacking')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/it-cloud-computing.png}" alt="Cloud Computing (AWS/Azure)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Cloud Computing (AWS/Azure)</h3>
+          <p class="category-card-detail">o	Shared responsibility model o	Global infrastructure (regions, AZs)</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Cloud Computing (AWS/Azure)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Cloud Computing (AWS/Azure)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/it-software-testing.jpg}" alt="Software Testing (QA)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Software Testing (QA)</h3>
+          <p class="category-card-detail">o	Appium setup, locators, device farms o	Testing on Android/iOS emulators and real devices</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Software Testing (QA)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Software Testing (QA)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/it-mobile-app-development.jpeg}" alt="Mobile App Development (Android/iOS)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Mobile App Development (Android/iOS)</h3>
+          <p class="category-card-detail">o	Swift language essentials o	UIKit vs SwiftUI views, navigation stacks</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Mobile App Development (Android/iOS)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Mobile App Development (Android/iOS)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/it-ai-machine-learning.jpeg}" alt="AI & Machine Learning" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">IT & Software</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">AI & Machine Learning</h3>
+          <p class="category-card-detail">Bias/fairness metrics, privacy Explainability (SHAP/LIME)</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='AI & Machine Learning',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='AI & Machine Learning')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="beauty" class="section section-beauty odd-sector">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Beauty & Wellness</span>
+      <h2 class="section-title">Beauty & Wellness Programs</h2>
+      <p class="section-subtitle">Professional beauty training from fundamentals to advanced salon skills.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/beauty-beautician-skin-care.jpg}" alt="Beautician / Skin Care Specialist" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Beautician / Skin Care Specialist</h3>
+          <p class="category-card-detail">Duration: 2 Months (Basic) | 4 Months (Advanced; includes Basic + Advanced modules) | Delivery: 60% practical labs, 30% theory, 10% assessments</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Beautician / Skin Care Specialist',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Beautician / Skin Care Specialist')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/beauty-hair-dresser-stylist.jpg}" alt="Hair Dresser & Stylist" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Hair Dresser & Stylist</h3>
+          <p class="category-card-detail">Delivery: 70% practical, 20% theory, 10% assessments | Target Outcomes: Precision cutting, styling, basic coloring, client care</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Hair Dresser & Stylist',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Hair Dresser & Stylist')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/beauty-makeup-artist.jpeg}" alt="Makeup Artist (Bridal & Fashion)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Makeup Artist (Bridal & Fashion)</h3>
+          <p class="category-card-detail">Delivery: 65% practical, 25% theory, 10% portfolio/business | Outcomes: Professional base, eye artistry, bridal looks, fashion/editorial basics, kit management</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Makeup Artist (Bridal & Fashion)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Makeup Artist (Bridal & Fashion)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/beauty-cosmetology.jpeg}" alt="Cosmetology (Advanced)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Cosmetology (Advanced)</h3>
+          <p class="category-card-detail">Integrated Program: Skin + Hair + Makeup + Nails/Body Spa + Salon Management Clinic Hours: Minimum 80â€“100 live services under supervision</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Cosmetology (Advanced)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Cosmetology (Advanced)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/beauty-basic.png}" alt="Nail Art & Extension" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Nail Art & Extension</h3>
+          <p class="category-card-detail">Delivery: 50% practical teaching labs, 30% theory, 20% supervised teaching | Eligibility: Basic fitness level; medical self-declaration</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Nail Art & Extension',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Nail Art & Extension')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/beauty-advance.png}" alt="Spa & Massage Therapy" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Spa & Massage Therapy</h3>
+          <p class="category-card-detail">Delivery: 50% practical teaching labs, 30% theory, 20% supervised teaching | Eligibility: Basic fitness level; medical self-declaration</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Spa & Massage Therapy',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Spa & Massage Therapy')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/beauty-yoga-fitness-instructor.jpeg}" alt="Yoga & Fitness Instructor" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Yoga & Fitness Instructor</h3>
+          <p class="category-card-detail">Delivery: 50% practical teaching labs, 30% theory, 20% supervised teaching | Eligibility: Basic fitness level; medical self-declaration</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Yoga & Fitness Instructor',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Yoga & Fitness Instructor')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/beauty-diet-nutrition-consultant.jpeg}" alt="Diet & Nutrition Consultant" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Beauty & Wellness</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Diet & Nutrition Consultant</h3>
+          <p class="category-card-detail">Delivery: 40% theory, 40% applied planning, 20% casework/counseling | Tools: Food models/portions, dietary analysis sheets, basic kitchen demo access (if possible)</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Diet & Nutrition Consultant',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Diet & Nutrition Consultant')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="healthcare" class="section section-healthcare odd-sector">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Healthcare</span>
+      <h2 class="section-title">Healthcare & Paramedical Programs</h2>
+      <p class="section-subtitle">Clinical and patient-care tracks with role-ready practical exposure.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-gda.jpg}" alt="General Duty Assistant (GDA)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">General Duty Assistant (GDA)</h3>
+          <p class="category-card-detail">Focus: Basic patient care, hygiene, and assisting nurses. | Duration: 6 Months (4 Months Classroom + 2 Months Internship)</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='General Duty Assistant (GDA)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='General Duty Assistant (GDA)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-mlt.jpeg}" alt="Medical Lab Technician (MLT)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Medical Lab Technician (MLT)</h3>
+          <p class="category-card-detail">Focus: Diagnostic testing of blood, urine, and body fluids. | Duration: 1 Year (Diploma) or 2 Years (Advanced Diploma)</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Medical Lab Technician (MLT)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Medical Lab Technician (MLT)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-radiology-xray.jpg}" alt="Radiology & X-Ray Technician" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Radiology & X-Ray Technician</h3>
+          <p class="category-card-detail">Focus: Diagnostic imaging (X-Ray) and radiation safety. | Duration: 1 to 2 Years</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Radiology & X-Ray Technician',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Radiology & X-Ray Technician')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-ott.jpeg}" alt="Operation Theatre Technician (OTT)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Operation Theatre Technician (OTT)</h3>
+          <p class="category-card-detail">Focus: Managing the OT, sterilization, and assisting surgeons/anesthetists. | Duration: 1 Year</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Operation Theatre Technician (OTT)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Operation Theatre Technician (OTT)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-pharmacy-assistant.jpeg}" alt="Pharmacy Assistant" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Pharmacy Assistant</h3>
+          <p class="category-card-detail">Focus: Dispensing medicines, inventory management, and patient counseling. | Duration: 6 Months to 1 Year</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Pharmacy Assistant',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Pharmacy Assistant')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-nursing-assistant.jpeg}" alt="Nursing Assistant" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Nursing Assistant</h3>
+          <p class="category-card-detail">Focus: Advanced patient care, assisting in clinical procedures (More medical than GDA). | Duration: 1 Year</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Nursing Assistant',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Nursing Assistant')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-dental-assistant.jpeg}" alt="Dental Assistant" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Dental Assistant</h3>
+          <p class="category-card-detail">Focus: Assisting dentists, dental materials, and clinic management. | Duration: 6 Months to 1 Year</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Dental Assistant',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Dental Assistant')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/healthcare-emt.jpeg}" alt="Emergency Medical Technician (EMT)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Healthcare</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Emergency Medical Technician (EMT)</h3>
+          <p class="category-card-detail">Focus: Pre-hospital emergency care, ambulance operations, life support. | Duration: 6 Months to 1 Year</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Emergency Medical Technician (EMT)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Emergency Medical Technician (EMT)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="construction" class="section section-construction section-curve">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Construction</span>
+      <h2 class="section-title">Construction & Engineering Skills</h2>
+      <p class="section-subtitle">Hands-on technical training for modern construction and utility roles.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/construction-electrician.jpeg}" alt="Electrician (Industrial & Domestic)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Electrician (Industrial & Domestic)</h3>
+          <p class="category-card-detail">Objective: To train students in wiring, installation, and maintenance of electrical systems in homes and factories. | Duration: 6 Months to 1 Year</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Electrician (Industrial & Domestic)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Electrician (Industrial & Domestic)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/construction-plumbing-sanitary.jpeg}" alt="Plumbing & Sanitary Works" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Plumbing & Sanitary Works</h3>
+          <p class="category-card-detail">Objective: To master pipe fitting, water supply systems, and drainage for buildings. | Duration: 3 to 6 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Plumbing & Sanitary Works',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Plumbing & Sanitary Works')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/construction-welder-arc-gas.jpeg}" alt="Welder (Arc & Gas)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Welder (Arc & Gas)</h3>
+          <p class="category-card-detail">Objective: To teach joining of metals using Shielded Metal Arc Welding (SMAW) and Oxy-Acetylene gas. | Duration: 6 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Welder (Arc & Gas)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Welder (Arc & Gas)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/construction-cnc-operator.jpg}" alt="CNC Operator" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">CNC Operator</h3>
+          <p class="category-card-detail">Objective: To operate Computer Numerical Control (CNC) Lathe and Milling machines. | Duration: 3 to 6 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='CNC Operator',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='CNC Operator')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/construction-hvac-technician.jpeg}" alt="HVAC (AC & Refrigerator) Technician" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">HVAC (AC & Refrigerator) Technician</h3>
+          <p class="category-card-detail">Objective: Installation, service, and repair of Air Conditioners and Refrigerators. | Duration: 6 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='HVAC (AC & Refrigerator) Technician',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='HVAC (AC & Refrigerator) Technician')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/construction-draftsman-autocad.jpeg}" alt="Draftsman (AutoCAD)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Draftsman (AutoCAD)</h3>
+          <p class="category-card-detail">Objective: To create 2D and 3D technical drawings for Civil and Mechanical engineering. | Duration: 3 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Draftsman (AutoCAD)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Draftsman (AutoCAD)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/construction-civil-supervisor.jpeg}" alt="Civil Construction Supervisor" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Civil Construction Supervisor</h3>
+          <p class="category-card-detail">Objective: To supervise construction sites, manage labor, and ensure quality. | Duration: 6 Months to 1 Year</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Civil Construction Supervisor',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Civil Construction Supervisor')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/construction-solar-technician.jpeg}" alt="Solar Panel Installation Technician" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Construction</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Solar Panel Installation Technician</h3>
+          <p class="category-card-detail">Objective: To install and maintain Photovoltaic (PV) Solar Systems. | Duration: 3 to 4 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Solar Panel Installation Technician',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Solar Panel Installation Technician')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="management" class="section section-management odd-sector">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Management & Finance</span>
+      <h2 class="section-title">Management & Finance Programs</h2>
+      <p class="section-subtitle">Business, accounting, HR, and sales tracks for corporate readiness.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/management-digital-marketing-specialist.jpeg}" alt="Digital Marketing Specialist" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Digital Marketing Specialist</h3>
+          <p class="category-card-detail">Objective: To master online marketing strategies across platforms, analytics, and campaign optimization. | Duration: 3-4 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Digital Marketing Specialist',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Digital Marketing Specialist')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/management-tally-gst-professional.jpeg}" alt="Tally Prime & GST Professional" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Tally Prime & GST Professional</h3>
+          <p class="category-card-detail">Objective: Hands-on training in accounting software with GST compliance for businesses. | Duration: 2-3 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Tally Prime & GST Professional',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Tally Prime & GST Professional')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/management-business-accounting-taxation.jpg}" alt="Business Accounting & Taxation (BAT)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Business Accounting & Taxation (BAT)</h3>
+          <p class="category-card-detail">Objective: Comprehensive understanding of financial accounting, auditing, and Indian taxation laws. | Duration: 4-6 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Business Accounting & Taxation (BAT)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Business Accounting & Taxation (BAT)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/management-human-resource-management.jpeg}" alt="Human Resource (HR) Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Human Resource (HR) Management</h3>
+          <p class="category-card-detail">Objective: To handle recruitment, employee relations, compliance, and performance management. | Duration: 3-4 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Human Resource (HR) Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Human Resource (HR) Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/management-office-administration.jpg}" alt="Office Administration" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Office Administration</h3>
+          <p class="category-card-detail">Objective: Efficient management of office operations, documentation, and team coordination. | Duration: 2-3 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Office Administration',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Office Administration')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/management-sales-relationship-management.jpeg}" alt="Sales & Relationship Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Sales & Relationship Management</h3>
+          <p class="category-card-detail">Objective: Building sales pipelines, negotiation skills, and long-term client relationships. | Duration: 3 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Sales & Relationship Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Sales & Relationship Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/management-retail-management.jpg}" alt="Retail Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Retail Management</h3>
+          <p class="category-card-detail">Objective: Managing store operations, merchandising, inventory, and customer experience in retail. | Duration: 3-4 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Retail Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Retail Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/management-stock-market-trading.jpeg}" alt="Stock Market & Trading" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Management & Finance</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Stock Market & Trading</h3>
+          <p class="category-card-detail">Objective: Understanding markets, technical/fundamental analysis, and risk-managed trading strategies. | Duration: 3-4 Months</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Stock Market & Trading',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Stock Market & Trading')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="media" class="section section-media section-curve">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Media & Entertainment</span>
+      <h2 class="section-title">Media & Entertainment Programs</h2>
+      <p class="section-subtitle">Creative programs across design, editing, animation, and digital content.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/media-graphic-designing.jpeg}" alt="Graphic Designing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Graphic Designing</h3>
+          <p class="category-card-detail">Objective: Master visual communication through design principles, typography, and software for branding, print, and digital media. | Prerequisites: Basic computer skills; no prior design experience needed.</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Graphic Designing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Graphic Designing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/media-video-editing-post-production.jpeg}" alt="Video Editing & Post-Production" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Video Editing & Post-Production</h3>
+          <p class="category-card-detail">Objective: Learn non-linear editing, effects, audio syncing, and color grading for films, ads, and social videos. | Prerequisites: Basic computer literacy; familiarity with video formats helpful.</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Video Editing & Post-Production',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Video Editing & Post-Production')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/media-2d-3d-animation.jpeg}" alt="2D/3D Animation" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">2D/3D Animation</h3>
+          <p class="category-card-detail">Objective: Create engaging animations using keyframing, rigging, and rendering for films, games, and ads. | Prerequisites: Basic drawing skills; intro to graphic design helpful.</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='2D/3D Animation',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='2D/3D Animation')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/media-digital-photography.jpg}" alt="Digital Photography" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Digital Photography</h3>
+          <p class="category-card-detail">Objective: Capture, edit, and optimize images for professional use in portraits, products, and events. | Prerequisites: Access to a DSLR/mirrorless camera (or smartphone for basics).</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Digital Photography',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Digital Photography')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/media-sound-engineering.jpeg}" alt="Sound Engineering" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Sound Engineering</h3>
+          <p class="category-card-detail">Objective: Record, mix, and master audio for music, podcasts, films, and live events. | Prerequisites: Basic music knowledge; access to headphones/speakers.</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Sound Engineering',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Sound Engineering')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/media-vfx-motion-graphics.jpeg}" alt="VFX & Motion Graphics" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">VFX & Motion Graphics</h3>
+          <p class="category-card-detail">Objective: Create visual effects, animations, and graphics for videos, films, and ads using compositing and 3D integration. | Prerequisites: Basic video editing knowledge.</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='VFX & Motion Graphics',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='VFX & Motion Graphics')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/media-content-writing-copywriting.jpeg}" alt="Content Writing & Copywriting" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Content Writing & Copywriting</h3>
+          <p class="category-card-detail">Objective: Craft compelling written content for marketing, web, social media, and branding. | Prerequisites: Strong English grammar; basic writing skills.</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Content Writing & Copywriting',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Content Writing & Copywriting')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/media-ui-ux-design.jpeg}" alt="UI/UX Design" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Media & Entertainment</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">UI/UX Design</h3>
+          <p class="category-card-detail">Objective: Design user-centered interfaces for apps and websites using research, wireframing, and prototyping. | Prerequisites: Basic graphic design; understanding of web basics.</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='UI/UX Design',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='UI/UX Design')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hospitality" class="section section-hospitality odd-sector">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Hospitality & Tourism</span>
+      <h2 class="section-title">Hospitality & Tourism Programs</h2>
+      <p class="section-subtitle">Service excellence training for hotels, culinary, travel, and events.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-hotel-management.jpg}" alt="Hotel Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Hotel Management</h3>
+          <p class="category-card-detail">Objective: Develop comprehensive knowledge of hotel operations, management principles, and guest service excellence across all departments. Duration: 12 Months (Diploma Program) Prerequisites: 10+2 education...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Hotel Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Hotel Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-culinary-arts-chef.jpg}" alt="Culinary Arts (Professional Chef)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Culinary Arts (Professional Chef)</h3>
+          <p class="category-card-detail">Objective: Master professional cooking techniques, kitchen management, and menu development for various cuisines. Duration: 9 Months (Certificate Program) Prerequisites: Basic understanding of cooking; passi...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Culinary Arts (Professional Chef)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Culinary Arts (Professional Chef)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-bakery-confectionery.jpeg}" alt="Bakery & Confectionery" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Bakery & Confectionery</h3>
+          <p class="category-card-detail">Objective: Specialize in bread making, pastry arts, cake decoration, and confectionery production. Duration: 6 Months (Certificate Program) Prerequisites: Basic cooking knowledge; creativity Career Pathways:...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Bakery & Confectionery',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Bakery & Confectionery')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-front-office-executive.jpg}" alt="Front Office Executive" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Front Office Executive</h3>
+          <p class="category-card-detail">Objective: Master guest service, reservation systems, and front desk operations for hotels. Duration: 4 Months (Certificate Program) Prerequisites: Good communication skills; basic computer knowledge Career ...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Front Office Executive',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Front Office Executive')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-food-beverage-service.jpg}" alt="Food & Beverage Service" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Food & Beverage Service</h3>
+          <p class="category-card-detail">Objective: Develop professional service skills for restaurants, bars, and banquet operations. Duration: 5 Months (Certificate Program) Prerequisites: Good personality; communication skills Career Pathways: R...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Food & Beverage Service',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Food & Beverage Service')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-travel-tourism-management.jpeg}" alt="Travel & Tourism Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Travel & Tourism Management</h3>
+          <p class="category-card-detail">Objective: Understand travel industry operations, tour planning, and tourism marketing. Duration: 8 Months (Diploma Program) Prerequisites: Good communication; interest in travel Career Pathways: Travel Cons...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Travel & Tourism Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Travel & Tourism Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-housekeeping-operations.jpeg}" alt="Housekeeping Operations" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Housekeeping Operations</h3>
+          <p class="category-card-detail">Objective: Master cleaning procedures, linen management, and supervision of housekeeping departments. Duration: 4 Months (Certificate Program) Prerequisites: Attention to detail; physical fitness Career Path...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Housekeeping Operations',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Housekeeping Operations')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/hospitality-event-management.jpeg}" alt="Event Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Hospitality & Tourism</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Event Management</h3>
+          <p class="category-card-detail">Objective: Plan, organize, and execute various types of events professionally. Duration: 6 Months (Certificate Program) Prerequisites: Organizational skills; creativity Career Pathways: Event Manager, Weddin...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Event Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Event Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="apparel" class="section section-apparel section-curve">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Apparel & Fashion</span>
+      <h2 class="section-title">Apparel & Fashion Design Programs</h2>
+      <p class="section-subtitle">Career-focused fashion, textile, and boutique management training.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/apparel-fashion-designing.jpg}" alt="Fashion Designing (Diploma)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Fashion Designing (Diploma)</h3>
+          <p class="category-card-detail">Objective: Develop creative and technical skills to design clothing collections, understand market trends, and prepare for professional fashion industry roles. Duration: 12-18 Months (Diploma Program) Prereq...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Fashion Designing (Diploma)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Fashion Designing (Diploma)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/apparel-tailoring-dress-designing.jpg}" alt="Tailoring & Dress Designing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Tailoring & Dress Designing</h3>
+          <p class="category-card-detail">Objective: Master tailoring techniques, garment construction, and custom dress design for various body types and occasions. Duration: 6 Months (Certificate Program) Prerequisites: Basic sewing knowledge; pat...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Tailoring & Dress Designing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Tailoring & Dress Designing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/apparel-textile-designing.jpg}" alt="Textile Designing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Textile Designing</h3>
+          <p class="category-card-detail">Objective: Create original fabric designs using traditional and digital methods for apparel, home furnishings, and other applications. Duration: 8 Months (Diploma Program) Prerequisites: Understanding of art...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Textile Designing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Textile Designing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/apparel-embroidery-needlework.jpeg}" alt="Embroidery & Needlework" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Embroidery & Needlework</h3>
+          <p class="category-card-detail">Objective: Master various embroidery techniques, develop hand and machine embroidery skills, and create artistic needlework pieces. Duration: 6 Months (Certificate Program) Prerequisites: Basic sewing knowle...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Embroidery & Needlework',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Embroidery & Needlework')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/apparel-merchandising.jpeg}" alt="Apparel Merchandising" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Apparel Merchandising</h3>
+          <p class="category-card-detail">Objective: Develop skills in product development, sourcing, quality control, and supply chain management for apparel industry. Duration: 8 Months (Diploma Program) Prerequisites: Understanding of fashion ind...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Apparel Merchandising',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Apparel Merchandising')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/apparel-jewelry-designing.jpeg}" alt="Jewelry Designing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Jewelry Designing</h3>
+          <p class="category-card-detail">Objective: Create beautiful, wearable jewelry designs using traditional craftsmanship and modern design techniques. Duration: 9 Months (Certificate Program) Prerequisites: Artistic ability; patience for deta...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Jewelry Designing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Jewelry Designing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/apparel-boutique-management.jpeg}" alt="Boutique Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Boutique Management</h3>
+          <p class="category-card-detail">Objective: Develop skills to establish, manage, and operate a successful boutique business. Duration: 5 Months (Certificate Program) Prerequisites: Fashion knowledge; business acumen; interpersonal skills Ca...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Boutique Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Boutique Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/apparel-pattern-making-garment-construction.jpeg}" alt="Pattern Making & Garment Construction" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Apparel & Fashion</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Pattern Making & Garment Construction</h3>
+          <p class="category-card-detail">Objective: Master the technical skills of creating patterns, grading, and constructing garments to industry standards. Duration: 7 Months (Diploma Program) Prerequisites: Understanding of sewing; basic knowl...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Pattern Making & Garment Construction',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Pattern Making & Garment Construction')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="electronics" class="section section-electronics odd-sector">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Electronics & Hardware</span>
+      <h2 class="section-title">Electronics & Hardware Programs</h2>
+      <p class="section-subtitle">Repair and hardware specialization programs with lab-first training.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/electronics-mobile-repairing-smartphone.jpeg}" alt="Mobile Repairing (Smartphone)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Mobile Repairing (Smartphone)</h3>
+          <p class="category-card-detail">Objective: Master smartphone hardware diagnosis, repair, and maintenance for iOS and Android devices. Duration: 4-6 Months (Certificate Program) Prerequisites: Basic knowledge of electronics; interest in mob...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Mobile Repairing (Smartphone)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Mobile Repairing (Smartphone)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/electronics-laptop-desktop-repairing.jpg}" alt="Laptop & Desktop Repairing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Laptop & Desktop Repairing</h3>
+          <p class="category-card-detail">Objective: Develop expertise in diagnosing, repairing, and maintaining laptops and desktop computers. Duration: 6 Months (Diploma Program) Prerequisites: Basic computer knowledge; familiarity with hardware c...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Laptop & Desktop Repairing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Laptop & Desktop Repairing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/electronics-cctv-installation-maintenance.jpg}" alt="CCTV Installation & Maintenance" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">CCTV Installation & Maintenance</h3>
+          <p class="category-card-detail">Objective: Master CCTV system installation, configuration, monitoring, and maintenance for security applications. Duration: 5 Months (Certificate Program) Prerequisites: Basic knowledge of electronics and ne...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='CCTV Installation & Maintenance',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='CCTV Installation & Maintenance')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/electronics-home-appliances-repairing.jpg}" alt="Home Appliances Repairing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Home Appliances Repairing</h3>
+          <p class="category-card-detail">Objective: Develop skills to repair and maintain home appliances like refrigerators, washing machines, microwave ovens, and air conditioners. Duration: 6 Months (Certificate Program) Prerequisites: Basic ele...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Home Appliances Repairing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Home Appliances Repairing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/electronics-pcb-designing.jpeg}" alt="PCB Designing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">PCB Designing</h3>
+          <p class="category-card-detail">Objective: Master PCB design principles, schematic creation, layout design, and manufacturing for electronic circuits. Duration: 8 Months (Diploma Program) Prerequisites: Strong knowledge of electronics; cir...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='PCB Designing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='PCB Designing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/electronics-networking-ccna.jpeg}" alt="Networking (CCNA)" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Networking (CCNA)</h3>
+          <p class="category-card-detail">Objective: Master Cisco networking fundamentals, routing, switching, and network troubleshooting for CCNA certification. Duration: 6 Months (Diploma Program) Prerequisites: Basic computer knowledge; familiar...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Networking (CCNA)',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Networking (CCNA)')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/electronics-ups-inverter-repairing.jpg}" alt="UPS & Inverter Repairing" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">UPS & Inverter Repairing</h3>
+          <p class="category-card-detail">Objective: Master the repair and maintenance of UPS (Uninterruptible Power Supply) and inverter systems. Duration: 5 Months (Certificate Program) Prerequisites: Basic electrical knowledge; understanding of p...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='UPS & Inverter Repairing',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='UPS & Inverter Repairing')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/electronics-consumer-electronics-technician.jpg}" alt="Consumer Electronics Technician" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Electronics & Hardware</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Consumer Electronics Technician</h3>
+          <p class="category-card-detail">Objective: Develop comprehensive skills in repairing various consumer electronics including televisions, music systems, digital cameras, and gaming devices. Duration: 6 Months (Certificate Program) Prerequis...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Consumer Electronics Technician',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Consumer Electronics Technician')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="logistics" class="section section-logistics section-curve">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Logistics & Supply Chain</span>
+      <h2 class="section-title">Logistics & Supply Chain Programs</h2>
+      <p class="section-subtitle">Warehousing, inventory, and operations skills for logistics careers.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card">
+        <img th:src="@{/images/logistics-supply-chain-management.jpeg}" alt="Supply Chain Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Supply Chain Management</h3>
+          <p class="category-card-detail">Objective: Develop strategic understanding of end-to-end supply chain operations, optimization, and management for organizational excellence. Duration: 12 Months (Diploma Program) Prerequisites: 12th pass; b...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Supply Chain Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Supply Chain Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/logistics-warehouse-supervisor.jpeg}" alt="Warehouse Supervisor" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Warehouse Supervisor</h3>
+          <p class="category-card-detail">Objective: Develop supervisory and operational skills to manage warehouse teams, maximize efficiency, and ensure safety standards. Duration: 5 Months (Certificate Program) Prerequisites: 12th pass; 1-2 years...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Warehouse Supervisor',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Warehouse Supervisor')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/logistics-inventory-management.jpeg}" alt="Inventory Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Inventory Management</h3>
+          <p class="category-card-detail">Objective: Master inventory control techniques, system management, and optimization to reduce costs and improve efficiency. Duration: 6 Months (Certificate Program) Prerequisites: 12th pass; basic understand...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Inventory Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Inventory Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/logistics-inventory-clerk.jpeg}" alt="Inventory Clerk" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Inventory Clerk</h3>
+          <p class="category-card-detail">Objective: Develop operational skills for daily inventory management, stock counting, and documentation. Duration: 2 Months (Short-term Certificate Program) Prerequisites: 10th pass; basic numeracy and liter...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Inventory Clerk',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Inventory Clerk')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/logistics-courier-delivery-operations.jpeg}" alt="Courier & Delivery Operations" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Courier & Delivery Operations</h3>
+          <p class="category-card-detail">Objective: Master courier operations, delivery logistics, customer service, and route optimization for efficient last-mile delivery. Duration: 4 Months (Certificate Program) Prerequisites: 12th pass; clean d...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Courier & Delivery Operations',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Courier & Delivery Operations')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/logistics-export-import-management.jpeg}" alt="Export & Import Management" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Export & Import Management</h3>
+          <p class="category-card-detail">Objective: Master international trade procedures, documentation, regulations, and logistics for effective import-export operations. Duration: 8 Months (Diploma Program) Prerequisites: 12th pass; basic unders...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Export & Import Management',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Export & Import Management')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/logistics-ecommerce-operations.jpg}" alt="E-commerce Operations" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">E-commerce Operations</h3>
+          <p class="category-card-detail">Objective: Master e-commerce logistics, order fulfillment, inventory synchronization, and customer service for online retail operations. Duration: 5 Months (Certificate Program) Prerequisites: 12th pass; fam...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='E-commerce Operations',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='E-commerce Operations')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+      <div class="category-card">
+        <img th:src="@{/images/logistics-forklift-operator-training.jpeg}" alt="Forklift Operator Training" class="category-card-image">
+        <div class="category-card-overlay">
+          <div class="category-card-head">
+            <span class="category-card-tag">Logistics & Supply Chain</span>
+            <span class="course-price">&#8377;5000</span>
+          </div>
+          <h3 class="category-card-title">Forklift Operator Training</h3>
+          <p class="category-card-detail">Objective: Develop safe and efficient forklift operation skills meeting OSHA and international safety standards. Duration: 2-3 Weeks (Certificate Program) Prerequisites: 18+ years old; valid driver's license...</p>
+          <div class="course-card-actions">
+            <a th:href="@{/checkout(course='Forklift Operator Training',price='5000')}" class="course-btn course-btn-primary">Checkout</a>
+            <a th:href="@{/syllabus(course='Forklift Operator Training')}" class="course-btn course-btn-secondary" target="_blank" rel="noopener">View Syllabus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div><div class="footer-brand">UNIVERSAL SKILL DEVELOPMENT CENTRE</div><p class="footer-tagline">Empowering individuals with practical skills and professional training to build successful careers in beauty, technology, and digital marketing.</p><div class="social-links"><a href="#" class="social-link" aria-label="Facebook">f</a><a href="#" class="social-link" aria-label="Instagram">ig</a><a href="#" class="social-link" aria-label="LinkedIn">in</a><a href="#" class="social-link" aria-label="YouTube">yt</a></div></div>
+      <div class="footer-column"><h4>Beauty Courses</h4><ul class="footer-links"><li><a href="#beauty">Basic Makeup</a></li><li><a href="#beauty">Advance Artistry</a></li><li><a href="#beauty">Professional Bridal</a></li></ul></div>
+      <div class="footer-column"><h4>Tech Courses</h4><ul class="footer-links"><li><a href="#tech">MS Office</a></li><li><a href="#tech">Tally + GST</a></li><li><a href="#tech">Excel</a></li><li><a href="#tech">Graphic Design</a></li><li><a href="#tech">Digital Marketing</a></li></ul></div>
+      <div class="footer-column"><h4>Support</h4><ul class="footer-links"><li><a href="#courses">Enroll Now</a></li><li><a href="#footer">Contact Us</a></li><li><a href="#footer">FAQs</a></li><li><a href="#footer">Career Support</a></li><li><a href="#footer">Certificates</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Universal Skill Development Centre. All rights reserved. | Privacy Policy | Terms of Service</p></div>
+  </div>
+</footer>
+
+<script>
+const navbarEl = document.querySelector('.navbar');
+const navToggle = document.querySelector('.nav-toggle');
+
+function closeMobileMenu() {
+  if (!navbarEl || !navToggle) return;
+  navbarEl.classList.remove('is-menu-open');
+  navToggle.setAttribute('aria-expanded', 'false');
+  navToggle.setAttribute('aria-label', 'Open menu');
+}
+
+if (navToggle && navbarEl) {
+  navToggle.addEventListener('click', function() {
+    const menuOpen = navbarEl.classList.toggle('is-menu-open');
+    navToggle.setAttribute('aria-expanded', String(menuOpen));
+    navToggle.setAttribute('aria-label', menuOpen ? 'Close menu' : 'Open menu');
+  });
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      const offset = 80;
+      const targetPosition = target.offsetTop - offset;
+      window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+      closeMobileMenu();
+    }
+  });
+});
+
+const hero = document.querySelector('.hero');
+const heroSlides = Array.from(document.querySelectorAll('.hero-slide'));
+const heroDynamicImage = document.getElementById('hero-dynamic-image');
+let currentHeroSlide = 0;
+let heroImageTimeout;
+let heroBgTimeout;
+
+function activateHeroSlide(index, immediate = false) {
+  if (!heroSlides.length) return;
+  const safeIndex = (index + heroSlides.length) % heroSlides.length;
+  const activeSlide = heroSlides[safeIndex];
+  const nextImage = activeSlide.dataset.image;
+  const nextAlt = activeSlide.dataset.alt || 'Universal Skills course';
+
+  heroSlides.forEach((slide) => {
+    slide.classList.remove('is-active');
+  });
+  if (immediate) {
+    activeSlide.classList.add('is-active');
+  } else {
+    requestAnimationFrame(() => {
+      activeSlide.classList.add('is-active');
+    });
+  }
+
+  if (nextImage && hero) {
+    if (immediate) {
+      hero.style.setProperty('--hero-bg', `url('${nextImage}')`);
+      hero.classList.remove('is-transitioning');
+    } else {
+      hero.classList.add('is-transitioning');
+      clearTimeout(heroBgTimeout);
+      setTimeout(() => {
+        hero.style.setProperty('--hero-bg', `url('${nextImage}')`);
+      }, 120);
+      heroBgTimeout = setTimeout(() => {
+        hero.classList.remove('is-transitioning');
+      }, 520);
+    }
+  }
+
+  if (nextImage && heroDynamicImage) {
+    clearTimeout(heroImageTimeout);
+    if (immediate) {
+      heroDynamicImage.src = nextImage;
+      heroDynamicImage.alt = nextAlt;
+      heroDynamicImage.classList.remove('is-fading');
+    } else {
+      heroDynamicImage.classList.add('is-fading');
+      heroImageTimeout = setTimeout(() => {
+        heroDynamicImage.src = nextImage;
+        heroDynamicImage.alt = nextAlt;
+        heroDynamicImage.classList.remove('is-fading');
+      }, 220);
+    }
+  }
+
+  currentHeroSlide = safeIndex;
+}
+
+if (heroSlides.length > 0) {
+  activateHeroSlide(0, true);
+  setInterval(() => {
+    activateHeroSlide(currentHeroSlide + 1);
+  }, 4300);
+}
+
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 767) {
+    closeMobileMenu();
+  }
+});
+
+window.addEventListener('scroll', function() {
+  if (!navbarEl) return;
+  if (window.scrollY > 50) {
+    navbarEl.style.background = 'rgba(31, 31, 31, 1)';
+  } else {
+    navbarEl.style.background = 'rgba(31, 31, 31, 0.95)';
+  }
+});
+</script>
+</body>
+</html>
+
+
+
+
+
