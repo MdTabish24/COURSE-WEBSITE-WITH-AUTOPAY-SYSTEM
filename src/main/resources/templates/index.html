@@ -13,12 +13,11 @@
 <body>
 <nav class="navbar">
   <div class="navbar-content">
-    <a href="/" class="logo">UNIVERSAL SKILLS</a>
-    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <div class="brand-block">
+      <a href="/" class="logo">UNIVERSAL SKILLS</a>
+      <span class="logo-tagline">Universal Mind, Skilled hands</span>
+      <span class="logo-subtag">iso 9001 Certified Training Academy</span>
+    </div>
     <ul class="nav-links" id="primary-nav">
       <li><a href="#tech">IT</a></li>
       <li><a href="#beauty">Beauty</a></li>
@@ -32,7 +31,20 @@
       <li><a href="#logistics">Logistics</a></li>
       <li><a href="#footer">Contact</a></li>
     </ul>
-    <a href="#courses" class="nav-cta">Enroll Now</a>
+    <div class="nav-actions">
+      <button class="search-toggle" type="button" aria-label="Search courses" aria-expanded="false" aria-controls="course-search-input">
+        <span aria-hidden="true">&#128269;</span>
+      </button>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="#courses" class="nav-cta">Enroll Now</a>
+    </div>
+  </div>
+  <div class="nav-search">
+    <input id="course-search-input" type="search" placeholder="Search course name..." autocomplete="off">
   </div>
 </nav>
 
@@ -1329,13 +1341,17 @@
       <div class="footer-column"><h4>Tech Courses</h4><ul class="footer-links"><li><a href="#tech">MS Office</a></li><li><a href="#tech">Tally + GST</a></li><li><a href="#tech">Excel</a></li><li><a href="#tech">Graphic Design</a></li><li><a href="#tech">Digital Marketing</a></li></ul></div>
       <div class="footer-column"><h4>Support</h4><ul class="footer-links"><li><a href="#courses">Enroll Now</a></li><li><a href="#footer">Contact Us</a></li><li><a href="#footer">FAQs</a></li><li><a href="#footer">Career Support</a></li><li><a href="#footer">Certificates</a></li></ul></div>
     </div>
-    <div class="footer-bottom"><p>&copy; 2026 Universal Skill Development Centre. All rights reserved. | Privacy Policy | Terms of Service</p></div>
+    <div class="footer-bottom"><p>Copyright &copy; Training Institute 2020</p></div>
   </div>
 </footer>
 
 <script>
 const navbarEl = document.querySelector('.navbar');
 const navToggle = document.querySelector('.nav-toggle');
+const searchToggle = document.querySelector('.search-toggle');
+const searchInput = document.getElementById('course-search-input');
+const courseCards = Array.from(document.querySelectorAll('.category-card'));
+const searchableSections = Array.from(document.querySelectorAll('section.section'));
 
 function closeMobileMenu() {
   if (!navbarEl || !navToggle) return;
@@ -1344,11 +1360,76 @@ function closeMobileMenu() {
   navToggle.setAttribute('aria-label', 'Open menu');
 }
 
+function applyCourseSearch(value) {
+  const query = (value || '').trim().toLowerCase();
+
+  if (!query) {
+    courseCards.forEach((card) => {
+      card.style.display = '';
+      card.classList.remove('search-hit');
+    });
+    searchableSections.forEach((section) => {
+      section.style.display = '';
+    });
+    return;
+  }
+
+  courseCards.forEach((card) => {
+    const title = card.querySelector('.category-card-title')?.textContent || '';
+    const detail = card.querySelector('.category-card-detail')?.textContent || '';
+    const tag = card.querySelector('.category-card-tag')?.textContent || '';
+    const cardText = `${title} ${detail} ${tag}`.toLowerCase();
+    const isMatch = cardText.includes(query);
+    card.style.display = isMatch ? '' : 'none';
+    card.classList.toggle('search-hit', isMatch);
+  });
+
+  searchableSections.forEach((section) => {
+    const cardsInSection = Array.from(section.querySelectorAll('.category-card'));
+    if (!cardsInSection.length) return;
+    const hasVisibleCard = cardsInSection.some((card) => card.style.display !== 'none');
+    section.style.display = hasVisibleCard ? '' : 'none';
+  });
+}
+
+function closeSearch(clearQuery = true) {
+  if (!navbarEl || !searchToggle || !searchInput) return;
+  navbarEl.classList.remove('is-search-open');
+  searchToggle.setAttribute('aria-expanded', 'false');
+  if (clearQuery) {
+    searchInput.value = '';
+    applyCourseSearch('');
+  }
+}
+
+function openSearch() {
+  if (!navbarEl || !searchToggle || !searchInput) return;
+  navbarEl.classList.add('is-search-open');
+  searchToggle.setAttribute('aria-expanded', 'true');
+  requestAnimationFrame(() => searchInput.focus());
+}
+
 if (navToggle && navbarEl) {
   navToggle.addEventListener('click', function() {
+    closeSearch();
     const menuOpen = navbarEl.classList.toggle('is-menu-open');
     navToggle.setAttribute('aria-expanded', String(menuOpen));
     navToggle.setAttribute('aria-label', menuOpen ? 'Close menu' : 'Open menu');
+  });
+}
+
+if (searchToggle && searchInput && navbarEl) {
+  searchToggle.addEventListener('click', function() {
+    if (navbarEl.classList.contains('is-search-open')) {
+      closeSearch(true);
+      return;
+    }
+    closeMobileMenu();
+    openSearch();
+  });
+
+  searchInput.addEventListener('input', function() {
+    applyCourseSearch(searchInput.value);
   });
 }
 
@@ -1361,6 +1442,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       const targetPosition = target.offsetTop - offset;
       window.scrollTo({ top: targetPosition, behavior: 'smooth' });
       closeMobileMenu();
+      closeSearch();
     }
   });
 });
@@ -1436,6 +1518,12 @@ window.addEventListener('resize', function() {
   if (window.innerWidth > 767) {
     closeMobileMenu();
   }
+});
+
+window.addEventListener('keydown', function(event) {
+  if (event.key !== 'Escape') return;
+  closeMobileMenu();
+  closeSearch(true);
 });
 
 window.addEventListener('scroll', function() {
