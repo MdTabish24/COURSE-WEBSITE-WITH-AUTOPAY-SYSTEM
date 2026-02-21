@@ -48,7 +48,11 @@ public class SyllabusService {
     public String getSectorByCourse(String course) {
         Integer sector = courseToSectorByNormalized.get(normalize(course));
         if (sector == null) {
-            return "Course Syllabus";
+            Integer inferredSector = inferSectorByCourseHeading(course);
+            if (inferredSector == null) {
+                return "Course Syllabus";
+            }
+            return sectorNameByIndex.getOrDefault(inferredSector, "Course Syllabus");
         }
         return sectorNameByIndex.getOrDefault(sector, "Course Syllabus");
     }
@@ -84,6 +88,11 @@ public class SyllabusService {
             if (fuzzySection != null) {
                 return fuzzySection;
             }
+        }
+
+        String headingBasedSection = findSectionByHeadingAcrossSectors(course);
+        if (headingBasedSection != null) {
+            return headingBasedSection;
         }
 
         return "Syllabus not found for \"" + course + "\".";
@@ -183,6 +192,98 @@ public class SyllabusService {
             return null;
         }
         return cleaned;
+    }
+
+    private Integer inferSectorByCourseHeading(String course) {
+        if (course == null || course.isBlank()) {
+            return null;
+        }
+
+        String normalizedRequested = normalize(course);
+        Integer bestSector = null;
+        int bestScore = -1;
+
+        for (Map.Entry<Integer, String> entry : sectorContentCache.entrySet()) {
+            Integer sector = entry.getKey();
+            String content = entry.getValue();
+            if (content == null || content.isBlank()) {
+                continue;
+            }
+
+            for (String line : content.split("\\R")) {
+                Matcher matcher = COURSE_HEADING.matcher(line == null ? "" : line);
+                if (!matcher.matches()) {
+                    continue;
+                }
+                int score = similarityScore(normalizedRequested, normalize(matcher.group(1)));
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestSector = sector;
+                }
+            }
+        }
+
+        return bestScore >= 4 ? bestSector : null;
+    }
+
+    private String findSectionByHeadingAcrossSectors(String course) {
+        if (course == null || course.isBlank()) {
+            return null;
+        }
+
+        for (String content : sectorContentCache.values()) {
+            String section = extractSectionByHeading(content, course);
+            if (section != null && !section.isBlank()) {
+                return section;
+            }
+        }
+
+        return null;
+    }
+
+    private String extractSectionByHeading(String content, String requestedCourse) {
+        if (content == null || content.isBlank() || requestedCourse == null || requestedCourse.isBlank()) {
+            return null;
+        }
+
+        List<String> lines = Arrays.asList(content.split("\\R"));
+        String normalizedRequested = normalize(requestedCourse);
+        int bestScore = -1;
+        int bestStart = -1;
+
+        for (int i = 0; i < lines.size(); i++) {
+            Matcher matcher = COURSE_HEADING.matcher(lines.get(i) == null ? "" : lines.get(i));
+            if (!matcher.matches()) {
+                continue;
+            }
+
+            int score = similarityScore(normalizedRequested, normalize(matcher.group(1)));
+            if (score > bestScore) {
+                bestScore = score;
+                bestStart = i;
+            }
+        }
+
+        if (bestStart < 0 || bestScore < 4) {
+            return null;
+        }
+
+        int end = lines.size();
+        for (int i = bestStart + 1; i < lines.size(); i++) {
+            Matcher matcher = COURSE_HEADING.matcher(lines.get(i) == null ? "" : lines.get(i));
+            if (matcher.matches()) {
+                end = i;
+                break;
+            }
+        }
+
+        StringBuilder block = new StringBuilder();
+        for (int i = bestStart; i < end; i++) {
+            block.append(lines.get(i)).append(System.lineSeparator());
+        }
+
+        String section = block.toString().trim();
+        return section.isBlank() ? null : section;
     }
 
     private void parseAllSectorSections() {
