@@ -293,11 +293,13 @@ p { margin-bottom: 16px; }
 
 .nav-search {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 100%;
-  background: rgba(31, 31, 31, 0.97);
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  left: 24px;
+  right: 24px;
+  top: calc(100% + 10px);
+  background: rgba(31, 31, 31, 0.98);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
   padding: 0 36px;
   max-height: 0;
   opacity: 0;
@@ -1055,17 +1057,17 @@ p { margin-bottom: 16px; }
   .nav-links a:hover { background: rgba(200, 155, 123, 0.14); }
   .nav-links a::after { display: none; }
   .brand-block { max-width: 100%; }
-  .logo { font-size: 14px; white-space: nowrap; }
+  .logo { font-size: 18px; white-space: nowrap; }
   .logo-tagline {
-    font-size: 9px;
+    font-size: 12px;
     margin-top: 2px;
-    max-width: 190px;
+    max-width: 230px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   .logo-subtag {
-    font-size: 7px;
-    max-width: 190px;
+    font-size: 10px;
+    max-width: 230px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1131,14 +1133,14 @@ p { margin-bottom: 16px; }
 @media (max-width: 480px) {
   .container { padding: 0 12px; }
   .navbar { padding: 0 8px; }
-  .logo { font-size: 13px; }
+  .logo { font-size: 16px; }
   .logo-tagline {
-    font-size: 8px;
-    max-width: 170px;
+    font-size: 10px;
+    max-width: 205px;
   }
   .logo-subtag {
-    font-size: 7px;
-    max-width: 170px;
+    font-size: 9px;
+    max-width: 205px;
   }
   .nav-links a { font-size: 9px; }
   h1 { font-size: 28px; }
