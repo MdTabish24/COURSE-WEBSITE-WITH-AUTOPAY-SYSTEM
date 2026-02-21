@@ -25,12 +25,11 @@ public class CheckoutController {
     
     @GetMapping("/checkout")
     public ModelAndView checkout(
-            @RequestParam(required = false, defaultValue = "Elite Course") String course,
-            @RequestParam(required = false, defaultValue = "5000") String price) {
+            @RequestParam(required = false, defaultValue = "Elite Course") String course) {
         
         ModelAndView mav = new ModelAndView("checkout-form");
         mav.addObject("selectedCourse", course);
-        mav.addObject("price", price);
+        mav.addObject("price", syllabusService.getFeeByCourse(course));
         return mav;
     }
 

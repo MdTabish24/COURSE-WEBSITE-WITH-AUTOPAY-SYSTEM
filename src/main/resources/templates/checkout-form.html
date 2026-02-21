@@ -296,7 +296,7 @@
 
             <div class="qr-wrapper">
                 <p class="qr-title">Scan QR Code to Pay</p>
-                <img src="/api/qr-code" alt="UPI QR Code" class="qr-code" id="qrCode">
+                <img th:src="@{/api/qr-code(course=${selectedCourse},amount=${price})}" src="/api/qr-code" alt="UPI QR Code" class="qr-code" id="qrCode">
                 <p class="qr-amount" th:text="'Amount: &#8377;' + ${price}">Amount: &#8377;5000</p>
             </div>
         </div>

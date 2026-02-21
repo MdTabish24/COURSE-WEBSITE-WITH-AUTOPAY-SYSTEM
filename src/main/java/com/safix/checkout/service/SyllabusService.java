@@ -16,11 +16,14 @@ public class SyllabusService {
 
     private static final Pattern SECTOR_LINE = Pattern.compile("^\\s*(\\d+)\\.\\s*(.+?)\\s*$");
     private static final Pattern COURSE_HEADING = Pattern.compile("^\\s*\\d+\\s*[\\.)]\\s*(.+?)\\s*$");
+    private static final Pattern COURSE_FEE_PATTERN = Pattern.compile("(?im)\\b(?:fees?|course\\s*fee|tuition)\\b[^\\r\\n]{0,30}?(?:rs\\.?|inr|₹)?\\s*([0-9][0-9,]{2,})");
+    private static final Pattern RUPEE_FEE_PATTERN = Pattern.compile("(?im)(?:₹|rs\\.?|inr)\\s*([0-9][0-9,]{2,})");
 
     private final Map<Integer, String> sectorFileByIndex = new LinkedHashMap<>();
     private final Map<Integer, String> sectorNameByIndex = new LinkedHashMap<>();
     private final Map<Integer, List<String>> sectorCoursesByIndex = new LinkedHashMap<>();
     private final Map<String, Integer> courseToSectorByNormalized = new HashMap<>();
+    private final Map<String, String> courseFeeByNormalized = new HashMap<>();
     private final Map<Integer, String> sectorContentCache = new HashMap<>();
     private final Map<Integer, Map<String, String>> sectorCourseSectionsByNormalized = new HashMap<>();
 
@@ -39,6 +42,7 @@ public class SyllabusService {
 
         parseWebsiteCourseList();
         parseAllSectorSections();
+        applyDefaultCourseFees();
     }
 
     public String getSectorByCourse(String course) {
@@ -83,6 +87,34 @@ public class SyllabusService {
         }
 
         return "Syllabus not found for \"" + course + "\".";
+    }
+
+    public String getFeeByCourse(String course) {
+        if (course == null || course.isBlank()) {
+            return "5000";
+        }
+
+        String normalizedCourse = normalize(course);
+        String exact = courseFeeByNormalized.get(normalizedCourse);
+        if (exact != null && !exact.isBlank()) {
+            return exact;
+        }
+
+        String bestKey = null;
+        int bestScore = -1;
+        for (String key : courseFeeByNormalized.keySet()) {
+            int score = similarityScore(normalizedCourse, key);
+            if (score > bestScore) {
+                bestScore = score;
+                bestKey = key;
+            }
+        }
+
+        if (bestKey != null && bestScore >= 4) {
+            return courseFeeByNormalized.get(bestKey);
+        }
+
+        return "5000";
     }
 
     private String findBestSectionForCourse(String normalizedCourse, Map<String, String> sections) {
@@ -166,8 +198,69 @@ public class SyllabusService {
                 sectorContentCache.put(sectorIndex, content);
                 Map<String, String> sections = extractSections(content, sectorCoursesByIndex.getOrDefault(sectorIndex, Collections.emptyList()));
                 sectorCourseSectionsByNormalized.put(sectorIndex, sections);
+                populateFeesFromSections(sections);
             } catch (IOException ignored) {
                 // Keep app running even if one sector file is unavailable.
+            }
+        }
+    }
+
+    private void populateFeesFromSections(Map<String, String> sections) {
+        for (Map.Entry<String, String> entry : sections.entrySet()) {
+            String fee = extractFee(entry.getValue());
+            if (fee != null) {
+                courseFeeByNormalized.putIfAbsent(entry.getKey(), fee);
+            }
+        }
+    }
+
+    private String extractFee(String sectionText) {
+        if (sectionText == null || sectionText.isBlank()) {
+            return null;
+        }
+
+        Matcher taggedMatcher = COURSE_FEE_PATTERN.matcher(sectionText);
+        if (taggedMatcher.find()) {
+            return sanitizeAmount(taggedMatcher.group(1));
+        }
+
+        Matcher rupeeMatcher = RUPEE_FEE_PATTERN.matcher(sectionText);
+        if (rupeeMatcher.find()) {
+            return sanitizeAmount(rupeeMatcher.group(1));
+        }
+
+        return null;
+    }
+
+    private String sanitizeAmount(String rawAmount) {
+        if (rawAmount == null || rawAmount.isBlank()) {
+            return null;
+        }
+        String digits = rawAmount.replaceAll("[^0-9]", "");
+        return digits.isBlank() ? null : digits;
+    }
+
+    private void applyDefaultCourseFees() {
+        Map<Integer, List<String>> sectorFees = new HashMap<>();
+        sectorFees.put(1, List.of("4999", "7999", "12999", "6999", "6999", "6999", "6999", "6999"));
+        sectorFees.put(2, List.of("3499", "6999", "6999", "6999", "6999", "6999", "6999", "6999"));
+        sectorFees.put(3, List.of("6999", "7999", "7999", "7999", "6999", "6999", "6999", "6999"));
+        sectorFees.put(4, List.of("6999", "6999", "6999", "6999", "7999", "7999", "7999", "7999"));
+        sectorFees.put(5, List.of("9999", "5999", "7999", "6999", "5999", "6999", "6999", "7999"));
+        sectorFees.put(6, List.of("8999", "8999", "8999", "7999", "7999", "8999", "6999", "8999"));
+        sectorFees.put(7, List.of("8999", "8999", "7999", "6999", "6999", "7999", "6999", "7999"));
+        sectorFees.put(8, List.of("8999", "6999", "6999", "6999", "7999", "7999", "7999", "8999"));
+        sectorFees.put(9, List.of("6999", "7999", "7999", "7999", "8999", "8999", "7999", "7999"));
+        sectorFees.put(10, List.of("7999", "6999", "6999", "6999", "6999", "7999", "6999", "6999"));
+
+        for (Map.Entry<Integer, List<String>> entry : sectorFees.entrySet()) {
+            Integer sectorIndex = entry.getKey();
+            List<String> fees = entry.getValue();
+            List<String> courses = sectorCoursesByIndex.getOrDefault(sectorIndex, Collections.emptyList());
+
+            for (int i = 0; i < courses.size() && i < fees.size(); i++) {
+                String normalizedCourse = normalize(courses.get(i));
+                courseFeeByNormalized.putIfAbsent(normalizedCourse, fees.get(i));
             }
         }
     }
