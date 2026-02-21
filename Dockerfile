@@ -3,6 +3,7 @@ WORKDIR /build
 
 COPY pom.xml .
 COPY src ./src
+COPY *.txt ./
 
 RUN mvn clean package -DskipTests
 
@@ -10,6 +11,7 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 COPY --from=builder /build/target/*.jar /app/app.jar
+COPY --from=builder /build/*.txt /app/
 
 RUN mkdir -p /app/uploads
 
