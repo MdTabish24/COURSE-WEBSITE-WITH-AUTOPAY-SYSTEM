@@ -4,48 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Successful</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            background: #0D0D0D;
-            color: #F5F5F7;
-            font-family: 'Inter', sans-serif;
+            background: #F8FBF8;
+            color: #1A1A1A;
+            font-family: 'Poppins', sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
         }
         .success-box {
-            background: #1A1A1A;
+            background: #F8FBF8;
             padding: 50px;
             text-align: center;
-            border: 2px solid #C5A059;
+            border: 1px solid rgba(15, 35, 63, 0.12);
             max-width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 12px 30px rgba(12, 32, 60, 0.12);
         }
         h1 {
-            font-family: 'Playfair Display', serif;
-            color: #C5A059;
+            font-family: 'Poppins', sans-serif;
+            color: #1B1B1C;
             font-size: 48px;
             margin-bottom: 20px;
         }
         .checkmark {
             font-size: 80px;
-            color: #4CAF50;
+            color: #1B1B1C;
         }
         p {
             font-size: 18px;
             margin: 15px 0;
         }
         .highlight {
-            color: #C5A059;
+            color: #1B1B1C;
             font-weight: 600;
         }
     </style>
 </head>
 <body>
     <div class="success-box">
-        <div class="checkmark">✓</div>
+        <div class="checkmark">OK</div>
         <h1>Success!</h1>
         <p>Your registration is complete.</p>
         <p>Receipt sent to: <span class="highlight" th:text="${registration.email}"></span></p>
@@ -55,3 +57,4 @@
     </div>
 </body>
 </html>
+

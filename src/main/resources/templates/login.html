@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title th:text="${roleLabel} + ' - Universal Skills'">Login - Universal Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F8FBF8;
+      --card: #F8FBF8;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #1B1B1C;
+      --accent-deep: #1B1B1C;
+      --border: rgba(26, 26, 26, 0.12);
+      --shadow: 0 16px 38px rgba(12, 18, 35, 0.12);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Poppins", "Segoe UI", sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top left, #F8FBF8 0%, #F8FBF8 50%, #F8FBF8 100%);
+      min-height: 100vh;
+    }
+
+    .login-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 22px 6vw 0;
+    }
+
+    .login-nav .logo {
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.5px;
+    }
+
+    .login-nav .back {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .login-shell {
+      width: min(1100px, 92%);
+      margin: 26px auto 60px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .login-info,
+    .login-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .role-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      background: rgba(27, 27, 28, 0.14);
+      color: var(--accent-deep);
+      font-weight: 700;
+    }
+
+    .login-info h1 {
+      margin: 14px 0 10px;
+      font-size: 30px;
+    }
+
+    .login-info p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .login-info ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .login-info li {
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: #F8FBF8;
+      font-size: 13px;
+      font-weight: 500;
+      color: #1B1B1C;
+    }
+
+    .login-card h2 {
+      margin: 0 0 6px;
+      font-size: 22px;
+    }
+
+    .login-card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .alert {
+      background: #F8FBF8;
+      border: 1px solid rgba(27, 27, 28, 0.25);
+      color: #1B1B1C;
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-size: 12px;
+      margin-bottom: 14px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+
+    label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #3c3c3c;
+    }
+
+    input {
+      height: 44px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 0 14px;
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+      transition: border 0.2s ease, box-shadow 0.2s ease;
+      background: #F8FBF8;
+    }
+
+    input:focus {
+      border-color: rgba(27, 27, 28, 0.5);
+      box-shadow: 0 0 0 3px rgba(27, 27, 28, 0.1);
+    }
+
+    .login-btn {
+      width: 100%;
+      border: none;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #F8FBF8;
+      font-weight: 600;
+      padding: 12px 0;
+      font-size: 14px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .login-btn:hover {
+      background: var(--accent-deep);
+      transform: translateY(-1px);
+      box-shadow: 0 10px 20px rgba(27, 27, 28, 0.2);
+    }
+
+    .login-note {
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .login-note strong {
+      color: var(--accent-deep);
+    }
+
+    @media (max-width: 960px) {
+      .login-shell {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="login-nav">
+    <a class="logo" href="/">UNIVERSAL SKILLS</a>
+    <a class="back" href="/#courses">Back to Courses</a>
+  </nav>
+
+  <main class="login-shell">
+    <section class="login-info">
+      <span class="role-pill" th:text="${roleLabel}">User Login</span>
+      <h1 th:text="${roleLabel}">User Login</h1>
+      <p th:text="${roleHint}">Sign in to view your courses, assessments, and certificates.</p>
+      <ul>
+        <li>Access your dashboard from any device.</li>
+        <li>All login requests are securely logged for verification.</li>
+        <li>Need help? WhatsApp us at +91-90000-00000.</li>
+      </ul>
+    </section>
+
+    <section class="login-card">
+      <h2>Sign in</h2>
+      <p>Enter your registered email or mobile number to continue.</p>
+
+      <div class="alert" th:if="${error}" th:text="${error}">Error message</div>
+
+      <form th:action="@{/login}" method="post">
+        <input type="hidden" name="role" th:value="${role}">
+        <div class="field">
+          <label for="identifier">Email or Mobile</label>
+          <input id="identifier" name="identifier" type="text" placeholder="example@email.com" required>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" placeholder="••••••••" required>
+        </div>
+        <button class="login-btn" type="submit">Login</button>
+      </form>
+      <div class="login-note">
+        <strong>Note:</strong> First-time users can submit login and the admin will activate access.
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
