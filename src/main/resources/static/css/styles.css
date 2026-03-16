@@ -140,7 +140,7 @@ p { margin-bottom: 16px; }
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.82);
   backdrop-filter: blur(18px) saturate(1.35);
   -webkit-backdrop-filter: blur(18px) saturate(1.35);
   height: var(--nav-height);
@@ -156,7 +156,7 @@ p { margin-bottom: 16px; }
 }
 
 .navbar.is-scrolled {
-  background: rgba(255, 255, 255, 0.94);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 0 12px 24px rgba(17, 17, 17, 0.08);
 }
 
@@ -2021,12 +2021,6 @@ p { margin-bottom: 16px; }
   background: #F8FBF8;
 }
 
-.category-card-overlay::before {
-  content: "?????";
-  color: #F4B400;
-  font-size: 12px;
-  letter-spacing: 2px;
-}
 
 .category-card-head {
   display: flex;
@@ -2826,8 +2820,8 @@ p { margin-bottom: 16px; }
   .brand-block { flex: 1; min-width: 0; }
   .nav-actions { gap: 8px; }
   .nav-extras { display: none; }
-  .search-toggle, .nav-toggle { width: 36px; height: 36px; }
-  .search-toggle { font-size: 14px; }
+  .search-toggle, .nav-toggle { width: 42px; height: 42px; }
+  .search-toggle { font-size: 16px; }
   .nav-toggle { display: inline-flex; }
   .nav-links {
     position: absolute;
@@ -2930,7 +2924,7 @@ p { margin-bottom: 16px; }
   }
   .brand-block { max-width: 100%; }
   .logo { font-size: 18px; white-space: nowrap; }
-  .logo-image { height: 38px; }
+  .logo-image { height: 44px; }
   .logo-tagline {
     font-size: 12px;
     margin-top: 2px;
@@ -2939,8 +2933,8 @@ p { margin-bottom: 16px; }
     text-overflow: ellipsis;
   }
   .logo-subtag {
-    font-size: 10px;
-    max-width: 230px;
+    font-size: 11px;
+    max-width: 260px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
