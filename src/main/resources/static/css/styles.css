@@ -956,6 +956,15 @@ p { margin-bottom: 16px; }
   margin: 0 auto;
 }
 
+@supports (content-visibility: auto) {
+  .category-card,
+  .product-card,
+  .success-story-item {
+    content-visibility: auto;
+    contain-intrinsic-size: 300px 360px;
+  }
+}
+
 /* SUCCESS STORIES */
 .success-stories-grid {
   display: flex;
