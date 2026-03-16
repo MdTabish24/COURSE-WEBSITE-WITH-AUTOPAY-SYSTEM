@@ -21,8 +21,9 @@
 <nav class="navbar">
   <div class="navbar-content">
     <div class="brand-block">
-      <a href="/" class="logo">UNIVERSAL SKILLS</a>
-      <span class="logo-tagline">Universal Skills - Universal Mines, Skilled Hands</span>
+      <a href="/" class="logo">
+        <img class="logo-image" th:src="@{/images/logo.jpg}" alt="Universal Skills">
+      </a>
       <span class="logo-subtag">Section 8 Registered | ISO 9001:2015 Certified</span>
     </div>
     <ul class="nav-links" id="primary-nav">
@@ -45,7 +46,7 @@
           <li><a href="#logistics">Logistics</a></li>
         </ul>
       </li>
-      <li><a href="#platform">Platform</a></li>
+      <li><a href="#success-stories">Success Stories</a></li>
       <li><a href="#verification">Verify Certificate</a></li>
       <li><a href="#blog">Blog</a></li>
       <li><a href="#footer">Contact Us</a></li>
@@ -2635,29 +2636,42 @@
   </div>
 </section>
 
-<section id="platform" class="section section-light platform-section">
+<section id="success-stories" class="section section-light success-stories-section">
   <div class="container">
-    <div class="section-header">
-      <span class="section-tag">Authentication</span>
-      <h2 class="section-title">Role-Based Login Access</h2>
-      <p class="section-subtitle">Secure access for students, faculty, and administrators.</p>
-    </div>
-    <div class="module-grid">
-      <article class="module-card">
-        <span class="module-tag">Student</span>
-        <h3>User Login</h3>
-        <p class="module-subtitle">Learner access for courses, assessments, and certificates.</p>
-      </article>
-      <article class="module-card">
-        <span class="module-tag">Faculty</span>
-        <h3>Faculty Login</h3>
-        <p class="module-subtitle">Trainer access for batches, content, and evaluations.</p>
-      </article>
-      <article class="module-card">
-        <span class="module-tag">Admin</span>
-        <h3>Admin Login</h3>
-        <p class="module-subtitle">Control access for management and operations.</p>
-      </article>
+    <div class="success-stories-grid">
+      <div class="success-stories-row row-4">
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img1.jpeg}">
+          <img th:src="@{/success-stories/img1.jpeg}" alt="Success story 1">
+        </button>
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img2.jpeg}">
+          <img th:src="@{/success-stories/img2.jpeg}" alt="Success story 2">
+        </button>
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img3.jpeg}">
+          <img th:src="@{/success-stories/img3.jpeg}" alt="Success story 3">
+        </button>
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img4.jpeg}">
+          <img th:src="@{/success-stories/img4.jpeg}" alt="Success story 4">
+        </button>
+      </div>
+      <div class="success-stories-row row-3">
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img5.jpeg}">
+          <img th:src="@{/success-stories/img5.jpeg}" alt="Success story 5">
+        </button>
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img6.jpeg}">
+          <img th:src="@{/success-stories/img6.jpeg}" alt="Success story 6">
+        </button>
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img7.jpeg}">
+          <img th:src="@{/success-stories/img7.jpeg}" alt="Success story 7">
+        </button>
+      </div>
+      <div class="success-stories-row row-2">
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img8.jpeg}">
+          <img th:src="@{/success-stories/img8.jpeg}" alt="Success story 8">
+        </button>
+        <button class="success-story-item" type="button" th:attr="data-full=@{/success-stories/img9.jpeg}">
+          <img th:src="@{/success-stories/img9.jpeg}" alt="Success story 9">
+        </button>
+      </div>
     </div>
   </div>
 </section>
@@ -3635,6 +3649,11 @@ Whether you're a science student exploring career options or a working professio
   <span class="chat-fab-text">WhatsApp</span>
 </a>
 
+<div class="success-lightbox" aria-hidden="true">
+  <button class="success-lightbox-close" type="button" aria-label="Close image">&#10005;</button>
+  <img class="success-lightbox-image" alt="Success story preview">
+</div>
+
 <script>
 const navbarEl = document.querySelector('.navbar');
 const navToggle = document.querySelector('.nav-toggle');
@@ -3809,6 +3828,10 @@ courseWhatsappButtons.forEach((button) => {
 const contactForm = document.querySelector('.contact-form');
 const contactSubmit = document.querySelector('.contact-submit');
 const contactChips = Array.from(document.querySelectorAll('.form-chips .chip'));
+const successStoryItems = Array.from(document.querySelectorAll('.success-story-item'));
+const successLightbox = document.querySelector('.success-lightbox');
+const successLightboxImage = document.querySelector('.success-lightbox-image');
+const successLightboxClose = document.querySelector('.success-lightbox-close');
 
 const getActiveContactTopic = () => {
   const active = contactChips.find((chip) => chip.classList.contains('is-active'));
@@ -3875,6 +3898,46 @@ if (contactForm && contactSubmit) {
     } finally {
       contactSubmit.disabled = false;
       contactSubmit.textContent = originalText;
+    }
+  });
+}
+
+function openSuccessLightbox(src, altText) {
+  if (!successLightbox || !successLightboxImage) return;
+  successLightboxImage.src = src;
+  successLightboxImage.alt = altText || 'Success story';
+  successLightbox.classList.add('is-open');
+  successLightbox.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSuccessLightbox() {
+  if (!successLightbox) return;
+  successLightbox.classList.remove('is-open');
+  successLightbox.setAttribute('aria-hidden', 'true');
+  if (successLightboxImage) {
+    successLightboxImage.src = '';
+  }
+  document.body.style.overflow = '';
+}
+
+successStoryItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    const img = item.querySelector('img');
+    const src = item.getAttribute('data-full') || img?.src;
+    if (!src) return;
+    openSuccessLightbox(src, img?.alt);
+  });
+});
+
+if (successLightboxClose) {
+  successLightboxClose.addEventListener('click', closeSuccessLightbox);
+}
+
+if (successLightbox) {
+  successLightbox.addEventListener('click', (event) => {
+    if (event.target === successLightbox) {
+      closeSuccessLightbox();
     }
   });
 }
@@ -4050,6 +4113,7 @@ window.addEventListener('keydown', function(event) {
   if (event.key !== 'Escape') return;
   closeMobileMenu();
   closeSearch(true);
+  closeSuccessLightbox();
 });
 
 window.addEventListener('scroll', function() {
