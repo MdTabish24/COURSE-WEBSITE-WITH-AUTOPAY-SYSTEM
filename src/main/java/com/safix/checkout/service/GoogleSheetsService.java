@@ -18,12 +18,14 @@ import com.safix.checkout.model.LoginResult;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.MessageDigest;
 import java.time.format.DateTimeFormatter;
+import java.util.Base64;
 import java.util.HexFormat;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
@@ -45,6 +47,8 @@ public class GoogleSheetsService {
 
     public GoogleSheetsService(@Value("${google.sheets.spreadsheet-id:}") String spreadsheetId,
                                @Value("${google.sheets.credentials-path:}") String credentialsPath,
+                               @Value("${google.sheets.credentials-json:}") String credentialsJson,
+                               @Value("${google.sheets.credentials-base64:}") String credentialsBase64,
                                @Value("${google.sheets.enquiry-sheet:Sheet1}") String enquirySheetName,
                                @Value("${google.sheets.database-sheet:Sheet2}") String databaseSheetName,
                                @Value("${google.sheets.login-sheet:Login}") String loginSheetName) {
@@ -52,12 +56,12 @@ public class GoogleSheetsService {
         this.enquirySheetName = enquirySheetName;
         this.databaseSheetName = databaseSheetName;
         this.loginSheetName = loginSheetName;
-        this.sheets = buildSheetsClient(credentialsPath);
+        this.sheets = buildSheetsClient(credentialsPath, credentialsJson, credentialsBase64);
     }
 
     public LoginResult appendLogin(LoginRequest request) {
         if (!isConfigured()) {
-            return LoginResult.fail("Google Sheets not configured. Add google.sheets.spreadsheet-id and google.sheets.credentials-path in application.properties.");
+            return LoginResult.fail("Google Sheets not configured. Add google.sheets.spreadsheet-id and credentials (path/json/base64) in application.properties.");
         }
 
         List<Object> row = List.of(
@@ -80,7 +84,7 @@ public class GoogleSheetsService {
 
     public EnquiryResult appendEnquiry(EnquiryRequest request) {
         if (!isConfigured()) {
-            return EnquiryResult.fail("Google Sheets not configured. Add google.sheets.spreadsheet-id and google.sheets.credentials-path in application.properties.");
+            return EnquiryResult.fail("Google Sheets not configured. Add google.sheets.spreadsheet-id and credentials (path/json/base64) in application.properties.");
         }
 
         List<Object> row = List.of(
@@ -112,11 +116,17 @@ public class GoogleSheetsService {
         return EnquiryResult.ok("Enquiry stored.");
     }
 
-    private Sheets buildSheetsClient(String credentialsPath) {
-        if (credentialsPath == null || credentialsPath.isBlank()) {
+    private Sheets buildSheetsClient(String credentialsPath, String credentialsJson, String credentialsBase64) {
+        boolean hasPath = credentialsPath != null && !credentialsPath.isBlank();
+        boolean hasJson = credentialsJson != null && !credentialsJson.isBlank();
+        boolean hasBase64 = credentialsBase64 != null && !credentialsBase64.isBlank();
+        if (!hasPath && !hasJson && !hasBase64) {
             return null;
         }
-        try (InputStream in = Files.newInputStream(Path.of(credentialsPath))) {
+        try (InputStream in = openCredentialsStream(credentialsPath, credentialsJson, credentialsBase64)) {
+            if (in == null) {
+                return null;
+            }
             GoogleCredentials credentials = GoogleCredentials.fromStream(in)
                     .createScoped(List.of(SheetsScopes.SPREADSHEETS));
             HttpRequestInitializer initializer = new HttpCredentialsAdapter(credentials);
@@ -126,6 +136,25 @@ public class GoogleSheetsService {
         } catch (Exception ex) {
             return null;
         }
+    }
+
+    private InputStream openCredentialsStream(String credentialsPath, String credentialsJson, String credentialsBase64) {
+        try {
+            if (credentialsPath != null && !credentialsPath.isBlank()) {
+                return Files.newInputStream(Path.of(credentialsPath));
+            }
+            if (credentialsJson != null && !credentialsJson.isBlank()) {
+                String normalized = credentialsJson.replace("\\n", "\n");
+                return new ByteArrayInputStream(normalized.getBytes(StandardCharsets.UTF_8));
+            }
+            if (credentialsBase64 != null && !credentialsBase64.isBlank()) {
+                byte[] decoded = Base64.getDecoder().decode(credentialsBase64);
+                return new ByteArrayInputStream(decoded);
+            }
+        } catch (Exception ex) {
+            return null;
+        }
+        return null;
     }
 
     private boolean isConfigured() {
