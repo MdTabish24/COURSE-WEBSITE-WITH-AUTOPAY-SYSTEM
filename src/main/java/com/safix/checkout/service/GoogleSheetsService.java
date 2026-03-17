@@ -1,7 +1,9 @@
 package com.safix.checkout.service;
 
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
+import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.client.http.HttpRequestInitializer;
+import com.google.api.client.http.HttpResponseException;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
@@ -24,10 +26,17 @@ import java.security.MessageDigest;
 import java.time.format.DateTimeFormatter;
 import java.util.HexFormat;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 @Service
 public class GoogleSheetsService {
     private static final JacksonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
+    private static final long MIN_INTERVAL_MS = 1100L;
+    private static final int MAX_RETRIES = 4;
+    private static final long BASE_BACKOFF_MS = 250L;
+    private static final long MAX_BACKOFF_MS = 5000L;
+    private static final Object RATE_LOCK = new Object();
+    private static long nextAllowedTimeMs = 0L;
     private final Sheets sheets;
     private final String spreadsheetId;
     private final String enquirySheetName;
@@ -127,20 +136,63 @@ public class GoogleSheetsService {
         if (sheetName == null || sheetName.isBlank()) {
             return label + " sheet name is not configured.";
         }
-        try {
-            ValueRange body = new ValueRange().setValues(List.of(row));
-            AppendValuesResponse response = sheets.spreadsheets().values()
-                    .append(spreadsheetId, sheetName, body)
-                    .setValueInputOption("RAW")
-                    .setInsertDataOption("INSERT_ROWS")
-                    .execute();
-            if (response.getUpdates() != null) {
-                return null;
+        for (int attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+            try {
+                throttleRequests();
+                ValueRange body = new ValueRange().setValues(List.of(row));
+                AppendValuesResponse response = sheets.spreadsheets().values()
+                        .append(spreadsheetId, sheetName, body)
+                        .setValueInputOption("RAW")
+                        .setInsertDataOption("INSERT_ROWS")
+                        .execute();
+                if (response.getUpdates() != null) {
+                    return null;
+                }
+                return label + " could not be stored.";
+            } catch (Exception ex) {
+                if (!isRetryable(ex) || attempt == MAX_RETRIES) {
+                    return "Google Sheets error: " + ex.getMessage();
+                }
+                try {
+                    backoffDelay(attempt);
+                } catch (InterruptedException interrupted) {
+                    Thread.currentThread().interrupt();
+                    return "Google Sheets error: interrupted while retrying.";
+                }
             }
-            return label + " could not be stored.";
-        } catch (Exception ex) {
-            return "Google Sheets error: " + ex.getMessage();
         }
+        return label + " could not be stored.";
+    }
+
+    private void throttleRequests() throws InterruptedException {
+        synchronized (RATE_LOCK) {
+            long now = System.currentTimeMillis();
+            long waitMs = nextAllowedTimeMs - now;
+            if (waitMs > 0) {
+                Thread.sleep(waitMs);
+            }
+            nextAllowedTimeMs = System.currentTimeMillis() + MIN_INTERVAL_MS;
+        }
+    }
+
+    private void backoffDelay(int attempt) throws InterruptedException {
+        long exp = 1L << attempt;
+        long delay = Math.min(MAX_BACKOFF_MS, BASE_BACKOFF_MS * exp);
+        long jitter = ThreadLocalRandom.current().nextLong(60L, 180L);
+        Thread.sleep(delay + jitter);
+    }
+
+    private boolean isRetryable(Exception ex) {
+        if (ex instanceof GoogleJsonResponseException jsonEx) {
+            int code = jsonEx.getStatusCode();
+            return code == 429 || code == 500 || code == 502 || code == 503 || code == 504;
+        }
+        if (ex instanceof HttpResponseException httpEx) {
+            int code = httpEx.getStatusCode();
+            return code == 429 || code == 500 || code == 502 || code == 503 || code == 504;
+        }
+        String message = ex.getMessage();
+        return message != null && message.contains("429");
     }
 
     private Object safe(Object value) {

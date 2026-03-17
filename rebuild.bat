@@ -19,4 +19,6 @@ echo Press Ctrl+C to stop
 echo.
 
 start http://localhost:8080
-call mvnw.cmd spring-boot:run
+if not exist .m2repo mkdir .m2repo
+set "MAVEN_REPO=%~dp0.m2repo"
+call mvnw.cmd -Dmaven.repo.local="%MAVEN_REPO%" spring-boot:run

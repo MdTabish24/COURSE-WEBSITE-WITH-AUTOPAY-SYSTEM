@@ -4,6 +4,7 @@ uploads/
 registrations.xlsx
 .opencode/
 app.log
+.m2repo/
 
 ### STS ###
 .apt_generated
